@@ -1,0 +1,3433 @@
+{
+  "version": "0.0.1",
+  "collections": [
+    {
+      "name": "Zorn Palette",
+      "variableCollectionId": "VariableCollectionId:1:1",
+      "modes": [
+        {
+          "name": "Default",
+          "modeId": "mode-1"
+        }
+      ],
+      "variables": [
+        {
+          "id": "VariableID:1:2",
+          "name": "pure/white",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.9569,
+              "g": 0.9373,
+              "b": 0.8941,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:3:4",
+          "name": "pure/yellow-ochre",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.7843,
+              "g": 0.5725,
+              "b": 0.2275,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:5:6",
+          "name": "pure/vermillion",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8,
+              "g": 0.2,
+              "b": 0.0667,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:7:8",
+          "name": "pure/ivory-black",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.1098,
+              "g": 0.0941,
+              "b": 0.0784,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:9:10",
+          "name": "base/ochre/base",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.7843,
+              "g": 0.5725,
+              "b": 0.2275,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:11:12",
+          "name": "base/ochre/900",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8,
+              "g": 0.6078,
+              "b": 0.2941,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:13:14",
+          "name": "base/ochre/800",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8196,
+              "g": 0.6471,
+              "b": 0.3608,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:15:16",
+          "name": "base/ochre/700",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8353,
+              "g": 0.6824,
+              "b": 0.4275,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:17:18",
+          "name": "base/ochre/600",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8549,
+              "g": 0.7176,
+              "b": 0.4941,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:19:20",
+          "name": "base/ochre/500",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8706,
+              "g": 0.7529,
+              "b": 0.5608,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:21:22",
+          "name": "base/ochre/400",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8863,
+              "g": 0.7922,
+              "b": 0.6275,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:23:24",
+          "name": "base/ochre/300",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.9059,
+              "g": 0.8275,
+              "b": 0.6941,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:25:26",
+          "name": "base/ochre/200",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.9216,
+              "g": 0.8627,
+              "b": 0.7608,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:27:28",
+          "name": "base/ochre/100",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.9412,
+              "g": 0.902,
+              "b": 0.8275,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:29:30",
+          "name": "base/ochre-red/base",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.7882,
+              "g": 0.4784,
+              "b": 0.1882,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:31:32",
+          "name": "base/ochre-red/900",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8039,
+              "g": 0.5255,
+              "b": 0.2588,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:33:34",
+          "name": "base/ochre-red/800",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8235,
+              "g": 0.5686,
+              "b": 0.3294,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:35:36",
+          "name": "base/ochre-red/700",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8392,
+              "g": 0.6157,
+              "b": 0.4,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:37:38",
+          "name": "base/ochre-red/600",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8549,
+              "g": 0.6627,
+              "b": 0.4706,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:39:40",
+          "name": "base/ochre-red/500",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8706,
+              "g": 0.7059,
+              "b": 0.5412,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:41:42",
+          "name": "base/ochre-red/400",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8902,
+              "g": 0.7529,
+              "b": 0.6118,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:43:44",
+          "name": "base/ochre-red/300",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.9059,
+              "g": 0.8,
+              "b": 0.6824,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:45:46",
+          "name": "base/ochre-red/200",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.9216,
+              "g": 0.8471,
+              "b": 0.7529,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:47:48",
+          "name": "base/ochre-red/100",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.9412,
+              "g": 0.8902,
+              "b": 0.8235,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:49:50",
+          "name": "base/warm-red/base",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.7922,
+              "g": 0.3843,
+              "b": 0.149,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:51:52",
+          "name": "base/warm-red/900",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8078,
+              "g": 0.4392,
+              "b": 0.2235,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:53:54",
+          "name": "base/warm-red/800",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8235,
+              "g": 0.4941,
+              "b": 0.298,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:55:56",
+          "name": "base/warm-red/700",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8431,
+              "g": 0.549,
+              "b": 0.3725,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:57:58",
+          "name": "base/warm-red/600",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8588,
+              "g": 0.6039,
+              "b": 0.4471,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:59:60",
+          "name": "base/warm-red/500",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8745,
+              "g": 0.6588,
+              "b": 0.5216,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:61:62",
+          "name": "base/warm-red/400",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8902,
+              "g": 0.7176,
+              "b": 0.5961,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:63:64",
+          "name": "base/warm-red/300",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.9059,
+              "g": 0.7725,
+              "b": 0.6706,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:65:66",
+          "name": "base/warm-red/200",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.9255,
+              "g": 0.8275,
+              "b": 0.7451,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:67:68",
+          "name": "base/warm-red/100",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.9412,
+              "g": 0.8824,
+              "b": 0.8196,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:69:70",
+          "name": "base/red-orange/base",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.7961,
+              "g": 0.2941,
+              "b": 0.1059,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:71:72",
+          "name": "base/red-orange/900",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8118,
+              "g": 0.3569,
+              "b": 0.1843,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:73:74",
+          "name": "base/red-orange/800",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8275,
+              "g": 0.4235,
+              "b": 0.2627,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:75:76",
+          "name": "base/red-orange/700",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8431,
+              "g": 0.4863,
+              "b": 0.3412,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:77:78",
+          "name": "base/red-orange/600",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8588,
+              "g": 0.5529,
+              "b": 0.4196,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:79:80",
+          "name": "base/red-orange/500",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8784,
+              "g": 0.6157,
+              "b": 0.502,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:81:82",
+          "name": "base/red-orange/400",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8941,
+              "g": 0.6784,
+              "b": 0.5804,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:83:84",
+          "name": "base/red-orange/300",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.9098,
+              "g": 0.7451,
+              "b": 0.6588,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:85:86",
+          "name": "base/red-orange/200",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.9255,
+              "g": 0.8078,
+              "b": 0.7373,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:87:88",
+          "name": "base/red-orange/100",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.9412,
+              "g": 0.8745,
+              "b": 0.8157,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:89:90",
+          "name": "base/vermillion/base",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8,
+              "g": 0.2,
+              "b": 0.0667,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:91:92",
+          "name": "base/vermillion/900",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8157,
+              "g": 0.2745,
+              "b": 0.149,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:93:94",
+          "name": "base/vermillion/800",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8314,
+              "g": 0.349,
+              "b": 0.2314,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:95:96",
+          "name": "base/vermillion/700",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8471,
+              "g": 0.4196,
+              "b": 0.3137,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:97:98",
+          "name": "base/vermillion/600",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8627,
+              "g": 0.4941,
+              "b": 0.3961,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:99:100",
+          "name": "base/vermillion/500",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8784,
+              "g": 0.5686,
+              "b": 0.4784,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:101:102",
+          "name": "base/vermillion/400",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8941,
+              "g": 0.6431,
+              "b": 0.5647,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:103:104",
+          "name": "base/vermillion/300",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.9098,
+              "g": 0.7176,
+              "b": 0.6471,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:105:106",
+          "name": "base/vermillion/200",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.9255,
+              "g": 0.7882,
+              "b": 0.7294,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:107:108",
+          "name": "base/vermillion/100",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.9412,
+              "g": 0.8627,
+              "b": 0.8118,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:109:110",
+          "name": "base/crimson/base",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.6275,
+              "g": 0.1725,
+              "b": 0.0706,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:111:112",
+          "name": "base/crimson/900",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.6588,
+              "g": 0.251,
+              "b": 0.1529,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:113:114",
+          "name": "base/crimson/800",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.6941,
+              "g": 0.3255,
+              "b": 0.2353,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:115:116",
+          "name": "base/crimson/700",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.7255,
+              "g": 0.4,
+              "b": 0.3176,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:117:118",
+          "name": "base/crimson/600",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.7608,
+              "g": 0.4784,
+              "b": 0.4,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:119:120",
+          "name": "base/crimson/500",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.7922,
+              "g": 0.5569,
+              "b": 0.4824,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:121:122",
+          "name": "base/crimson/400",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8235,
+              "g": 0.6314,
+              "b": 0.5647,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:123:124",
+          "name": "base/crimson/300",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8588,
+              "g": 0.7059,
+              "b": 0.6471,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:125:126",
+          "name": "base/crimson/200",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8902,
+              "g": 0.7843,
+              "b": 0.7294,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:127:128",
+          "name": "base/crimson/100",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.9255,
+              "g": 0.8627,
+              "b": 0.8118,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:129:130",
+          "name": "base/dark-red/base",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.4549,
+              "g": 0.149,
+              "b": 0.0706,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:131:132",
+          "name": "base/dark-red/900",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.5059,
+              "g": 0.2275,
+              "b": 0.1529,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:133:134",
+          "name": "base/dark-red/800",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.5569,
+              "g": 0.3059,
+              "b": 0.2353,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:135:136",
+          "name": "base/dark-red/700",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.6039,
+              "g": 0.3843,
+              "b": 0.3176,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:137:138",
+          "name": "base/dark-red/600",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.6549,
+              "g": 0.4627,
+              "b": 0.4,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:139:140",
+          "name": "base/dark-red/500",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.7059,
+              "g": 0.5412,
+              "b": 0.4824,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:141:142",
+          "name": "base/dark-red/400",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.7569,
+              "g": 0.6235,
+              "b": 0.5647,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:143:144",
+          "name": "base/dark-red/300",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8078,
+              "g": 0.702,
+              "b": 0.6471,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:145:146",
+          "name": "base/dark-red/200",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8549,
+              "g": 0.7804,
+              "b": 0.7294,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:147:148",
+          "name": "base/dark-red/100",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.9059,
+              "g": 0.8588,
+              "b": 0.8118,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:149:150",
+          "name": "base/deep-umber/base",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.2824,
+              "g": 0.1216,
+              "b": 0.0745,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:151:152",
+          "name": "base/deep-umber/900",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.349,
+              "g": 0.2039,
+              "b": 0.1569,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:153:154",
+          "name": "base/deep-umber/800",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.4157,
+              "g": 0.2863,
+              "b": 0.2392,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:155:156",
+          "name": "base/deep-umber/700",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.4863,
+              "g": 0.3647,
+              "b": 0.3216,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:157:158",
+          "name": "base/deep-umber/600",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.5529,
+              "g": 0.4471,
+              "b": 0.4039,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:159:160",
+          "name": "base/deep-umber/500",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.6196,
+              "g": 0.5294,
+              "b": 0.4863,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:161:162",
+          "name": "base/deep-umber/400",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.6863,
+              "g": 0.6118,
+              "b": 0.5647,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:163:164",
+          "name": "base/deep-umber/300",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.7529,
+              "g": 0.6941,
+              "b": 0.6471,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:165:166",
+          "name": "base/deep-umber/200",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8235,
+              "g": 0.7725,
+              "b": 0.7294,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:167:168",
+          "name": "base/deep-umber/100",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8902,
+              "g": 0.8549,
+              "b": 0.8118,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:169:170",
+          "name": "base/ivory-black/base",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.1098,
+              "g": 0.0941,
+              "b": 0.0784,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:171:172",
+          "name": "base/ivory-black/900",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.1961,
+              "g": 0.1804,
+              "b": 0.1608,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:173:174",
+          "name": "base/ivory-black/800",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.2784,
+              "g": 0.2627,
+              "b": 0.2431,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:175:176",
+          "name": "base/ivory-black/700",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.3647,
+              "g": 0.3451,
+              "b": 0.3216,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:177:178",
+          "name": "base/ivory-black/600",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.4471,
+              "g": 0.4314,
+              "b": 0.4039,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:179:180",
+          "name": "base/ivory-black/500",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.5333,
+              "g": 0.5176,
+              "b": 0.4863,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:181:182",
+          "name": "base/ivory-black/400",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.6196,
+              "g": 0.6,
+              "b": 0.5686,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:183:184",
+          "name": "base/ivory-black/300",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.702,
+              "g": 0.6824,
+              "b": 0.651,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:185:186",
+          "name": "base/ivory-black/200",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.7882,
+              "g": 0.7686,
+              "b": 0.7294,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:187:188",
+          "name": "base/ivory-black/100",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8706,
+              "g": 0.8549,
+              "b": 0.8118,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:189:190",
+          "name": "base/warm-shadow/base",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.2784,
+              "g": 0.2118,
+              "b": 0.1176,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:191:192",
+          "name": "base/warm-shadow/900",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.3451,
+              "g": 0.2824,
+              "b": 0.1961,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:193:194",
+          "name": "base/warm-shadow/800",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.4157,
+              "g": 0.3569,
+              "b": 0.2745,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:195:196",
+          "name": "base/warm-shadow/700",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.4824,
+              "g": 0.4314,
+              "b": 0.349,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:197:198",
+          "name": "base/warm-shadow/600",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.549,
+              "g": 0.502,
+              "b": 0.4275,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:199:200",
+          "name": "base/warm-shadow/500",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.6196,
+              "g": 0.5725,
+              "b": 0.5059,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:201:202",
+          "name": "base/warm-shadow/400",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.6863,
+              "g": 0.6471,
+              "b": 0.5843,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:203:204",
+          "name": "base/warm-shadow/300",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.7529,
+              "g": 0.7216,
+              "b": 0.6627,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:205:206",
+          "name": "base/warm-shadow/200",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8196,
+              "g": 0.7922,
+              "b": 0.7373,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:207:208",
+          "name": "base/warm-shadow/100",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8902,
+              "g": 0.8627,
+              "b": 0.8157,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:209:210",
+          "name": "base/mid-umber/base",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.4471,
+              "g": 0.3333,
+              "b": 0.1529,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:211:212",
+          "name": "base/mid-umber/900",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.498,
+              "g": 0.3922,
+              "b": 0.2275,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:213:214",
+          "name": "base/mid-umber/800",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.549,
+              "g": 0.4549,
+              "b": 0.302,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:215:216",
+          "name": "base/mid-umber/700",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.6,
+              "g": 0.5137,
+              "b": 0.3765,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:217:218",
+          "name": "base/mid-umber/600",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.651,
+              "g": 0.5765,
+              "b": 0.451,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:219:220",
+          "name": "base/mid-umber/500",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.702,
+              "g": 0.6353,
+              "b": 0.5255,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:221:222",
+          "name": "base/mid-umber/400",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.7529,
+              "g": 0.6941,
+              "b": 0.5961,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:223:224",
+          "name": "base/mid-umber/300",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8039,
+              "g": 0.7569,
+              "b": 0.6706,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:225:226",
+          "name": "base/mid-umber/200",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8549,
+              "g": 0.8157,
+              "b": 0.7451,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:227:228",
+          "name": "base/mid-umber/100",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.9059,
+              "g": 0.8784,
+              "b": 0.8196,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:229:230",
+          "name": "base/raw-umber/base",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.6157,
+              "g": 0.4549,
+              "b": 0.1882,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:231:232",
+          "name": "base/raw-umber/900",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.651,
+              "g": 0.502,
+              "b": 0.2588,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:233:234",
+          "name": "base/raw-umber/800",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.6824,
+              "g": 0.5529,
+              "b": 0.3294,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:235:236",
+          "name": "base/raw-umber/700",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.7176,
+              "g": 0.6,
+              "b": 0.4,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:237:238",
+          "name": "base/raw-umber/600",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.7529,
+              "g": 0.6471,
+              "b": 0.4706,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:239:240",
+          "name": "base/raw-umber/500",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.7843,
+              "g": 0.698,
+              "b": 0.5412,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:241:242",
+          "name": "base/raw-umber/400",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8196,
+              "g": 0.7451,
+              "b": 0.6118,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:243:244",
+          "name": "base/raw-umber/300",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8549,
+              "g": 0.7922,
+              "b": 0.6824,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:245:246",
+          "name": "base/raw-umber/200",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8902,
+              "g": 0.8392,
+              "b": 0.7529,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:247:248",
+          "name": "base/raw-umber/100",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.9216,
+              "g": 0.8902,
+              "b": 0.8235,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:249:250",
+          "name": "mix/ochre-shadow/100",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8627,
+              "g": 0.8275,
+              "b": 0.7608,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:251:252",
+          "name": "mix/ochre-shadow/200",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.7882,
+              "g": 0.7373,
+              "b": 0.6471,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:253:254",
+          "name": "mix/ochre-shadow/300",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.7216,
+              "g": 0.6588,
+              "b": 0.5529,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:255:256",
+          "name": "mix/ochre-shadow/400",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.6667,
+              "g": 0.5922,
+              "b": 0.4706,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:257:258",
+          "name": "mix/ochre-shadow/500",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.6157,
+              "g": 0.5333,
+              "b": 0.4,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:259:260",
+          "name": "mix/ochre-shadow/600",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.5725,
+              "g": 0.4863,
+              "b": 0.3373,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:261:262",
+          "name": "mix/ochre-shadow/700",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.5373,
+              "g": 0.4392,
+              "b": 0.2824,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:263:264",
+          "name": "mix/ochre-shadow/800",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.502,
+              "g": 0.4,
+              "b": 0.2353,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:265:266",
+          "name": "mix/ochre-shadow/900",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.4745,
+              "g": 0.3647,
+              "b": 0.1922,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:267:268",
+          "name": "mix/ochre-shadow/base",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.4471,
+              "g": 0.3333,
+              "b": 0.1529,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:269:270",
+          "name": "mix/red-earth/100",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8627,
+              "g": 0.8196,
+              "b": 0.7569,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:271:272",
+          "name": "mix/red-earth/200",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.7882,
+              "g": 0.7216,
+              "b": 0.6392,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:273:274",
+          "name": "mix/red-earth/300",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.7216,
+              "g": 0.6353,
+              "b": 0.5412,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:275:276",
+          "name": "mix/red-earth/400",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.6667,
+              "g": 0.5647,
+              "b": 0.4588,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:277:278",
+          "name": "mix/red-earth/500",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.6196,
+              "g": 0.502,
+              "b": 0.3882,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:279:280",
+          "name": "mix/red-earth/600",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.5765,
+              "g": 0.4471,
+              "b": 0.3216,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:281:282",
+          "name": "mix/red-earth/700",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.5373,
+              "g": 0.4,
+              "b": 0.2667,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:283:284",
+          "name": "mix/red-earth/800",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.5059,
+              "g": 0.3569,
+              "b": 0.2196,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:285:286",
+          "name": "mix/red-earth/900",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.4745,
+              "g": 0.3216,
+              "b": 0.1725,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:287:288",
+          "name": "mix/red-earth/base",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.4471,
+              "g": 0.2863,
+              "b": 0.1333,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:289:290",
+          "name": "mix/shadow-warm/100",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8667,
+              "g": 0.8118,
+              "b": 0.7529,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:291:292",
+          "name": "mix/shadow-warm/200",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.7882,
+              "g": 0.7059,
+              "b": 0.6353,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:293:294",
+          "name": "mix/shadow-warm/300",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.7216,
+              "g": 0.6157,
+              "b": 0.5333,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:295:296",
+          "name": "mix/shadow-warm/400",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.6667,
+              "g": 0.5373,
+              "b": 0.4471,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:297:298",
+          "name": "mix/shadow-warm/500",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.6196,
+              "g": 0.4706,
+              "b": 0.3725,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:299:300",
+          "name": "mix/shadow-warm/600",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.5765,
+              "g": 0.4157,
+              "b": 0.3098,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:301:302",
+          "name": "mix/shadow-warm/700",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.5412,
+              "g": 0.3608,
+              "b": 0.251,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:303:304",
+          "name": "mix/shadow-warm/800",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.5059,
+              "g": 0.3176,
+              "b": 0.2,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:305:306",
+          "name": "mix/shadow-warm/900",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.4784,
+              "g": 0.2745,
+              "b": 0.1529,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:307:308",
+          "name": "mix/shadow-warm/base",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.451,
+              "g": 0.2392,
+              "b": 0.1137,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:309:310",
+          "name": "mix/burnt-red/100",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8667,
+              "g": 0.8039,
+              "b": 0.749,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:311:312",
+          "name": "mix/burnt-red/200",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.7882,
+              "g": 0.6902,
+              "b": 0.6275,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:313:314",
+          "name": "mix/burnt-red/300",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.7255,
+              "g": 0.5961,
+              "b": 0.5255,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:315:316",
+          "name": "mix/burnt-red/400",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.6706,
+              "g": 0.5137,
+              "b": 0.4353,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:317:318",
+          "name": "mix/burnt-red/500",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.6196,
+              "g": 0.4431,
+              "b": 0.3608,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:319:320",
+          "name": "mix/burnt-red/600",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.5804,
+              "g": 0.3804,
+              "b": 0.2941,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:321:322",
+          "name": "mix/burnt-red/700",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.5412,
+              "g": 0.3255,
+              "b": 0.2353,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:323:324",
+          "name": "mix/burnt-red/800",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.5098,
+              "g": 0.2784,
+              "b": 0.1804,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:325:326",
+          "name": "mix/burnt-red/900",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.4784,
+              "g": 0.2314,
+              "b": 0.1333,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:327:328",
+          "name": "mix/burnt-red/base",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.4549,
+              "g": 0.1961,
+              "b": 0.0941,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:329:330",
+          "name": "mix/earth-vermillion/100",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.9255,
+              "g": 0.8353,
+              "b": 0.7569,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:331:332",
+          "name": "mix/earth-vermillion/200",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.902,
+              "g": 0.7529,
+              "b": 0.6431,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:333:334",
+          "name": "mix/earth-vermillion/300",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8824,
+              "g": 0.6824,
+              "b": 0.549,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:335:336",
+          "name": "mix/earth-vermillion/400",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8627,
+              "g": 0.6235,
+              "b": 0.4667,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:337:338",
+          "name": "mix/earth-vermillion/500",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8471,
+              "g": 0.5686,
+              "b": 0.3961,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:339:340",
+          "name": "mix/earth-vermillion/600",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8314,
+              "g": 0.5255,
+              "b": 0.3333,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:341:342",
+          "name": "mix/earth-vermillion/700",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8196,
+              "g": 0.4824,
+              "b": 0.2784,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:343:344",
+          "name": "mix/earth-vermillion/800",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8118,
+              "g": 0.4471,
+              "b": 0.2314,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:345:346",
+          "name": "mix/earth-vermillion/900",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8,
+              "g": 0.4157,
+              "b": 0.1882,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:347:348",
+          "name": "mix/earth-vermillion/base",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.7922,
+              "g": 0.3843,
+              "b": 0.149,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:349:350",
+          "name": "mix/crimson-ochre/100",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.9098,
+              "g": 0.8353,
+              "b": 0.7569,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:351:352",
+          "name": "mix/crimson-ochre/200",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8745,
+              "g": 0.749,
+              "b": 0.6471,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:353:354",
+          "name": "mix/crimson-ochre/300",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8392,
+              "g": 0.6784,
+              "b": 0.549,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:355:356",
+          "name": "mix/crimson-ochre/400",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8118,
+              "g": 0.6157,
+              "b": 0.4667,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:357:358",
+          "name": "mix/crimson-ochre/500",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.7882,
+              "g": 0.5608,
+              "b": 0.3961,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:359:360",
+          "name": "mix/crimson-ochre/600",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.7686,
+              "g": 0.5137,
+              "b": 0.3373,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:361:362",
+          "name": "mix/crimson-ochre/700",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.749,
+              "g": 0.4706,
+              "b": 0.2824,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:363:364",
+          "name": "mix/crimson-ochre/800",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.7333,
+              "g": 0.4353,
+              "b": 0.2314,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:365:366",
+          "name": "mix/crimson-ochre/900",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.7176,
+              "g": 0.4039,
+              "b": 0.1882,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:367:368",
+          "name": "mix/crimson-ochre/base",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.7059,
+              "g": 0.3725,
+              "b": 0.149,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:369:370",
+          "name": "mix/red-umber/100",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8941,
+              "g": 0.8314,
+              "b": 0.7569,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:371:372",
+          "name": "mix/red-umber/200",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8431,
+              "g": 0.7451,
+              "b": 0.6471,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:373:374",
+          "name": "mix/red-umber/300",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8,
+              "g": 0.6706,
+              "b": 0.549,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:375:376",
+          "name": "mix/red-umber/400",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.7647,
+              "g": 0.6078,
+              "b": 0.4667,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:377:378",
+          "name": "mix/red-umber/500",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.7333,
+              "g": 0.5529,
+              "b": 0.3961,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:379:380",
+          "name": "mix/red-umber/600",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.7059,
+              "g": 0.5059,
+              "b": 0.3373,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:381:382",
+          "name": "mix/red-umber/700",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.6784,
+              "g": 0.4627,
+              "b": 0.2824,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:383:384",
+          "name": "mix/red-umber/800",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.6588,
+              "g": 0.4235,
+              "b": 0.2314,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:385:386",
+          "name": "mix/red-umber/900",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.6392,
+              "g": 0.3922,
+              "b": 0.1882,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:387:388",
+          "name": "mix/red-umber/base",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.6196,
+              "g": 0.3608,
+              "b": 0.149,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:389:390",
+          "name": "mix/burnt-sienna/100",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8784,
+              "g": 0.8314,
+              "b": 0.7608,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:391:392",
+          "name": "mix/burnt-sienna/200",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8157,
+              "g": 0.7412,
+              "b": 0.6471,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:393:394",
+          "name": "mix/burnt-sienna/300",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.7608,
+              "g": 0.6667,
+              "b": 0.5529,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:395:396",
+          "name": "mix/burnt-sienna/400",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.7137,
+              "g": 0.6,
+              "b": 0.4706,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:397:398",
+          "name": "mix/burnt-sienna/500",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.6745,
+              "g": 0.5451,
+              "b": 0.4,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:399:400",
+          "name": "mix/burnt-sienna/600",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.6392,
+              "g": 0.4941,
+              "b": 0.3373,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:401:402",
+          "name": "mix/burnt-sienna/700",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.6078,
+              "g": 0.451,
+              "b": 0.2824,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:403:404",
+          "name": "mix/burnt-sienna/800",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.5804,
+              "g": 0.4118,
+              "b": 0.2353,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:405:406",
+          "name": "mix/burnt-sienna/900",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.5569,
+              "g": 0.3765,
+              "b": 0.1882,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:407:408",
+          "name": "mix/burnt-sienna/base",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.5333,
+              "g": 0.3451,
+              "b": 0.149,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:409:410",
+          "name": "mix/ivory-red/100",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8667,
+              "g": 0.7922,
+              "b": 0.7451,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:411:412",
+          "name": "mix/ivory-red/200",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.7882,
+              "g": 0.6745,
+              "b": 0.6196,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:413:414",
+          "name": "mix/ivory-red/300",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.7255,
+              "g": 0.5725,
+              "b": 0.5137,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:415:416",
+          "name": "mix/ivory-red/400",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.6706,
+              "g": 0.4863,
+              "b": 0.4235,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:417:418",
+          "name": "mix/ivory-red/500",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.6235,
+              "g": 0.4118,
+              "b": 0.3451,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:419:420",
+          "name": "mix/ivory-red/600",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.5804,
+              "g": 0.3451,
+              "b": 0.2784,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:421:422",
+          "name": "mix/ivory-red/700",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.5451,
+              "g": 0.2863,
+              "b": 0.2157,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:423:424",
+          "name": "mix/ivory-red/800",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.5098,
+              "g": 0.2353,
+              "b": 0.1647,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:425:426",
+          "name": "mix/ivory-red/900",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.4824,
+              "g": 0.1882,
+              "b": 0.1176,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:427:428",
+          "name": "mix/ivory-red/base",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.4549,
+              "g": 0.149,
+              "b": 0.0706,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:429:430",
+          "name": "mix/warm-maroon/100",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8824,
+              "g": 0.8039,
+              "b": 0.749,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:431:432",
+          "name": "mix/warm-maroon/200",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8157,
+              "g": 0.6941,
+              "b": 0.6275,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:433:434",
+          "name": "mix/warm-maroon/300",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.7647,
+              "g": 0.6,
+              "b": 0.5255,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:435:436",
+          "name": "mix/warm-maroon/400",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.7176,
+              "g": 0.5176,
+              "b": 0.4353,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:437:438",
+          "name": "mix/warm-maroon/500",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.6784,
+              "g": 0.451,
+              "b": 0.3608,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:439:440",
+          "name": "mix/warm-maroon/600",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.6431,
+              "g": 0.3882,
+              "b": 0.2941,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:441:442",
+          "name": "mix/warm-maroon/700",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.6118,
+              "g": 0.3333,
+              "b": 0.2353,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:443:444",
+          "name": "mix/warm-maroon/800",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.5843,
+              "g": 0.2863,
+              "b": 0.1804,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:445:446",
+          "name": "mix/warm-maroon/900",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.5608,
+              "g": 0.2431,
+              "b": 0.1333,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:447:448",
+          "name": "mix/warm-maroon/base",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.5412,
+              "g": 0.2039,
+              "b": 0.0941,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:449:450",
+          "name": "mix/umber-red/100",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.898,
+              "g": 0.8157,
+              "b": 0.7529,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:451:452",
+          "name": "mix/umber-red/200",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8471,
+              "g": 0.7137,
+              "b": 0.6314,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:453:454",
+          "name": "mix/umber-red/300",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8039,
+              "g": 0.6275,
+              "b": 0.5333,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:455:456",
+          "name": "mix/umber-red/400",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.7647,
+              "g": 0.5529,
+              "b": 0.4471,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:457:458",
+          "name": "mix/umber-red/500",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.7333,
+              "g": 0.4902,
+              "b": 0.3725,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:459:460",
+          "name": "mix/umber-red/600",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.7059,
+              "g": 0.4353,
+              "b": 0.3059,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:461:462",
+          "name": "mix/umber-red/700",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.6824,
+              "g": 0.3843,
+              "b": 0.2471,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:463:464",
+          "name": "mix/umber-red/800",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.6588,
+              "g": 0.3412,
+              "b": 0.1961,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:465:466",
+          "name": "mix/umber-red/900",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.6392,
+              "g": 0.302,
+              "b": 0.1529,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:467:468",
+          "name": "mix/umber-red/base",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.6235,
+              "g": 0.2667,
+              "b": 0.1098,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:469:470",
+          "name": "mix/raw-sienna/100",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.9098,
+              "g": 0.8275,
+              "b": 0.7529,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:471:472",
+          "name": "mix/raw-sienna/200",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8745,
+              "g": 0.7333,
+              "b": 0.6392,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:473:474",
+          "name": "mix/raw-sienna/300",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8431,
+              "g": 0.6549,
+              "b": 0.5412,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:475:476",
+          "name": "mix/raw-sienna/400",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.8157,
+              "g": 0.5882,
+              "b": 0.4549,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:477:478",
+          "name": "mix/raw-sienna/500",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.7922,
+              "g": 0.5294,
+              "b": 0.3843,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:479:480",
+          "name": "mix/raw-sienna/600",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.7686,
+              "g": 0.4784,
+              "b": 0.3176,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:481:482",
+          "name": "mix/raw-sienna/700",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.7529,
+              "g": 0.4353,
+              "b": 0.2627,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:483:484",
+          "name": "mix/raw-sienna/800",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.7373,
+              "g": 0.3961,
+              "b": 0.2118,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:485:486",
+          "name": "mix/raw-sienna/900",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.7216,
+              "g": 0.3608,
+              "b": 0.1686,
+              "a": 1.0
+            }
+          }
+        },
+        {
+          "id": "VariableID:487:488",
+          "name": "mix/raw-sienna/base",
+          "type": "COLOR",
+          "resolvedType": "COLOR",
+          "valuesByMode": {
+            "mode-1": {
+              "r": 0.7059,
+              "g": 0.3294,
+              "b": 0.1255,
+              "a": 1.0
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

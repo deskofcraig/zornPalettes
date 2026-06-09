@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="180" viewBox="0 0 560 180">
+<rect width="560" height="180" fill="#272421"/>
+<text x="16" y="24" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" font-weight="600" fill="#CDC7B2" letter-spacing="0.1em">ZORN PALETTE — PRIMARY COLORS</text>
+<rect x="16" y="36" width="120" height="100" rx="6" fill="#F4EFE4"/>
+<text x="76" y="152" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="9.5" font-weight="600" fill="#CDC7B2">Titanium White</text>
+<text x="76" y="166" text-anchor="middle" font-family="ui-monospace,'SF Mono','Cascadia Code',monospace" font-size="10" fill="#7A7470">#F4EFE4</text>
+<text x="76" y="180" text-anchor="middle" font-family="ui-monospace,'SF Mono','Cascadia Code',monospace" font-size="8.5" fill="#7A7470">white</text>
+<rect x="152" y="36" width="120" height="100" rx="6" fill="#C8923A"/>
+<text x="212" y="152" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="9.5" font-weight="600" fill="#CDC7B2">Yellow Ochre</text>
+<text x="212" y="166" text-anchor="middle" font-family="ui-monospace,'SF Mono','Cascadia Code',monospace" font-size="10" fill="#7A7470">#C8923A</text>
+<text x="212" y="180" text-anchor="middle" font-family="ui-monospace,'SF Mono','Cascadia Code',monospace" font-size="8.5" fill="#7A7470">pureA</text>
+<rect x="288" y="36" width="120" height="100" rx="6" fill="#CC3311"/>
+<text x="348" y="152" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="9.5" font-weight="600" fill="#CDC7B2">Vermillion</text>
+<text x="348" y="166" text-anchor="middle" font-family="ui-monospace,'SF Mono','Cascadia Code',monospace" font-size="10" fill="#7A7470">#CC3311</text>
+<text x="348" y="180" text-anchor="middle" font-family="ui-monospace,'SF Mono','Cascadia Code',monospace" font-size="8.5" fill="#7A7470">pureB</text>
+<rect x="424" y="36" width="120" height="100" rx="6" fill="#1C1814"/>
+<text x="484" y="152" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="9.5" font-weight="600" fill="#CDC7B2">Ivory Black</text>
+<text x="484" y="166" text-anchor="middle" font-family="ui-monospace,'SF Mono','Cascadia Code',monospace" font-size="10" fill="#7A7470">#1C1814</text>
+<text x="484" y="180" text-anchor="middle" font-family="ui-monospace,'SF Mono','Cascadia Code',monospace" font-size="8.5" fill="#7A7470">pureC</text>
+</svg>
