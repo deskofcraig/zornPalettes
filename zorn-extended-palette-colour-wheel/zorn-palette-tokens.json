@@ -1,0 +1,1246 @@
+{
+  "$metadata": {
+    "tokenSetOrder": [
+      "color"
+    ]
+  },
+  "color": {
+    "$type": "color",
+    "anchor": {
+      "titanium-white": {
+        "$value": "#F5F5EF",
+        "$type": "color",
+        "$description": "Titanium White \u2014 warm optical white anchor"
+      },
+      "ivory-black": {
+        "$value": "#231F1A",
+        "$type": "color",
+        "$description": "Ivory Black \u2014 warm dark anchor"
+      }
+    },
+    "cadmium-red": {
+      "$description": "Cadmium Red \u2014 Warm, 0\u00b0",
+      "base": {
+        "$value": "#C8392B",
+        "$type": "color",
+        "$description": "Cadmium Red \u2014 pure base colour"
+      },
+      "tint": {
+        "100": {
+          "$value": "#F0E2DB",
+          "$type": "color",
+          "$description": "Cadmium Red Tint 100 \u2014 ratio W:B:K = 9:1:0"
+        },
+        "200": {
+          "$value": "#ECCFC8",
+          "$type": "color",
+          "$description": "Cadmium Red Tint 200 \u2014 ratio W:B:K = 4:1:0"
+        },
+        "300": {
+          "$value": "#E8BDB4",
+          "$type": "color",
+          "$description": "Cadmium Red Tint 300 \u2014 ratio W:B:K = 7:3:0"
+        },
+        "400": {
+          "$value": "#E3AAA1",
+          "$type": "color",
+          "$description": "Cadmium Red Tint 400 \u2014 ratio W:B:K = 3:2:0"
+        },
+        "500": {
+          "$value": "#DE978D",
+          "$type": "color",
+          "$description": "Cadmium Red Tint 500 \u2014 ratio W:B:K = 1:1:0"
+        },
+        "600": {
+          "$value": "#DA8479",
+          "$type": "color",
+          "$description": "Cadmium Red Tint 600 \u2014 ratio W:B:K = 2:3:0"
+        },
+        "700": {
+          "$value": "#D67166",
+          "$type": "color",
+          "$description": "Cadmium Red Tint 700 \u2014 ratio W:B:K = 3:7:0"
+        },
+        "800": {
+          "$value": "#D7786C",
+          "$type": "color",
+          "$description": "Cadmium Red Tint 800 \u2014 ratio W:B:K = 2:4:0"
+        },
+        "900": {
+          "$value": "#CC4C3F",
+          "$type": "color",
+          "$description": "Cadmium Red Tint 900 \u2014 ratio W:B:K = 1:9:0"
+        }
+      },
+      "shade": {
+        "100": {
+          "$value": "#B83629",
+          "$type": "color",
+          "$description": "Cadmium Red Shade 100 \u2014 ratio W:B:K = 0:9:1"
+        },
+        "200": {
+          "$value": "#913025",
+          "$type": "color",
+          "$description": "Cadmium Red Shade 200 \u2014 ratio W:B:K = 0:4:2"
+        },
+        "300": {
+          "$value": "#963126",
+          "$type": "color",
+          "$description": "Cadmium Red Shade 300 \u2014 ratio W:B:K = 0:7:3"
+        },
+        "400": {
+          "$value": "#862F24",
+          "$type": "color",
+          "$description": "Cadmium Red Shade 400 \u2014 ratio W:B:K = 0:3:2"
+        },
+        "500": {
+          "$value": "#762C22",
+          "$type": "color",
+          "$description": "Cadmium Red Shade 500 \u2014 ratio W:B:K = 0:1:1"
+        },
+        "600": {
+          "$value": "#652921",
+          "$type": "color",
+          "$description": "Cadmium Red Shade 600 \u2014 ratio W:B:K = 0:2:3"
+        },
+        "700": {
+          "$value": "#54271F",
+          "$type": "color",
+          "$description": "Cadmium Red Shade 700 \u2014 ratio W:B:K = 0:3:7"
+        },
+        "800": {
+          "$value": "#5A2820",
+          "$type": "color",
+          "$description": "Cadmium Red Shade 800 \u2014 ratio W:B:K = 0:2:4"
+        },
+        "900": {
+          "$value": "#34221C",
+          "$type": "color",
+          "$description": "Cadmium Red Shade 900 \u2014 ratio W:B:K = 0:1:9"
+        }
+      }
+    },
+    "venetian-red": {
+      "$description": "Venetian Red \u2014 Warm, 30\u00b0",
+      "base": {
+        "$value": "#A34030",
+        "$type": "color",
+        "$description": "Venetian Red \u2014 pure base colour"
+      },
+      "tint": {
+        "100": {
+          "$value": "#EDE3DC",
+          "$type": "color",
+          "$description": "Venetian Red Tint 100 \u2014 ratio W:B:K = 9:1:0"
+        },
+        "200": {
+          "$value": "#E5D1C9",
+          "$type": "color",
+          "$description": "Venetian Red Tint 200 \u2014 ratio W:B:K = 4:1:0"
+        },
+        "300": {
+          "$value": "#DCBFB6",
+          "$type": "color",
+          "$description": "Venetian Red Tint 300 \u2014 ratio W:B:K = 7:3:0"
+        },
+        "400": {
+          "$value": "#D4ADA3",
+          "$type": "color",
+          "$description": "Venetian Red Tint 400 \u2014 ratio W:B:K = 3:2:0"
+        },
+        "500": {
+          "$value": "#CC9A90",
+          "$type": "color",
+          "$description": "Venetian Red Tint 500 \u2014 ratio W:B:K = 1:1:0"
+        },
+        "600": {
+          "$value": "#C4887C",
+          "$type": "color",
+          "$description": "Venetian Red Tint 600 \u2014 ratio W:B:K = 2:3:0"
+        },
+        "700": {
+          "$value": "#BC7669",
+          "$type": "color",
+          "$description": "Venetian Red Tint 700 \u2014 ratio W:B:K = 3:7:0"
+        },
+        "800": {
+          "$value": "#BE7C70",
+          "$type": "color",
+          "$description": "Venetian Red Tint 800 \u2014 ratio W:B:K = 2:4:0"
+        },
+        "900": {
+          "$value": "#AB5243",
+          "$type": "color",
+          "$description": "Venetian Red Tint 900 \u2014 ratio W:B:K = 1:9:0"
+        }
+      },
+      "shade": {
+        "100": {
+          "$value": "#963D2E",
+          "$type": "color",
+          "$description": "Venetian Red Shade 100 \u2014 ratio W:B:K = 0:9:1"
+        },
+        "200": {
+          "$value": "#783529",
+          "$type": "color",
+          "$description": "Venetian Red Shade 200 \u2014 ratio W:B:K = 0:4:2"
+        },
+        "300": {
+          "$value": "#7D3629",
+          "$type": "color",
+          "$description": "Venetian Red Shade 300 \u2014 ratio W:B:K = 0:7:3"
+        },
+        "400": {
+          "$value": "#703327",
+          "$type": "color",
+          "$description": "Venetian Red Shade 400 \u2014 ratio W:B:K = 0:3:2"
+        },
+        "500": {
+          "$value": "#633025",
+          "$type": "color",
+          "$description": "Venetian Red Shade 500 \u2014 ratio W:B:K = 0:1:1"
+        },
+        "600": {
+          "$value": "#562C23",
+          "$type": "color",
+          "$description": "Venetian Red Shade 600 \u2014 ratio W:B:K = 0:2:3"
+        },
+        "700": {
+          "$value": "#492921",
+          "$type": "color",
+          "$description": "Venetian Red Shade 700 \u2014 ratio W:B:K = 0:3:7"
+        },
+        "800": {
+          "$value": "#4E2A21",
+          "$type": "color",
+          "$description": "Venetian Red Shade 800 \u2014 ratio W:B:K = 0:2:4"
+        },
+        "900": {
+          "$value": "#30221C",
+          "$type": "color",
+          "$description": "Venetian Red Shade 900 \u2014 ratio W:B:K = 0:1:9"
+        }
+      }
+    },
+    "burnt-sienna": {
+      "$description": "Burnt Sienna \u2014 Warm, 60\u00b0",
+      "base": {
+        "$value": "#8B4A1C",
+        "$type": "color",
+        "$description": "Burnt Sienna \u2014 pure base colour"
+      },
+      "tint": {
+        "100": {
+          "$value": "#EAE4DA",
+          "$type": "color",
+          "$description": "Burnt Sienna Tint 100 \u2014 ratio W:B:K = 9:1:0"
+        },
+        "200": {
+          "$value": "#E0D3C5",
+          "$type": "color",
+          "$description": "Burnt Sienna Tint 200 \u2014 ratio W:B:K = 4:1:0"
+        },
+        "300": {
+          "$value": "#D5C2B0",
+          "$type": "color",
+          "$description": "Burnt Sienna Tint 300 \u2014 ratio W:B:K = 7:3:0"
+        },
+        "400": {
+          "$value": "#CBB19B",
+          "$type": "color",
+          "$description": "Burnt Sienna Tint 400 \u2014 ratio W:B:K = 3:2:0"
+        },
+        "500": {
+          "$value": "#C0A086",
+          "$type": "color",
+          "$description": "Burnt Sienna Tint 500 \u2014 ratio W:B:K = 1:1:0"
+        },
+        "600": {
+          "$value": "#B58E70",
+          "$type": "color",
+          "$description": "Burnt Sienna Tint 600 \u2014 ratio W:B:K = 2:3:0"
+        },
+        "700": {
+          "$value": "#AB7D5B",
+          "$type": "color",
+          "$description": "Burnt Sienna Tint 700 \u2014 ratio W:B:K = 3:7:0"
+        },
+        "800": {
+          "$value": "#AE8362",
+          "$type": "color",
+          "$description": "Burnt Sienna Tint 800 \u2014 ratio W:B:K = 2:4:0"
+        },
+        "900": {
+          "$value": "#965B31",
+          "$type": "color",
+          "$description": "Burnt Sienna Tint 900 \u2014 ratio W:B:K = 1:9:0"
+        }
+      },
+      "shade": {
+        "100": {
+          "$value": "#81461C",
+          "$type": "color",
+          "$description": "Burnt Sienna Shade 100 \u2014 ratio W:B:K = 0:9:1"
+        },
+        "200": {
+          "$value": "#683C1B",
+          "$type": "color",
+          "$description": "Burnt Sienna Shade 200 \u2014 ratio W:B:K = 0:4:2"
+        },
+        "300": {
+          "$value": "#6C3D1B",
+          "$type": "color",
+          "$description": "Burnt Sienna Shade 300 \u2014 ratio W:B:K = 0:7:3"
+        },
+        "400": {
+          "$value": "#61391B",
+          "$type": "color",
+          "$description": "Burnt Sienna Shade 400 \u2014 ratio W:B:K = 0:3:2"
+        },
+        "500": {
+          "$value": "#57341B",
+          "$type": "color",
+          "$description": "Burnt Sienna Shade 500 \u2014 ratio W:B:K = 0:1:1"
+        },
+        "600": {
+          "$value": "#4D301B",
+          "$type": "color",
+          "$description": "Burnt Sienna Shade 600 \u2014 ratio W:B:K = 0:2:3"
+        },
+        "700": {
+          "$value": "#422C1B",
+          "$type": "color",
+          "$description": "Burnt Sienna Shade 700 \u2014 ratio W:B:K = 0:3:7"
+        },
+        "800": {
+          "$value": "#462D1B",
+          "$type": "color",
+          "$description": "Burnt Sienna Shade 800 \u2014 ratio W:B:K = 0:2:4"
+        },
+        "900": {
+          "$value": "#2D231A",
+          "$type": "color",
+          "$description": "Burnt Sienna Shade 900 \u2014 ratio W:B:K = 0:1:9"
+        }
+      }
+    },
+    "yellow-ochre": {
+      "$description": "Yellow Ochre \u2014 Warm, 90\u00b0",
+      "base": {
+        "$value": "#C4973A",
+        "$type": "color",
+        "$description": "Yellow Ochre \u2014 pure base colour"
+      },
+      "tint": {
+        "100": {
+          "$value": "#F0ECDD",
+          "$type": "color",
+          "$description": "Yellow Ochre Tint 100 \u2014 ratio W:B:K = 9:1:0"
+        },
+        "200": {
+          "$value": "#EBE2CB",
+          "$type": "color",
+          "$description": "Yellow Ochre Tint 200 \u2014 ratio W:B:K = 4:1:0"
+        },
+        "300": {
+          "$value": "#E6D9B9",
+          "$type": "color",
+          "$description": "Yellow Ochre Tint 300 \u2014 ratio W:B:K = 7:3:0"
+        },
+        "400": {
+          "$value": "#E1CFA7",
+          "$type": "color",
+          "$description": "Yellow Ochre Tint 400 \u2014 ratio W:B:K = 3:2:0"
+        },
+        "500": {
+          "$value": "#DCC694",
+          "$type": "color",
+          "$description": "Yellow Ochre Tint 500 \u2014 ratio W:B:K = 1:1:0"
+        },
+        "600": {
+          "$value": "#D8BD82",
+          "$type": "color",
+          "$description": "Yellow Ochre Tint 600 \u2014 ratio W:B:K = 2:3:0"
+        },
+        "700": {
+          "$value": "#D3B370",
+          "$type": "color",
+          "$description": "Yellow Ochre Tint 700 \u2014 ratio W:B:K = 3:7:0"
+        },
+        "800": {
+          "$value": "#D4B676",
+          "$type": "color",
+          "$description": "Yellow Ochre Tint 800 \u2014 ratio W:B:K = 2:4:0"
+        },
+        "900": {
+          "$value": "#C9A04C",
+          "$type": "color",
+          "$description": "Yellow Ochre Tint 900 \u2014 ratio W:B:K = 1:9:0"
+        }
+      },
+      "shade": {
+        "100": {
+          "$value": "#B48B37",
+          "$type": "color",
+          "$description": "Yellow Ochre Shade 100 \u2014 ratio W:B:K = 0:9:1"
+        },
+        "200": {
+          "$value": "#8E6F2F",
+          "$type": "color",
+          "$description": "Yellow Ochre Shade 200 \u2014 ratio W:B:K = 0:4:2"
+        },
+        "300": {
+          "$value": "#947330",
+          "$type": "color",
+          "$description": "Yellow Ochre Shade 300 \u2014 ratio W:B:K = 0:7:3"
+        },
+        "400": {
+          "$value": "#84672D",
+          "$type": "color",
+          "$description": "Yellow Ochre Shade 400 \u2014 ratio W:B:K = 0:3:2"
+        },
+        "500": {
+          "$value": "#745B2A",
+          "$type": "color",
+          "$description": "Yellow Ochre Shade 500 \u2014 ratio W:B:K = 0:1:1"
+        },
+        "600": {
+          "$value": "#634F27",
+          "$type": "color",
+          "$description": "Yellow Ochre Shade 600 \u2014 ratio W:B:K = 0:2:3"
+        },
+        "700": {
+          "$value": "#534324",
+          "$type": "color",
+          "$description": "Yellow Ochre Shade 700 \u2014 ratio W:B:K = 0:3:7"
+        },
+        "800": {
+          "$value": "#594725",
+          "$type": "color",
+          "$description": "Yellow Ochre Shade 800 \u2014 ratio W:B:K = 0:2:4"
+        },
+        "900": {
+          "$value": "#332B1D",
+          "$type": "color",
+          "$description": "Yellow Ochre Shade 900 \u2014 ratio W:B:K = 0:1:9"
+        }
+      }
+    },
+    "naples-yellow": {
+      "$description": "Naples Yellow \u2014 Warm, 120\u00b0",
+      "base": {
+        "$value": "#D4B870",
+        "$type": "color",
+        "$description": "Naples Yellow \u2014 pure base colour"
+      },
+      "tint": {
+        "100": {
+          "$value": "#F2EFE2",
+          "$type": "color",
+          "$description": "Naples Yellow Tint 100 \u2014 ratio W:B:K = 9:1:0"
+        },
+        "200": {
+          "$value": "#EEE9D6",
+          "$type": "color",
+          "$description": "Naples Yellow Tint 200 \u2014 ratio W:B:K = 4:1:0"
+        },
+        "300": {
+          "$value": "#EBE3C9",
+          "$type": "color",
+          "$description": "Naples Yellow Tint 300 \u2014 ratio W:B:K = 7:3:0"
+        },
+        "400": {
+          "$value": "#E8DDBC",
+          "$type": "color",
+          "$description": "Naples Yellow Tint 400 \u2014 ratio W:B:K = 3:2:0"
+        },
+        "500": {
+          "$value": "#E4D6B0",
+          "$type": "color",
+          "$description": "Naples Yellow Tint 500 \u2014 ratio W:B:K = 1:1:0"
+        },
+        "600": {
+          "$value": "#E1D0A3",
+          "$type": "color",
+          "$description": "Naples Yellow Tint 600 \u2014 ratio W:B:K = 2:3:0"
+        },
+        "700": {
+          "$value": "#DECA96",
+          "$type": "color",
+          "$description": "Naples Yellow Tint 700 \u2014 ratio W:B:K = 3:7:0"
+        },
+        "800": {
+          "$value": "#DFCC9A",
+          "$type": "color",
+          "$description": "Naples Yellow Tint 800 \u2014 ratio W:B:K = 2:4:0"
+        },
+        "900": {
+          "$value": "#D7BE7D",
+          "$type": "color",
+          "$description": "Naples Yellow Tint 900 \u2014 ratio W:B:K = 1:9:0"
+        }
+      },
+      "shade": {
+        "100": {
+          "$value": "#C2A967",
+          "$type": "color",
+          "$description": "Naples Yellow Shade 100 \u2014 ratio W:B:K = 0:9:1"
+        },
+        "200": {
+          "$value": "#998553",
+          "$type": "color",
+          "$description": "Naples Yellow Shade 200 \u2014 ratio W:B:K = 0:4:2"
+        },
+        "300": {
+          "$value": "#9F8A56",
+          "$type": "color",
+          "$description": "Naples Yellow Shade 300 \u2014 ratio W:B:K = 0:7:3"
+        },
+        "400": {
+          "$value": "#8D7B4E",
+          "$type": "color",
+          "$description": "Naples Yellow Shade 400 \u2014 ratio W:B:K = 0:3:2"
+        },
+        "500": {
+          "$value": "#7C6C45",
+          "$type": "color",
+          "$description": "Naples Yellow Shade 500 \u2014 ratio W:B:K = 0:1:1"
+        },
+        "600": {
+          "$value": "#6A5C3C",
+          "$type": "color",
+          "$description": "Naples Yellow Shade 600 \u2014 ratio W:B:K = 0:2:3"
+        },
+        "700": {
+          "$value": "#584D34",
+          "$type": "color",
+          "$description": "Naples Yellow Shade 700 \u2014 ratio W:B:K = 0:3:7"
+        },
+        "800": {
+          "$value": "#5E5237",
+          "$type": "color",
+          "$description": "Naples Yellow Shade 800 \u2014 ratio W:B:K = 0:2:4"
+        },
+        "900": {
+          "$value": "#352E23",
+          "$type": "color",
+          "$description": "Naples Yellow Shade 900 \u2014 ratio W:B:K = 0:1:9"
+        }
+      }
+    },
+    "terre-verte": {
+      "$description": "Terre Verte \u2014 Cool, 150\u00b0",
+      "base": {
+        "$value": "#7A8B60",
+        "$type": "color",
+        "$description": "Terre Verte \u2014 pure base colour"
+      },
+      "tint": {
+        "100": {
+          "$value": "#E9EAE1",
+          "$type": "color",
+          "$description": "Terre Verte Tint 100 \u2014 ratio W:B:K = 9:1:0"
+        },
+        "200": {
+          "$value": "#DCE0D2",
+          "$type": "color",
+          "$description": "Terre Verte Tint 200 \u2014 ratio W:B:K = 4:1:0"
+        },
+        "300": {
+          "$value": "#D0D5C4",
+          "$type": "color",
+          "$description": "Terre Verte Tint 300 \u2014 ratio W:B:K = 7:3:0"
+        },
+        "400": {
+          "$value": "#C4CBB6",
+          "$type": "color",
+          "$description": "Terre Verte Tint 400 \u2014 ratio W:B:K = 3:2:0"
+        },
+        "500": {
+          "$value": "#B8C0A8",
+          "$type": "color",
+          "$description": "Terre Verte Tint 500 \u2014 ratio W:B:K = 1:1:0"
+        },
+        "600": {
+          "$value": "#ABB599",
+          "$type": "color",
+          "$description": "Terre Verte Tint 600 \u2014 ratio W:B:K = 2:3:0"
+        },
+        "700": {
+          "$value": "#9FAB8B",
+          "$type": "color",
+          "$description": "Terre Verte Tint 700 \u2014 ratio W:B:K = 3:7:0"
+        },
+        "800": {
+          "$value": "#A3AE90",
+          "$type": "color",
+          "$description": "Terre Verte Tint 800 \u2014 ratio W:B:K = 2:4:0"
+        },
+        "900": {
+          "$value": "#86966E",
+          "$type": "color",
+          "$description": "Terre Verte Tint 900 \u2014 ratio W:B:K = 1:9:0"
+        }
+      },
+      "shade": {
+        "100": {
+          "$value": "#718059",
+          "$type": "color",
+          "$description": "Terre Verte Shade 100 \u2014 ratio W:B:K = 0:9:1"
+        },
+        "200": {
+          "$value": "#5D6749",
+          "$type": "color",
+          "$description": "Terre Verte Shade 200 \u2014 ratio W:B:K = 0:4:2"
+        },
+        "300": {
+          "$value": "#606B4B",
+          "$type": "color",
+          "$description": "Terre Verte Shade 300 \u2014 ratio W:B:K = 0:7:3"
+        },
+        "400": {
+          "$value": "#576044",
+          "$type": "color",
+          "$description": "Terre Verte Shade 400 \u2014 ratio W:B:K = 0:3:2"
+        },
+        "500": {
+          "$value": "#4E553D",
+          "$type": "color",
+          "$description": "Terre Verte Shade 500 \u2014 ratio W:B:K = 0:1:1"
+        },
+        "600": {
+          "$value": "#464A36",
+          "$type": "color",
+          "$description": "Terre Verte Shade 600 \u2014 ratio W:B:K = 0:2:3"
+        },
+        "700": {
+          "$value": "#3D3F2F",
+          "$type": "color",
+          "$description": "Terre Verte Shade 700 \u2014 ratio W:B:K = 0:3:7"
+        },
+        "800": {
+          "$value": "#404331",
+          "$type": "color",
+          "$description": "Terre Verte Shade 800 \u2014 ratio W:B:K = 0:2:4"
+        },
+        "900": {
+          "$value": "#2C2A21",
+          "$type": "color",
+          "$description": "Terre Verte Shade 900 \u2014 ratio W:B:K = 0:1:9"
+        }
+      }
+    },
+    "oxide-green": {
+      "$description": "Oxide Green \u2014 Cool, 180\u00b0",
+      "base": {
+        "$value": "#4E7A68",
+        "$type": "color",
+        "$description": "Oxide Green \u2014 pure base colour"
+      },
+      "tint": {
+        "100": {
+          "$value": "#E4E9E2",
+          "$type": "color",
+          "$description": "Oxide Green Tint 100 \u2014 ratio W:B:K = 9:1:0"
+        },
+        "200": {
+          "$value": "#D4DCD4",
+          "$type": "color",
+          "$description": "Oxide Green Tint 200 \u2014 ratio W:B:K = 4:1:0"
+        },
+        "300": {
+          "$value": "#C3D0C6",
+          "$type": "color",
+          "$description": "Oxide Green Tint 300 \u2014 ratio W:B:K = 7:3:0"
+        },
+        "400": {
+          "$value": "#B2C4B9",
+          "$type": "color",
+          "$description": "Oxide Green Tint 400 \u2014 ratio W:B:K = 3:2:0"
+        },
+        "500": {
+          "$value": "#A2B8AC",
+          "$type": "color",
+          "$description": "Oxide Green Tint 500 \u2014 ratio W:B:K = 1:1:0"
+        },
+        "600": {
+          "$value": "#91AB9E",
+          "$type": "color",
+          "$description": "Oxide Green Tint 600 \u2014 ratio W:B:K = 2:3:0"
+        },
+        "700": {
+          "$value": "#809F90",
+          "$type": "color",
+          "$description": "Oxide Green Tint 700 \u2014 ratio W:B:K = 3:7:0"
+        },
+        "800": {
+          "$value": "#86A395",
+          "$type": "color",
+          "$description": "Oxide Green Tint 800 \u2014 ratio W:B:K = 2:4:0"
+        },
+        "900": {
+          "$value": "#5F8676",
+          "$type": "color",
+          "$description": "Oxide Green Tint 900 \u2014 ratio W:B:K = 1:9:0"
+        }
+      },
+      "shade": {
+        "100": {
+          "$value": "#4A7160",
+          "$type": "color",
+          "$description": "Oxide Green Shade 100 \u2014 ratio W:B:K = 0:9:1"
+        },
+        "200": {
+          "$value": "#405C4E",
+          "$type": "color",
+          "$description": "Oxide Green Shade 200 \u2014 ratio W:B:K = 0:4:2"
+        },
+        "300": {
+          "$value": "#415F51",
+          "$type": "color",
+          "$description": "Oxide Green Shade 300 \u2014 ratio W:B:K = 0:7:3"
+        },
+        "400": {
+          "$value": "#3D5649",
+          "$type": "color",
+          "$description": "Oxide Green Shade 400 \u2014 ratio W:B:K = 0:3:2"
+        },
+        "500": {
+          "$value": "#384C41",
+          "$type": "color",
+          "$description": "Oxide Green Shade 500 \u2014 ratio W:B:K = 0:1:1"
+        },
+        "600": {
+          "$value": "#344339",
+          "$type": "color",
+          "$description": "Oxide Green Shade 600 \u2014 ratio W:B:K = 0:2:3"
+        },
+        "700": {
+          "$value": "#303A31",
+          "$type": "color",
+          "$description": "Oxide Green Shade 700 \u2014 ratio W:B:K = 0:3:7"
+        },
+        "800": {
+          "$value": "#313D34",
+          "$type": "color",
+          "$description": "Oxide Green Shade 800 \u2014 ratio W:B:K = 0:2:4"
+        },
+        "900": {
+          "$value": "#272822",
+          "$type": "color",
+          "$description": "Oxide Green Shade 900 \u2014 ratio W:B:K = 0:1:9"
+        }
+      }
+    },
+    "cerulean-grey": {
+      "$description": "Cerulean Grey \u2014 Cool, 210\u00b0",
+      "base": {
+        "$value": "#4E6B82",
+        "$type": "color",
+        "$description": "Cerulean Grey \u2014 pure base colour"
+      },
+      "tint": {
+        "100": {
+          "$value": "#E4E7E4",
+          "$type": "color",
+          "$description": "Cerulean Grey Tint 100 \u2014 ratio W:B:K = 9:1:0"
+        },
+        "200": {
+          "$value": "#D4D9D9",
+          "$type": "color",
+          "$description": "Cerulean Grey Tint 200 \u2014 ratio W:B:K = 4:1:0"
+        },
+        "300": {
+          "$value": "#C3CCCE",
+          "$type": "color",
+          "$description": "Cerulean Grey Tint 300 \u2014 ratio W:B:K = 7:3:0"
+        },
+        "400": {
+          "$value": "#B2BEC3",
+          "$type": "color",
+          "$description": "Cerulean Grey Tint 400 \u2014 ratio W:B:K = 3:2:0"
+        },
+        "500": {
+          "$value": "#A2B0B8",
+          "$type": "color",
+          "$description": "Cerulean Grey Tint 500 \u2014 ratio W:B:K = 1:1:0"
+        },
+        "600": {
+          "$value": "#91A2AE",
+          "$type": "color",
+          "$description": "Cerulean Grey Tint 600 \u2014 ratio W:B:K = 2:3:0"
+        },
+        "700": {
+          "$value": "#8094A3",
+          "$type": "color",
+          "$description": "Cerulean Grey Tint 700 \u2014 ratio W:B:K = 3:7:0"
+        },
+        "800": {
+          "$value": "#8699A6",
+          "$type": "color",
+          "$description": "Cerulean Grey Tint 800 \u2014 ratio W:B:K = 2:4:0"
+        },
+        "900": {
+          "$value": "#5F798D",
+          "$type": "color",
+          "$description": "Cerulean Grey Tint 900 \u2014 ratio W:B:K = 1:9:0"
+        }
+      },
+      "shade": {
+        "100": {
+          "$value": "#4A6378",
+          "$type": "color",
+          "$description": "Cerulean Grey Shade 100 \u2014 ratio W:B:K = 0:9:1"
+        },
+        "200": {
+          "$value": "#40525F",
+          "$type": "color",
+          "$description": "Cerulean Grey Shade 200 \u2014 ratio W:B:K = 0:4:2"
+        },
+        "300": {
+          "$value": "#415463",
+          "$type": "color",
+          "$description": "Cerulean Grey Shade 300 \u2014 ratio W:B:K = 0:7:3"
+        },
+        "400": {
+          "$value": "#3D4D58",
+          "$type": "color",
+          "$description": "Cerulean Grey Shade 400 \u2014 ratio W:B:K = 0:3:2"
+        },
+        "500": {
+          "$value": "#38454E",
+          "$type": "color",
+          "$description": "Cerulean Grey Shade 500 \u2014 ratio W:B:K = 0:1:1"
+        },
+        "600": {
+          "$value": "#343D44",
+          "$type": "color",
+          "$description": "Cerulean Grey Shade 600 \u2014 ratio W:B:K = 0:2:3"
+        },
+        "700": {
+          "$value": "#303639",
+          "$type": "color",
+          "$description": "Cerulean Grey Shade 700 \u2014 ratio W:B:K = 0:3:7"
+        },
+        "800": {
+          "$value": "#31383D",
+          "$type": "color",
+          "$description": "Cerulean Grey Shade 800 \u2014 ratio W:B:K = 0:2:4"
+        },
+        "900": {
+          "$value": "#272724",
+          "$type": "color",
+          "$description": "Cerulean Grey Shade 900 \u2014 ratio W:B:K = 0:1:9"
+        }
+      }
+    },
+    "prussian-blue": {
+      "$description": "Prussian Blue \u2014 Cool, 240\u00b0",
+      "base": {
+        "$value": "#2C4868",
+        "$type": "color",
+        "$description": "Prussian Blue \u2014 pure base colour"
+      },
+      "tint": {
+        "100": {
+          "$value": "#E1E4E2",
+          "$type": "color",
+          "$description": "Prussian Blue Tint 100 \u2014 ratio W:B:K = 9:1:0"
+        },
+        "200": {
+          "$value": "#CDD2D4",
+          "$type": "color",
+          "$description": "Prussian Blue Tint 200 \u2014 ratio W:B:K = 4:1:0"
+        },
+        "300": {
+          "$value": "#B9C1C6",
+          "$type": "color",
+          "$description": "Prussian Blue Tint 300 \u2014 ratio W:B:K = 7:3:0"
+        },
+        "400": {
+          "$value": "#A5B0B9",
+          "$type": "color",
+          "$description": "Prussian Blue Tint 400 \u2014 ratio W:B:K = 3:2:0"
+        },
+        "500": {
+          "$value": "#909EAC",
+          "$type": "color",
+          "$description": "Prussian Blue Tint 500 \u2014 ratio W:B:K = 1:1:0"
+        },
+        "600": {
+          "$value": "#7C8D9E",
+          "$type": "color",
+          "$description": "Prussian Blue Tint 600 \u2014 ratio W:B:K = 2:3:0"
+        },
+        "700": {
+          "$value": "#687C90",
+          "$type": "color",
+          "$description": "Prussian Blue Tint 700 \u2014 ratio W:B:K = 3:7:0"
+        },
+        "800": {
+          "$value": "#6F8295",
+          "$type": "color",
+          "$description": "Prussian Blue Tint 800 \u2014 ratio W:B:K = 2:4:0"
+        },
+        "900": {
+          "$value": "#405976",
+          "$type": "color",
+          "$description": "Prussian Blue Tint 900 \u2014 ratio W:B:K = 1:9:0"
+        }
+      },
+      "shade": {
+        "100": {
+          "$value": "#2B4460",
+          "$type": "color",
+          "$description": "Prussian Blue Shade 100 \u2014 ratio W:B:K = 0:9:1"
+        },
+        "200": {
+          "$value": "#293A4E",
+          "$type": "color",
+          "$description": "Prussian Blue Shade 200 \u2014 ratio W:B:K = 0:4:2"
+        },
+        "300": {
+          "$value": "#293C51",
+          "$type": "color",
+          "$description": "Prussian Blue Shade 300 \u2014 ratio W:B:K = 0:7:3"
+        },
+        "400": {
+          "$value": "#283849",
+          "$type": "color",
+          "$description": "Prussian Blue Shade 400 \u2014 ratio W:B:K = 0:3:2"
+        },
+        "500": {
+          "$value": "#283441",
+          "$type": "color",
+          "$description": "Prussian Blue Shade 500 \u2014 ratio W:B:K = 0:1:1"
+        },
+        "600": {
+          "$value": "#272F39",
+          "$type": "color",
+          "$description": "Prussian Blue Shade 600 \u2014 ratio W:B:K = 0:2:3"
+        },
+        "700": {
+          "$value": "#262B31",
+          "$type": "color",
+          "$description": "Prussian Blue Shade 700 \u2014 ratio W:B:K = 0:3:7"
+        },
+        "800": {
+          "$value": "#262D34",
+          "$type": "color",
+          "$description": "Prussian Blue Shade 800 \u2014 ratio W:B:K = 0:2:4"
+        },
+        "900": {
+          "$value": "#242322",
+          "$type": "color",
+          "$description": "Prussian Blue Shade 900 \u2014 ratio W:B:K = 0:1:9"
+        }
+      }
+    },
+    "ultramarine": {
+      "$description": "Ultramarine \u2014 Cool, 270\u00b0",
+      "base": {
+        "$value": "#3C4878",
+        "$type": "color",
+        "$description": "Ultramarine \u2014 pure base colour"
+      },
+      "tint": {
+        "100": {
+          "$value": "#E2E4E3",
+          "$type": "color",
+          "$description": "Ultramarine Tint 100 \u2014 ratio W:B:K = 9:1:0"
+        },
+        "200": {
+          "$value": "#D0D2D7",
+          "$type": "color",
+          "$description": "Ultramarine Tint 200 \u2014 ratio W:B:K = 4:1:0"
+        },
+        "300": {
+          "$value": "#BEC1CB",
+          "$type": "color",
+          "$description": "Ultramarine Tint 300 \u2014 ratio W:B:K = 7:3:0"
+        },
+        "400": {
+          "$value": "#ABB0BF",
+          "$type": "color",
+          "$description": "Ultramarine Tint 400 \u2014 ratio W:B:K = 3:2:0"
+        },
+        "500": {
+          "$value": "#989EB4",
+          "$type": "color",
+          "$description": "Ultramarine Tint 500 \u2014 ratio W:B:K = 1:1:0"
+        },
+        "600": {
+          "$value": "#868DA8",
+          "$type": "color",
+          "$description": "Ultramarine Tint 600 \u2014 ratio W:B:K = 2:3:0"
+        },
+        "700": {
+          "$value": "#747C9C",
+          "$type": "color",
+          "$description": "Ultramarine Tint 700 \u2014 ratio W:B:K = 3:7:0"
+        },
+        "800": {
+          "$value": "#7A82A0",
+          "$type": "color",
+          "$description": "Ultramarine Tint 800 \u2014 ratio W:B:K = 2:4:0"
+        },
+        "900": {
+          "$value": "#4E5984",
+          "$type": "color",
+          "$description": "Ultramarine Tint 900 \u2014 ratio W:B:K = 1:9:0"
+        }
+      },
+      "shade": {
+        "100": {
+          "$value": "#3A446F",
+          "$type": "color",
+          "$description": "Ultramarine Shade 100 \u2014 ratio W:B:K = 0:9:1"
+        },
+        "200": {
+          "$value": "#343A59",
+          "$type": "color",
+          "$description": "Ultramarine Shade 200 \u2014 ratio W:B:K = 0:4:2"
+        },
+        "300": {
+          "$value": "#343C5C",
+          "$type": "color",
+          "$description": "Ultramarine Shade 300 \u2014 ratio W:B:K = 0:7:3"
+        },
+        "400": {
+          "$value": "#323852",
+          "$type": "color",
+          "$description": "Ultramarine Shade 400 \u2014 ratio W:B:K = 0:3:2"
+        },
+        "500": {
+          "$value": "#303449",
+          "$type": "color",
+          "$description": "Ultramarine Shade 500 \u2014 ratio W:B:K = 0:1:1"
+        },
+        "600": {
+          "$value": "#2D2F40",
+          "$type": "color",
+          "$description": "Ultramarine Shade 600 \u2014 ratio W:B:K = 0:2:3"
+        },
+        "700": {
+          "$value": "#2A2B36",
+          "$type": "color",
+          "$description": "Ultramarine Shade 700 \u2014 ratio W:B:K = 0:3:7"
+        },
+        "800": {
+          "$value": "#2B2D39",
+          "$type": "color",
+          "$description": "Ultramarine Shade 800 \u2014 ratio W:B:K = 0:2:4"
+        },
+        "900": {
+          "$value": "#262323",
+          "$type": "color",
+          "$description": "Ultramarine Shade 900 \u2014 ratio W:B:K = 0:1:9"
+        }
+      }
+    },
+    "mars-violet": {
+      "$description": "Mars Violet \u2014 Cool, 300\u00b0",
+      "base": {
+        "$value": "#6A3D58",
+        "$type": "color",
+        "$description": "Mars Violet \u2014 pure base colour"
+      },
+      "tint": {
+        "100": {
+          "$value": "#E7E3E0",
+          "$type": "color",
+          "$description": "Mars Violet Tint 100 \u2014 ratio W:B:K = 9:1:0"
+        },
+        "200": {
+          "$value": "#D9D0D1",
+          "$type": "color",
+          "$description": "Mars Violet Tint 200 \u2014 ratio W:B:K = 4:1:0"
+        },
+        "300": {
+          "$value": "#CBBEC2",
+          "$type": "color",
+          "$description": "Mars Violet Tint 300 \u2014 ratio W:B:K = 7:3:0"
+        },
+        "400": {
+          "$value": "#BDABB3",
+          "$type": "color",
+          "$description": "Mars Violet Tint 400 \u2014 ratio W:B:K = 3:2:0"
+        },
+        "500": {
+          "$value": "#B099A4",
+          "$type": "color",
+          "$description": "Mars Violet Tint 500 \u2014 ratio W:B:K = 1:1:0"
+        },
+        "600": {
+          "$value": "#A28794",
+          "$type": "color",
+          "$description": "Mars Violet Tint 600 \u2014 ratio W:B:K = 2:3:0"
+        },
+        "700": {
+          "$value": "#947485",
+          "$type": "color",
+          "$description": "Mars Violet Tint 700 \u2014 ratio W:B:K = 3:7:0"
+        },
+        "800": {
+          "$value": "#987A8A",
+          "$type": "color",
+          "$description": "Mars Violet Tint 800 \u2014 ratio W:B:K = 2:4:0"
+        },
+        "900": {
+          "$value": "#784F67",
+          "$type": "color",
+          "$description": "Mars Violet Tint 900 \u2014 ratio W:B:K = 1:9:0"
+        }
+      },
+      "shade": {
+        "100": {
+          "$value": "#633A52",
+          "$type": "color",
+          "$description": "Mars Violet Shade 100 \u2014 ratio W:B:K = 0:9:1"
+        },
+        "200": {
+          "$value": "#523343",
+          "$type": "color",
+          "$description": "Mars Violet Shade 200 \u2014 ratio W:B:K = 0:4:2"
+        },
+        "300": {
+          "$value": "#553445",
+          "$type": "color",
+          "$description": "Mars Violet Shade 300 \u2014 ratio W:B:K = 0:7:3"
+        },
+        "400": {
+          "$value": "#4E313F",
+          "$type": "color",
+          "$description": "Mars Violet Shade 400 \u2014 ratio W:B:K = 0:3:2"
+        },
+        "500": {
+          "$value": "#462E39",
+          "$type": "color",
+          "$description": "Mars Violet Shade 500 \u2014 ratio W:B:K = 0:1:1"
+        },
+        "600": {
+          "$value": "#3F2B33",
+          "$type": "color",
+          "$description": "Mars Violet Shade 600 \u2014 ratio W:B:K = 0:2:3"
+        },
+        "700": {
+          "$value": "#38282D",
+          "$type": "color",
+          "$description": "Mars Violet Shade 700 \u2014 ratio W:B:K = 0:3:7"
+        },
+        "800": {
+          "$value": "#3B292F",
+          "$type": "color",
+          "$description": "Mars Violet Shade 800 \u2014 ratio W:B:K = 0:2:4"
+        },
+        "900": {
+          "$value": "#2A2220",
+          "$type": "color",
+          "$description": "Mars Violet Shade 900 \u2014 ratio W:B:K = 0:1:9"
+        }
+      }
+    },
+    "caput-mortuum": {
+      "$description": "Caput Mortuum \u2014 Warm, 330\u00b0",
+      "base": {
+        "$value": "#8A3A42",
+        "$type": "color",
+        "$description": "Caput Mortuum \u2014 pure base colour"
+      },
+      "tint": {
+        "100": {
+          "$value": "#EAE2DE",
+          "$type": "color",
+          "$description": "Caput Mortuum Tint 100 \u2014 ratio W:B:K = 9:1:0"
+        },
+        "200": {
+          "$value": "#E0D0CC",
+          "$type": "color",
+          "$description": "Caput Mortuum Tint 200 \u2014 ratio W:B:K = 4:1:0"
+        },
+        "300": {
+          "$value": "#D5BDBB",
+          "$type": "color",
+          "$description": "Caput Mortuum Tint 300 \u2014 ratio W:B:K = 7:3:0"
+        },
+        "400": {
+          "$value": "#CAAAAA",
+          "$type": "color",
+          "$description": "Caput Mortuum Tint 400 \u2014 ratio W:B:K = 3:2:0"
+        },
+        "500": {
+          "$value": "#C09898",
+          "$type": "color",
+          "$description": "Caput Mortuum Tint 500 \u2014 ratio W:B:K = 1:1:0"
+        },
+        "600": {
+          "$value": "#B58587",
+          "$type": "color",
+          "$description": "Caput Mortuum Tint 600 \u2014 ratio W:B:K = 2:3:0"
+        },
+        "700": {
+          "$value": "#AA7276",
+          "$type": "color",
+          "$description": "Caput Mortuum Tint 700 \u2014 ratio W:B:K = 3:7:0"
+        },
+        "800": {
+          "$value": "#AE787C",
+          "$type": "color",
+          "$description": "Caput Mortuum Tint 800 \u2014 ratio W:B:K = 2:4:0"
+        },
+        "900": {
+          "$value": "#954D53",
+          "$type": "color",
+          "$description": "Caput Mortuum Tint 900 \u2014 ratio W:B:K = 1:9:0"
+        }
+      },
+      "shade": {
+        "100": {
+          "$value": "#80373E",
+          "$type": "color",
+          "$description": "Caput Mortuum Shade 100 \u2014 ratio W:B:K = 0:9:1"
+        },
+        "200": {
+          "$value": "#683135",
+          "$type": "color",
+          "$description": "Caput Mortuum Shade 200 \u2014 ratio W:B:K = 0:4:2"
+        },
+        "300": {
+          "$value": "#6B3236",
+          "$type": "color",
+          "$description": "Caput Mortuum Shade 300 \u2014 ratio W:B:K = 0:7:3"
+        },
+        "400": {
+          "$value": "#612F32",
+          "$type": "color",
+          "$description": "Caput Mortuum Shade 400 \u2014 ratio W:B:K = 0:3:2"
+        },
+        "500": {
+          "$value": "#562C2E",
+          "$type": "color",
+          "$description": "Caput Mortuum Shade 500 \u2014 ratio W:B:K = 0:1:1"
+        },
+        "600": {
+          "$value": "#4C2A2A",
+          "$type": "color",
+          "$description": "Caput Mortuum Shade 600 \u2014 ratio W:B:K = 0:2:3"
+        },
+        "700": {
+          "$value": "#422726",
+          "$type": "color",
+          "$description": "Caput Mortuum Shade 700 \u2014 ratio W:B:K = 0:3:7"
+        },
+        "800": {
+          "$value": "#452827",
+          "$type": "color",
+          "$description": "Caput Mortuum Shade 800 \u2014 ratio W:B:K = 0:2:4"
+        },
+        "900": {
+          "$value": "#2D221E",
+          "$type": "color",
+          "$description": "Caput Mortuum Shade 900 \u2014 ratio W:B:K = 0:1:9"
+        }
+      }
+    }
+  }
+}
