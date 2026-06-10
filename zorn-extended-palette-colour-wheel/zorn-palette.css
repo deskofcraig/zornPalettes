@@ -1,531 +1,582 @@
-/*
- * Zorn Extended Colour Wheel
- * 12 base colours — Titanium White tints → Pure Base → Ivory Black shades
- * Generated from Zorn Palette methodology
- *
- * --color-titanium-white : #F5F5EF
- * --color-ivory-black    : #231F1A
- */
+/* ============================================================
+   Zorn Colour Harmony Studio — Palette CSS
+   24 pigments × 19 tonal rings (T100–T900 / Base / S100–S900)
+   + Titanium White & Ivory Black anchors
+   + Zorn warm & cool palette semantic aliases
+   Generated from the COLORS / AR precomputed data table.
+   ============================================================ */
 
 :root {
 
-  /* ── Anchor Colours ─────────────────────────── */
+  /* ── Anchor colours ─────────────────────────────────────── */
   --color-titanium-white: #F5F5EF;
-  --color-ivory-black: #231F1A;
+  --color-ivory-black:    #231F1A;
 
-  /* ── Cadmium Red (Warm) · 0° ──── */
-  --color-cadmium-red-tint-100: #F0E2DB;
-  --color-cadmium-red-tint-200: #ECCFC8;
-  --color-cadmium-red-tint-300: #E8BDB4;
-  --color-cadmium-red-tint-400: #E3AAA1;
-  --color-cadmium-red-tint-500: #DE978D;
-  --color-cadmium-red-tint-600: #DA8479;
-  --color-cadmium-red-tint-700: #D67166;
-  --color-cadmium-red-tint-800: #D7786C;
-  --color-cadmium-red-tint-900: #CC4C3F;
+  /* ── Warm — Primary ────────────────────────── */
+  /* Cadmium Red · 0° · primary */
+  --color-cadmium-red-t100: #F0E2DB;
+  --color-cadmium-red-t200: #ECCFC8;
+  --color-cadmium-red-t300: #E8BDB4;
+  --color-cadmium-red-t400: #E3AAA1;
+  --color-cadmium-red-t500: #DE978D;
+  --color-cadmium-red-t600: #DA8479;
+  --color-cadmium-red-t700: #D67166;
+  --color-cadmium-red-t800: #D7786C;
+  --color-cadmium-red-t900: #CC4C3F;
   --color-cadmium-red-base: #C8392B;
-  --color-cadmium-red-shade-100: #B83629;
-  --color-cadmium-red-shade-200: #913025;
-  --color-cadmium-red-shade-300: #963126;
-  --color-cadmium-red-shade-400: #862F24;
-  --color-cadmium-red-shade-500: #762C22;
-  --color-cadmium-red-shade-600: #652921;
-  --color-cadmium-red-shade-700: #54271F;
-  --color-cadmium-red-shade-800: #5A2820;
-  --color-cadmium-red-shade-900: #34221C;
+  --color-cadmium-red-s100: #B83629;
+  --color-cadmium-red-s200: #913025;
+  --color-cadmium-red-s300: #963126;
+  --color-cadmium-red-s400: #862F24;
+  --color-cadmium-red-s500: #762C22;
+  --color-cadmium-red-s600: #652921;
+  --color-cadmium-red-s700: #54271F;
+  --color-cadmium-red-s800: #5A2820;
+  --color-cadmium-red-s900: #34221C;
 
-  /* ── Venetian Red (Warm) · 30° ──── */
-  --color-venetian-red-tint-100: #EDE3DC;
-  --color-venetian-red-tint-200: #E5D1C9;
-  --color-venetian-red-tint-300: #DCBFB6;
-  --color-venetian-red-tint-400: #D4ADA3;
-  --color-venetian-red-tint-500: #CC9A90;
-  --color-venetian-red-tint-600: #C4887C;
-  --color-venetian-red-tint-700: #BC7669;
-  --color-venetian-red-tint-800: #BE7C70;
-  --color-venetian-red-tint-900: #AB5243;
-  --color-venetian-red-base: #A34030;
-  --color-venetian-red-shade-100: #963D2E;
-  --color-venetian-red-shade-200: #783529;
-  --color-venetian-red-shade-300: #7D3629;
-  --color-venetian-red-shade-400: #703327;
-  --color-venetian-red-shade-500: #633025;
-  --color-venetian-red-shade-600: #562C23;
-  --color-venetian-red-shade-700: #492921;
-  --color-venetian-red-shade-800: #4E2A21;
-  --color-venetian-red-shade-900: #30221C;
-
-  /* ── Burnt Sienna (Warm) · 60° ──── */
-  --color-burnt-sienna-tint-100: #EAE4DA;
-  --color-burnt-sienna-tint-200: #E0D3C5;
-  --color-burnt-sienna-tint-300: #D5C2B0;
-  --color-burnt-sienna-tint-400: #CBB19B;
-  --color-burnt-sienna-tint-500: #C0A086;
-  --color-burnt-sienna-tint-600: #B58E70;
-  --color-burnt-sienna-tint-700: #AB7D5B;
-  --color-burnt-sienna-tint-800: #AE8362;
-  --color-burnt-sienna-tint-900: #965B31;
-  --color-burnt-sienna-base: #8B4A1C;
-  --color-burnt-sienna-shade-100: #81461C;
-  --color-burnt-sienna-shade-200: #683C1B;
-  --color-burnt-sienna-shade-300: #6C3D1B;
-  --color-burnt-sienna-shade-400: #61391B;
-  --color-burnt-sienna-shade-500: #57341B;
-  --color-burnt-sienna-shade-600: #4D301B;
-  --color-burnt-sienna-shade-700: #422C1B;
-  --color-burnt-sienna-shade-800: #462D1B;
-  --color-burnt-sienna-shade-900: #2D231A;
-
-  /* ── Yellow Ochre (Warm) · 90° ──── */
-  --color-yellow-ochre-tint-100: #F0ECDD;
-  --color-yellow-ochre-tint-200: #EBE2CB;
-  --color-yellow-ochre-tint-300: #E6D9B9;
-  --color-yellow-ochre-tint-400: #E1CFA7;
-  --color-yellow-ochre-tint-500: #DCC694;
-  --color-yellow-ochre-tint-600: #D8BD82;
-  --color-yellow-ochre-tint-700: #D3B370;
-  --color-yellow-ochre-tint-800: #D4B676;
-  --color-yellow-ochre-tint-900: #C9A04C;
-  --color-yellow-ochre-base: #C4973A;
-  --color-yellow-ochre-shade-100: #B48B37;
-  --color-yellow-ochre-shade-200: #8E6F2F;
-  --color-yellow-ochre-shade-300: #947330;
-  --color-yellow-ochre-shade-400: #84672D;
-  --color-yellow-ochre-shade-500: #745B2A;
-  --color-yellow-ochre-shade-600: #634F27;
-  --color-yellow-ochre-shade-700: #534324;
-  --color-yellow-ochre-shade-800: #594725;
-  --color-yellow-ochre-shade-900: #332B1D;
-
-  /* ── Naples Yellow (Warm) · 120° ──── */
-  --color-naples-yellow-tint-100: #F2EFE2;
-  --color-naples-yellow-tint-200: #EEE9D6;
-  --color-naples-yellow-tint-300: #EBE3C9;
-  --color-naples-yellow-tint-400: #E8DDBC;
-  --color-naples-yellow-tint-500: #E4D6B0;
-  --color-naples-yellow-tint-600: #E1D0A3;
-  --color-naples-yellow-tint-700: #DECA96;
-  --color-naples-yellow-tint-800: #DFCC9A;
-  --color-naples-yellow-tint-900: #D7BE7D;
+  /* Naples Yellow · 120° · primary */
+  --color-naples-yellow-t100: #F2EFE2;
+  --color-naples-yellow-t200: #EEE9D6;
+  --color-naples-yellow-t300: #EBE3C9;
+  --color-naples-yellow-t400: #E8DDBC;
+  --color-naples-yellow-t500: #E4D6B0;
+  --color-naples-yellow-t600: #E1D0A3;
+  --color-naples-yellow-t700: #DECA96;
+  --color-naples-yellow-t800: #DFCC9A;
+  --color-naples-yellow-t900: #D7BE7D;
   --color-naples-yellow-base: #D4B870;
-  --color-naples-yellow-shade-100: #C2A967;
-  --color-naples-yellow-shade-200: #998553;
-  --color-naples-yellow-shade-300: #9F8A56;
-  --color-naples-yellow-shade-400: #8D7B4E;
-  --color-naples-yellow-shade-500: #7C6C45;
-  --color-naples-yellow-shade-600: #6A5C3C;
-  --color-naples-yellow-shade-700: #584D34;
-  --color-naples-yellow-shade-800: #5E5237;
-  --color-naples-yellow-shade-900: #352E23;
+  --color-naples-yellow-s100: #C2A967;
+  --color-naples-yellow-s200: #998553;
+  --color-naples-yellow-s300: #9F8A56;
+  --color-naples-yellow-s400: #8D7B4E;
+  --color-naples-yellow-s500: #7C6C45;
+  --color-naples-yellow-s600: #6A5C3C;
+  --color-naples-yellow-s700: #584D34;
+  --color-naples-yellow-s800: #5E5237;
+  --color-naples-yellow-s900: #352E23;
 
-  /* ── Terre Verte (Cool) · 150° ──── */
-  --color-terre-verte-tint-100: #E9EAE1;
-  --color-terre-verte-tint-200: #DCE0D2;
-  --color-terre-verte-tint-300: #D0D5C4;
-  --color-terre-verte-tint-400: #C4CBB6;
-  --color-terre-verte-tint-500: #B8C0A8;
-  --color-terre-verte-tint-600: #ABB599;
-  --color-terre-verte-tint-700: #9FAB8B;
-  --color-terre-verte-tint-800: #A3AE90;
-  --color-terre-verte-tint-900: #86966E;
-  --color-terre-verte-base: #7A8B60;
-  --color-terre-verte-shade-100: #718059;
-  --color-terre-verte-shade-200: #5D6749;
-  --color-terre-verte-shade-300: #606B4B;
-  --color-terre-verte-shade-400: #576044;
-  --color-terre-verte-shade-500: #4E553D;
-  --color-terre-verte-shade-600: #464A36;
-  --color-terre-verte-shade-700: #3D3F2F;
-  --color-terre-verte-shade-800: #404331;
-  --color-terre-verte-shade-900: #2C2A21;
+  /* ── Warm — Secondary ──────────────────────── */
+  /* Burnt Sienna · 60° · secondary */
+  --color-burnt-sienna-t100: #EAE4DA;
+  --color-burnt-sienna-t200: #E0D3C5;
+  --color-burnt-sienna-t300: #D5C2B0;
+  --color-burnt-sienna-t400: #CBB19B;
+  --color-burnt-sienna-t500: #C0A086;
+  --color-burnt-sienna-t600: #B58E70;
+  --color-burnt-sienna-t700: #AB7D5B;
+  --color-burnt-sienna-t800: #AE8362;
+  --color-burnt-sienna-t900: #965B31;
+  --color-burnt-sienna-base: #8B4A1C;
+  --color-burnt-sienna-s100: #81461C;
+  --color-burnt-sienna-s200: #683C1B;
+  --color-burnt-sienna-s300: #6C3D1B;
+  --color-burnt-sienna-s400: #61391B;
+  --color-burnt-sienna-s500: #57341B;
+  --color-burnt-sienna-s600: #4D301B;
+  --color-burnt-sienna-s700: #422C1B;
+  --color-burnt-sienna-s800: #462D1B;
+  --color-burnt-sienna-s900: #2D231A;
 
-  /* ── Oxide Green (Cool) · 180° ──── */
-  --color-oxide-green-tint-100: #E4E9E2;
-  --color-oxide-green-tint-200: #D4DCD4;
-  --color-oxide-green-tint-300: #C3D0C6;
-  --color-oxide-green-tint-400: #B2C4B9;
-  --color-oxide-green-tint-500: #A2B8AC;
-  --color-oxide-green-tint-600: #91AB9E;
-  --color-oxide-green-tint-700: #809F90;
-  --color-oxide-green-tint-800: #86A395;
-  --color-oxide-green-tint-900: #5F8676;
-  --color-oxide-green-base: #4E7A68;
-  --color-oxide-green-shade-100: #4A7160;
-  --color-oxide-green-shade-200: #405C4E;
-  --color-oxide-green-shade-300: #415F51;
-  --color-oxide-green-shade-400: #3D5649;
-  --color-oxide-green-shade-500: #384C41;
-  --color-oxide-green-shade-600: #344339;
-  --color-oxide-green-shade-700: #303A31;
-  --color-oxide-green-shade-800: #313D34;
-  --color-oxide-green-shade-900: #272822;
+  /* ── Warm — Tertiary ───────────────────────── */
+  /* Vermilion · 15° · tertiary */
+  --color-vermilion-t100: #EFE2DC;
+  --color-vermilion-t200: #E8D0C8;
+  --color-vermilion-t300: #E2BEB5;
+  --color-vermilion-t400: #DCABA2;
+  --color-vermilion-t500: #D6988E;
+  --color-vermilion-t600: #CF867B;
+  --color-vermilion-t700: #C97468;
+  --color-vermilion-t800: #CB7A6E;
+  --color-vermilion-t900: #BC4E41;
+  --color-vermilion-base: #B63C2E;
+  --color-vermilion-s100: #A7392C;
+  --color-vermilion-s200: #853227;
+  --color-vermilion-s300: #8A3328;
+  --color-vermilion-s400: #7B3026;
+  --color-vermilion-s500: #6C2E24;
+  --color-vermilion-s600: #5E2B22;
+  --color-vermilion-s700: #4F2820;
+  --color-vermilion-s800: #542921;
+  --color-vermilion-s900: #32221C;
 
-  /* ── Cerulean Grey (Cool) · 210° ──── */
-  --color-cerulean-grey-tint-100: #E4E7E4;
-  --color-cerulean-grey-tint-200: #D4D9D9;
-  --color-cerulean-grey-tint-300: #C3CCCE;
-  --color-cerulean-grey-tint-400: #B2BEC3;
-  --color-cerulean-grey-tint-500: #A2B0B8;
-  --color-cerulean-grey-tint-600: #91A2AE;
-  --color-cerulean-grey-tint-700: #8094A3;
-  --color-cerulean-grey-tint-800: #8699A6;
-  --color-cerulean-grey-tint-900: #5F798D;
-  --color-cerulean-grey-base: #4E6B82;
-  --color-cerulean-grey-shade-100: #4A6378;
-  --color-cerulean-grey-shade-200: #40525F;
-  --color-cerulean-grey-shade-300: #415463;
-  --color-cerulean-grey-shade-400: #3D4D58;
-  --color-cerulean-grey-shade-500: #38454E;
-  --color-cerulean-grey-shade-600: #343D44;
-  --color-cerulean-grey-shade-700: #303639;
-  --color-cerulean-grey-shade-800: #31383D;
-  --color-cerulean-grey-shade-900: #272724;
+  /* Venetian Red · 30° · tertiary */
+  --color-venetian-red-t100: #EDE3DC;
+  --color-venetian-red-t200: #E5D1C9;
+  --color-venetian-red-t300: #DCBFB6;
+  --color-venetian-red-t400: #D4ADA3;
+  --color-venetian-red-t500: #CC9A90;
+  --color-venetian-red-t600: #C4887C;
+  --color-venetian-red-t700: #BC7669;
+  --color-venetian-red-t800: #BE7C70;
+  --color-venetian-red-t900: #AB5243;
+  --color-venetian-red-base: #A34030;
+  --color-venetian-red-s100: #963D2E;
+  --color-venetian-red-s200: #783529;
+  --color-venetian-red-s300: #7D3629;
+  --color-venetian-red-s400: #703327;
+  --color-venetian-red-s500: #633025;
+  --color-venetian-red-s600: #562C23;
+  --color-venetian-red-s700: #492921;
+  --color-venetian-red-s800: #4E2A21;
+  --color-venetian-red-s900: #30221C;
 
-  /* ── Prussian Blue (Cool) · 240° ──── */
-  --color-prussian-blue-tint-100: #E1E4E2;
-  --color-prussian-blue-tint-200: #CDD2D4;
-  --color-prussian-blue-tint-300: #B9C1C6;
-  --color-prussian-blue-tint-400: #A5B0B9;
-  --color-prussian-blue-tint-500: #909EAC;
-  --color-prussian-blue-tint-600: #7C8D9E;
-  --color-prussian-blue-tint-700: #687C90;
-  --color-prussian-blue-tint-800: #6F8295;
-  --color-prussian-blue-tint-900: #405976;
-  --color-prussian-blue-base: #2C4868;
-  --color-prussian-blue-shade-100: #2B4460;
-  --color-prussian-blue-shade-200: #293A4E;
-  --color-prussian-blue-shade-300: #293C51;
-  --color-prussian-blue-shade-400: #283849;
-  --color-prussian-blue-shade-500: #283441;
-  --color-prussian-blue-shade-600: #272F39;
-  --color-prussian-blue-shade-700: #262B31;
-  --color-prussian-blue-shade-800: #262D34;
-  --color-prussian-blue-shade-900: #242322;
+  /* Terra Rosa · 45° · tertiary */
+  --color-terra-rosa-t100: #ECE3DB;
+  --color-terra-rosa-t200: #E2D2C7;
+  --color-terra-rosa-t300: #D9C0B3;
+  --color-terra-rosa-t400: #CFAF9F;
+  --color-terra-rosa-t500: #C69D8A;
+  --color-terra-rosa-t600: #BD8B76;
+  --color-terra-rosa-t700: #B37A62;
+  --color-terra-rosa-t800: #B68069;
+  --color-terra-rosa-t900: #A0573A;
+  --color-terra-rosa-base: #974526;
+  --color-terra-rosa-s100: #8B4125;
+  --color-terra-rosa-s200: #703822;
+  --color-terra-rosa-s300: #743A22;
+  --color-terra-rosa-s400: #693621;
+  --color-terra-rosa-s500: #5D3220;
+  --color-terra-rosa-s600: #512E1F;
+  --color-terra-rosa-s700: #462A1E;
+  --color-terra-rosa-s800: #4A2C1E;
+  --color-terra-rosa-s900: #2F231B;
 
-  /* ── Ultramarine (Cool) · 270° ──── */
-  --color-ultramarine-tint-100: #E2E4E3;
-  --color-ultramarine-tint-200: #D0D2D7;
-  --color-ultramarine-tint-300: #BEC1CB;
-  --color-ultramarine-tint-400: #ABB0BF;
-  --color-ultramarine-tint-500: #989EB4;
-  --color-ultramarine-tint-600: #868DA8;
-  --color-ultramarine-tint-700: #747C9C;
-  --color-ultramarine-tint-800: #7A82A0;
-  --color-ultramarine-tint-900: #4E5984;
-  --color-ultramarine-base: #3C4878;
-  --color-ultramarine-shade-100: #3A446F;
-  --color-ultramarine-shade-200: #343A59;
-  --color-ultramarine-shade-300: #343C5C;
-  --color-ultramarine-shade-400: #323852;
-  --color-ultramarine-shade-500: #303449;
-  --color-ultramarine-shade-600: #2D2F40;
-  --color-ultramarine-shade-700: #2A2B36;
-  --color-ultramarine-shade-800: #2B2D39;
-  --color-ultramarine-shade-900: #262323;
+  /* Raw Sienna · 75° · tertiary */
+  --color-raw-sienna-t100: #EDE8DB;
+  --color-raw-sienna-t200: #E6DAC8;
+  --color-raw-sienna-t300: #DECDB4;
+  --color-raw-sienna-t400: #D6C0A1;
+  --color-raw-sienna-t500: #CEB28D;
+  --color-raw-sienna-t600: #C7A579;
+  --color-raw-sienna-t700: #BF9866;
+  --color-raw-sienna-t800: #C29C6C;
+  --color-raw-sienna-t900: #B07D3F;
+  --color-raw-sienna-base: #A8702B;
+  --color-raw-sienna-s100: #9B6829;
+  --color-raw-sienna-s200: #7C5525;
+  --color-raw-sienna-s300: #805826;
+  --color-raw-sienna-s400: #735024;
+  --color-raw-sienna-s500: #664822;
+  --color-raw-sienna-s600: #583F21;
+  --color-raw-sienna-s700: #4B371F;
+  --color-raw-sienna-s800: #4F3A20;
+  --color-raw-sienna-s900: #30271C;
 
-  /* ── Mars Violet (Cool) · 300° ──── */
-  --color-mars-violet-tint-100: #E7E3E0;
-  --color-mars-violet-tint-200: #D9D0D1;
-  --color-mars-violet-tint-300: #CBBEC2;
-  --color-mars-violet-tint-400: #BDABB3;
-  --color-mars-violet-tint-500: #B099A4;
-  --color-mars-violet-tint-600: #A28794;
-  --color-mars-violet-tint-700: #947485;
-  --color-mars-violet-tint-800: #987A8A;
-  --color-mars-violet-tint-900: #784F67;
-  --color-mars-violet-base: #6A3D58;
-  --color-mars-violet-shade-100: #633A52;
-  --color-mars-violet-shade-200: #523343;
-  --color-mars-violet-shade-300: #553445;
-  --color-mars-violet-shade-400: #4E313F;
-  --color-mars-violet-shade-500: #462E39;
-  --color-mars-violet-shade-600: #3F2B33;
-  --color-mars-violet-shade-700: #38282D;
-  --color-mars-violet-shade-800: #3B292F;
-  --color-mars-violet-shade-900: #2A2220;
+  /* Yellow Ochre · 90° · tertiary */
+  --color-yellow-ochre-t100: #F0ECDD;
+  --color-yellow-ochre-t200: #EBE2CB;
+  --color-yellow-ochre-t300: #E6D9B9;
+  --color-yellow-ochre-t400: #E1CFA7;
+  --color-yellow-ochre-t500: #DCC694;
+  --color-yellow-ochre-t600: #D8BD82;
+  --color-yellow-ochre-t700: #D3B370;
+  --color-yellow-ochre-t800: #D4B676;
+  --color-yellow-ochre-t900: #C9A04C;
+  --color-yellow-ochre-base: #C4973A;
+  --color-yellow-ochre-s100: #B48B37;
+  --color-yellow-ochre-s200: #8E6F2F;
+  --color-yellow-ochre-s300: #947330;
+  --color-yellow-ochre-s400: #84672D;
+  --color-yellow-ochre-s500: #745B2A;
+  --color-yellow-ochre-s600: #634F27;
+  --color-yellow-ochre-s700: #534324;
+  --color-yellow-ochre-s800: #594725;
+  --color-yellow-ochre-s900: #332B1D;
 
-  /* ── Caput Mortuum (Warm) · 330° ──── */
-  --color-caput-mortuum-tint-100: #EAE2DE;
-  --color-caput-mortuum-tint-200: #E0D0CC;
-  --color-caput-mortuum-tint-300: #D5BDBB;
-  --color-caput-mortuum-tint-400: #CAAAAA;
-  --color-caput-mortuum-tint-500: #C09898;
-  --color-caput-mortuum-tint-600: #B58587;
-  --color-caput-mortuum-tint-700: #AA7276;
-  --color-caput-mortuum-tint-800: #AE787C;
-  --color-caput-mortuum-tint-900: #954D53;
+  /* Aureolin · 105° · tertiary */
+  --color-aureolin-t100: #F1EDE0;
+  --color-aureolin-t200: #EDE6D0;
+  --color-aureolin-t300: #E9DEC1;
+  --color-aureolin-t400: #E5D6B1;
+  --color-aureolin-t500: #E0CEA2;
+  --color-aureolin-t600: #DCC793;
+  --color-aureolin-t700: #D8BF83;
+  --color-aureolin-t800: #DAC288;
+  --color-aureolin-t900: #D0B064;
+  --color-aureolin-base: #CCA855;
+  --color-aureolin-s100: #BB9A4F;
+  --color-aureolin-s200: #947A41;
+  --color-aureolin-s300: #997F43;
+  --color-aureolin-s400: #88713D;
+  --color-aureolin-s500: #786438;
+  --color-aureolin-s600: #675632;
+  --color-aureolin-s700: #56482C;
+  --color-aureolin-s800: #5B4D2E;
+  --color-aureolin-s900: #342D20;
+
+  /* Olive Earth · 135° · tertiary */
+  --color-olive-earth-t100: #EDEDE2;
+  --color-olive-earth-t200: #E5E4D4;
+  --color-olive-earth-t300: #DEDCC6;
+  --color-olive-earth-t400: #D6D4B9;
+  --color-olive-earth-t500: #CECCAC;
+  --color-olive-earth-t600: #C6C39E;
+  --color-olive-earth-t700: #BEBB90;
+  --color-olive-earth-t800: #C1BE95;
+  --color-olive-earth-t900: #AFAA76;
+  --color-olive-earth-base: #A7A268;
+  --color-olive-earth-s100: #9A9560;
+  --color-olive-earth-s200: #7B764E;
+  --color-olive-earth-s300: #7F7B51;
+  --color-olive-earth-s400: #726E49;
+  --color-olive-earth-s500: #656041;
+  --color-olive-earth-s600: #585339;
+  --color-olive-earth-s700: #4B4631;
+  --color-olive-earth-s800: #4F4B34;
+  --color-olive-earth-s900: #302C22;
+
+  /* Caput Mortuum · 330° · tertiary */
+  --color-caput-mortuum-t100: #EAE2DE;
+  --color-caput-mortuum-t200: #E0D0CC;
+  --color-caput-mortuum-t300: #D5BDBB;
+  --color-caput-mortuum-t400: #CAAAAA;
+  --color-caput-mortuum-t500: #C09898;
+  --color-caput-mortuum-t600: #B58587;
+  --color-caput-mortuum-t700: #AA7276;
+  --color-caput-mortuum-t800: #AE787C;
+  --color-caput-mortuum-t900: #954D53;
   --color-caput-mortuum-base: #8A3A42;
-  --color-caput-mortuum-shade-100: #80373E;
-  --color-caput-mortuum-shade-200: #683135;
-  --color-caput-mortuum-shade-300: #6B3236;
-  --color-caput-mortuum-shade-400: #612F32;
-  --color-caput-mortuum-shade-500: #562C2E;
-  --color-caput-mortuum-shade-600: #4C2A2A;
-  --color-caput-mortuum-shade-700: #422726;
-  --color-caput-mortuum-shade-800: #452827;
-  --color-caput-mortuum-shade-900: #2D221E;
+  --color-caput-mortuum-s100: #80373E;
+  --color-caput-mortuum-s200: #683135;
+  --color-caput-mortuum-s300: #6B3236;
+  --color-caput-mortuum-s400: #612F32;
+  --color-caput-mortuum-s500: #562C2E;
+  --color-caput-mortuum-s600: #4C2A2A;
+  --color-caput-mortuum-s700: #422726;
+  --color-caput-mortuum-s800: #452827;
+  --color-caput-mortuum-s900: #2D221E;
 
+  /* Alizarin · 345° · tertiary */
+  --color-alizarin-t100: #EDE2DC;
+  --color-alizarin-t200: #E6D0CA;
+  --color-alizarin-t300: #DEBDB8;
+  --color-alizarin-t400: #D7AAA5;
+  --color-alizarin-t500: #CF9892;
+  --color-alizarin-t600: #C78580;
+  --color-alizarin-t700: #C0726E;
+  --color-alizarin-t800: #C27874;
+  --color-alizarin-t900: #B14D48;
+  --color-alizarin-base: #A93A36;
+  --color-alizarin-s100: #9C3733;
+  --color-alizarin-s200: #7C312D;
+  --color-alizarin-s300: #81322E;
+  --color-alizarin-s400: #732F2B;
+  --color-alizarin-s500: #662C28;
+  --color-alizarin-s600: #592A25;
+  --color-alizarin-s700: #4B2722;
+  --color-alizarin-s800: #502823;
+  --color-alizarin-s900: #30221D;
+
+  /* ── Cool — Primary ────────────────────────── */
+  /* Prussian Blue · 240° · primary */
+  --color-prussian-blue-t100: #E1E4E2;
+  --color-prussian-blue-t200: #CDD2D4;
+  --color-prussian-blue-t300: #B9C1C6;
+  --color-prussian-blue-t400: #A5B0B9;
+  --color-prussian-blue-t500: #909EAC;
+  --color-prussian-blue-t600: #7C8D9E;
+  --color-prussian-blue-t700: #687C90;
+  --color-prussian-blue-t800: #6F8295;
+  --color-prussian-blue-t900: #405976;
+  --color-prussian-blue-base: #2C4868;
+  --color-prussian-blue-s100: #2B4460;
+  --color-prussian-blue-s200: #293A4E;
+  --color-prussian-blue-s300: #293C51;
+  --color-prussian-blue-s400: #283849;
+  --color-prussian-blue-s500: #283441;
+  --color-prussian-blue-s600: #272F39;
+  --color-prussian-blue-s700: #262B31;
+  --color-prussian-blue-s800: #262D34;
+  --color-prussian-blue-s900: #242322;
+
+  /* ── Cool — Secondary ──────────────────────── */
+  /* Oxide Green · 180° · secondary */
+  --color-oxide-green-t100: #E4E9E2;
+  --color-oxide-green-t200: #D4DCD4;
+  --color-oxide-green-t300: #C3D0C6;
+  --color-oxide-green-t400: #B2C4B9;
+  --color-oxide-green-t500: #A2B8AC;
+  --color-oxide-green-t600: #91AB9E;
+  --color-oxide-green-t700: #809F90;
+  --color-oxide-green-t800: #86A395;
+  --color-oxide-green-t900: #5F8676;
+  --color-oxide-green-base: #4E7A68;
+  --color-oxide-green-s100: #4A7160;
+  --color-oxide-green-s200: #405C4E;
+  --color-oxide-green-s300: #415F51;
+  --color-oxide-green-s400: #3D5649;
+  --color-oxide-green-s500: #384C41;
+  --color-oxide-green-s600: #344339;
+  --color-oxide-green-s700: #303A31;
+  --color-oxide-green-s800: #313D34;
+  --color-oxide-green-s900: #272822;
+
+  /* Mars Violet · 300° · secondary */
+  --color-mars-violet-t100: #E7E3E0;
+  --color-mars-violet-t200: #D9D0D1;
+  --color-mars-violet-t300: #CBBEC2;
+  --color-mars-violet-t400: #BDABB3;
+  --color-mars-violet-t500: #B099A4;
+  --color-mars-violet-t600: #A28794;
+  --color-mars-violet-t700: #947485;
+  --color-mars-violet-t800: #987A8A;
+  --color-mars-violet-t900: #784F67;
+  --color-mars-violet-base: #6A3D58;
+  --color-mars-violet-s100: #633A52;
+  --color-mars-violet-s200: #523343;
+  --color-mars-violet-s300: #553445;
+  --color-mars-violet-s400: #4E313F;
+  --color-mars-violet-s500: #462E39;
+  --color-mars-violet-s600: #3F2B33;
+  --color-mars-violet-s700: #38282D;
+  --color-mars-violet-s800: #3B292F;
+  --color-mars-violet-s900: #2A2220;
+
+  /* ── Cool — Tertiary ───────────────────────── */
+  /* Terre Verte · 150° · tertiary */
+  --color-terre-verte-t100: #E9EAE1;
+  --color-terre-verte-t200: #DCE0D2;
+  --color-terre-verte-t300: #D0D5C4;
+  --color-terre-verte-t400: #C4CBB6;
+  --color-terre-verte-t500: #B8C0A8;
+  --color-terre-verte-t600: #ABB599;
+  --color-terre-verte-t700: #9FAB8B;
+  --color-terre-verte-t800: #A3AE90;
+  --color-terre-verte-t900: #86966E;
+  --color-terre-verte-base: #7A8B60;
+  --color-terre-verte-s100: #718059;
+  --color-terre-verte-s200: #5D6749;
+  --color-terre-verte-s300: #606B4B;
+  --color-terre-verte-s400: #576044;
+  --color-terre-verte-s500: #4E553D;
+  --color-terre-verte-s600: #464A36;
+  --color-terre-verte-s700: #3D3F2F;
+  --color-terre-verte-s800: #404331;
+  --color-terre-verte-s900: #2C2A21;
+
+  /* Sage · 165° · tertiary */
+  --color-sage-t100: #E6EAE1;
+  --color-sage-t200: #D8DED3;
+  --color-sage-t300: #CAD2C5;
+  --color-sage-t400: #BBC7B7;
+  --color-sage-t500: #ACBCAA;
+  --color-sage-t600: #9EB09C;
+  --color-sage-t700: #90A48E;
+  --color-sage-t800: #94A892;
+  --color-sage-t900: #728E72;
+  --color-sage-base: #648264;
+  --color-sage-s100: #5E785D;
+  --color-sage-s200: #4E614B;
+  --color-sage-s300: #50644E;
+  --color-sage-s400: #4A5A46;
+  --color-sage-s500: #44503F;
+  --color-sage-s600: #3D4738;
+  --color-sage-s700: #363D30;
+  --color-sage-s800: #394033;
+  --color-sage-s900: #2A2921;
+
+  /* Viridian · 195° · tertiary */
+  --color-viridian-t100: #E4E8E3;
+  --color-viridian-t200: #D4DBD7;
+  --color-viridian-t300: #C3CECA;
+  --color-viridian-t400: #B2C1BE;
+  --color-viridian-t500: #A2B4B2;
+  --color-viridian-t600: #91A6A6;
+  --color-viridian-t700: #80999A;
+  --color-viridian-t800: #869E9E;
+  --color-viridian-t900: #5F7F81;
+  --color-viridian-base: #4E7275;
+  --color-viridian-s100: #4A6A6C;
+  --color-viridian-s200: #405657;
+  --color-viridian-s300: #41595A;
+  --color-viridian-s400: #3D5151;
+  --color-viridian-s500: #384848;
+  --color-viridian-s600: #34403E;
+  --color-viridian-s700: #303835;
+  --color-viridian-s800: #313B38;
+  --color-viridian-s900: #272723;
+
+  /* Cerulean Grey · 210° · tertiary */
+  --color-cerulean-grey-t100: #E4E7E4;
+  --color-cerulean-grey-t200: #D4D9D9;
+  --color-cerulean-grey-t300: #C3CCCE;
+  --color-cerulean-grey-t400: #B2BEC3;
+  --color-cerulean-grey-t500: #A2B0B8;
+  --color-cerulean-grey-t600: #91A2AE;
+  --color-cerulean-grey-t700: #8094A3;
+  --color-cerulean-grey-t800: #8699A6;
+  --color-cerulean-grey-t900: #5F798D;
+  --color-cerulean-grey-base: #4E6B82;
+  --color-cerulean-grey-s100: #4A6378;
+  --color-cerulean-grey-s200: #40525F;
+  --color-cerulean-grey-s300: #415463;
+  --color-cerulean-grey-s400: #3D4D58;
+  --color-cerulean-grey-s500: #38454E;
+  --color-cerulean-grey-s600: #343D44;
+  --color-cerulean-grey-s700: #303639;
+  --color-cerulean-grey-s800: #31383D;
+  --color-cerulean-grey-s900: #272724;
+
+  /* Slate · 225° · tertiary */
+  --color-slate-t100: #E3E6E3;
+  --color-slate-t200: #D0D6D7;
+  --color-slate-t300: #BEC6CA;
+  --color-slate-t400: #ABB7BE;
+  --color-slate-t500: #99A8B2;
+  --color-slate-t600: #8798A6;
+  --color-slate-t700: #74889A;
+  --color-slate-t800: #7A8E9E;
+  --color-slate-t900: #4F6A81;
+  --color-slate-base: #3D5A75;
+  --color-slate-s100: #3A546C;
+  --color-slate-s200: #344657;
+  --color-slate-s300: #35485A;
+  --color-slate-s400: #334251;
+  --color-slate-s500: #303C48;
+  --color-slate-s600: #2D373E;
+  --color-slate-s700: #2B3135;
+  --color-slate-s800: #2C3338;
+  --color-slate-s900: #262523;
+
+  /* Indigo · 255° · tertiary */
+  --color-indigo-t100: #E2E4E2;
+  --color-indigo-t200: #CED2D6;
+  --color-indigo-t300: #BBC1C9;
+  --color-indigo-t400: #A8B0BC;
+  --color-indigo-t500: #949EB0;
+  --color-indigo-t600: #818DA3;
+  --color-indigo-t700: #6E7C96;
+  --color-indigo-t800: #74829A;
+  --color-indigo-t900: #47597D;
+  --color-indigo-base: #344870;
+  --color-indigo-s100: #324467;
+  --color-indigo-s200: #2E3A53;
+  --color-indigo-s300: #2F3C56;
+  --color-indigo-s400: #2D384E;
+  --color-indigo-s500: #2C3445;
+  --color-indigo-s600: #2A2F3C;
+  --color-indigo-s700: #282B34;
+  --color-indigo-s800: #292D37;
+  --color-indigo-s900: #252323;
+
+  /* Ultramarine · 270° · tertiary */
+  --color-ultramarine-t100: #E2E4E3;
+  --color-ultramarine-t200: #D0D2D7;
+  --color-ultramarine-t300: #BEC1CB;
+  --color-ultramarine-t400: #ABB0BF;
+  --color-ultramarine-t500: #989EB4;
+  --color-ultramarine-t600: #868DA8;
+  --color-ultramarine-t700: #747C9C;
+  --color-ultramarine-t800: #7A82A0;
+  --color-ultramarine-t900: #4E5984;
+  --color-ultramarine-base: #3C4878;
+  --color-ultramarine-s100: #3A446F;
+  --color-ultramarine-s200: #343A59;
+  --color-ultramarine-s300: #343C5C;
+  --color-ultramarine-s400: #323852;
+  --color-ultramarine-s500: #303449;
+  --color-ultramarine-s600: #2D2F40;
+  --color-ultramarine-s700: #2A2B36;
+  --color-ultramarine-s800: #2B2D39;
+  --color-ultramarine-s900: #262323;
+
+  /* Dioxazine · 285° · tertiary */
+  --color-dioxazine-t100: #E5E3E2;
+  --color-dioxazine-t200: #D5D1D4;
+  --color-dioxazine-t300: #C4BFC6;
+  --color-dioxazine-t400: #B4ADB9;
+  --color-dioxazine-t500: #A49CAC;
+  --color-dioxazine-t600: #948A9E;
+  --color-dioxazine-t700: #847890;
+  --color-dioxazine-t800: #897E95;
+  --color-dioxazine-t900: #635476;
+  --color-dioxazine-base: #534268;
+  --color-dioxazine-s100: #4E3E60;
+  --color-dioxazine-s200: #43364E;
+  --color-dioxazine-s300: #453851;
+  --color-dioxazine-s400: #403449;
+  --color-dioxazine-s500: #3B3041;
+  --color-dioxazine-s600: #362D39;
+  --color-dioxazine-s700: #312A31;
+  --color-dioxazine-s800: #332B34;
+  --color-dioxazine-s900: #282222;
+
+  /* Purple Madder · 315° · tertiary */
+  --color-purple-madder-t100: #E9E2DF;
+  --color-purple-madder-t200: #DCD0CF;
+  --color-purple-madder-t300: #D0BEBE;
+  --color-purple-madder-t400: #C4ABAE;
+  --color-purple-madder-t500: #B8989E;
+  --color-purple-madder-t600: #AB868E;
+  --color-purple-madder-t700: #9F747E;
+  --color-purple-madder-t800: #A37A83;
+  --color-purple-madder-t900: #864E5D;
+  --color-purple-madder-base: #7A3C4D;
+  --color-purple-madder-s100: #713948;
+  --color-purple-madder-s200: #5D323C;
+  --color-purple-madder-s300: #60333E;
+  --color-purple-madder-s400: #573039;
+  --color-purple-madder-s500: #4E2E34;
+  --color-purple-madder-s600: #462B2E;
+  --color-purple-madder-s700: #3D2829;
+  --color-purple-madder-s800: #40292B;
+  --color-purple-madder-s900: #2C221F;
+
+  /* ── Zorn Warm Palette aliases (traditional: Vermilion + Yellow Ochre + TW + IB) */
+  /* Achievable mix arc: Cadmium Red → Vermilion → … → Naples Yellow (0°–120°) */
+  --zorn-warm-cadmium-red: var(--color-cadmium-red-base);  /* 0° */
+  --zorn-warm-vermilion: var(--color-vermilion-base);  /* 15° */
+  --zorn-warm-venetian-red: var(--color-venetian-red-base);  /* 30° */
+  --zorn-warm-terra-rosa: var(--color-terra-rosa-base);  /* 45° */
+  --zorn-warm-burnt-sienna: var(--color-burnt-sienna-base);  /* 60° */
+  --zorn-warm-raw-sienna: var(--color-raw-sienna-base);  /* 75° */
+  --zorn-warm-yellow-ochre: var(--color-yellow-ochre-base);  /* 90° */
+  --zorn-warm-aureolin: var(--color-aureolin-base);  /* 105° */
+  --zorn-warm-naples-yellow: var(--color-naples-yellow-base);  /* 120° */
+
+  /* ── Zorn Cool Palette aliases (theoretical: Prussian Blue + Alizarin + Indigo + TW + IB) */
+  /* Achievable mix arc: Cerulean Grey → … → Alizarin (210°–345°) */
+  /* Anchored on: #2D5FA0 → Slate, #9B1A30 → Alizarin, #3E5360 → Indigo */
+  --zorn-cool-cerulean-grey: var(--color-cerulean-grey-base);  /* 210° */
+  --zorn-cool-slate: var(--color-slate-base);  /* 225° */
+  --zorn-cool-prussian-blue: var(--color-prussian-blue-base);  /* 240° */
+  --zorn-cool-indigo: var(--color-indigo-base);  /* 255° */
+  --zorn-cool-ultramarine: var(--color-ultramarine-base);  /* 270° */
+  --zorn-cool-dioxazine: var(--color-dioxazine-base);  /* 285° */
+  --zorn-cool-mars-violet: var(--color-mars-violet-base);  /* 300° */
+  --zorn-cool-purple-madder: var(--color-purple-madder-base);  /* 315° */
+  --zorn-cool-caput-mortuum: var(--color-caput-mortuum-base);  /* 330° */
+  --zorn-cool-alizarin: var(--color-alizarin-base);  /* 345° */
+
+  /* ── Dark theme UI tokens ─────────────────────────────── */
+  --theme-bg:          #18161A;
+  --theme-bg-2:        #1E1C20;
+  --theme-bg-3:        #252228;
+  --theme-bg-4:        #2C2830;
+  --theme-text:        #F2EDE8;
+  --theme-text-2:      #B8B0A8;
+  --theme-text-3:      #ACA296;
+  --theme-border:      rgba(176,168,158,.13);
+  --theme-border-2:    rgba(176,168,158,.24);
+  --theme-border-3:    rgba(176,168,158,.42);
+  --theme-accent:      #C4A870;   /* warm primary accent */
+  --theme-accent-sec:  #7A9A70;   /* secondary accent */
+  --theme-accent-ter:  #9090C8;   /* tertiary accent */
 }
 
-
-/* ================================================================
-   TERTIARY COLOURS — 1:1 mix of adjacent base pairs
-   New additions: Vermilion, Terra Rosa, Raw Sienna, Aureolin,
-   Olive Earth, Sage, Viridian, Slate, Indigo, Dioxazine,
-   Purple Madder, Alizarin
-   ================================================================ */
-
-:root {
-  /* Vermilion | tertiary | 15° | warm */
-  --color-vermilion-tint-100: #EFE2DC;
-  --color-vermilion-tint-200: #E8D0C8;
-  --color-vermilion-tint-300: #E2BEB5;
-  --color-vermilion-tint-400: #DCABA2;
-  --color-vermilion-tint-500: #D6988E;
-  --color-vermilion-tint-600: #CF867B;
-  --color-vermilion-tint-700: #C97468;
-  --color-vermilion-tint-800: #CB7A6E;
-  --color-vermilion-tint-900: #BC4E41;
-  --color-vermilion-base: #B63C2E;
-  --color-vermilion-shade-100: #A7392C;
-  --color-vermilion-shade-200: #853227;
-  --color-vermilion-shade-300: #8A3328;
-  --color-vermilion-shade-400: #7B3026;
-  --color-vermilion-shade-500: #6C2E24;
-  --color-vermilion-shade-600: #5E2B22;
-  --color-vermilion-shade-700: #4F2820;
-  --color-vermilion-shade-800: #542921;
-  --color-vermilion-shade-900: #32221C;
-
-  /* Terra Rosa | tertiary | 45° | warm */
-  --color-terra-rosa-tint-100: #ECE3DB;
-  --color-terra-rosa-tint-200: #E2D2C7;
-  --color-terra-rosa-tint-300: #D9C0B3;
-  --color-terra-rosa-tint-400: #CFAF9F;
-  --color-terra-rosa-tint-500: #C69D8A;
-  --color-terra-rosa-tint-600: #BD8B76;
-  --color-terra-rosa-tint-700: #B37A62;
-  --color-terra-rosa-tint-800: #B68069;
-  --color-terra-rosa-tint-900: #A0573A;
-  --color-terra-rosa-base: #974526;
-  --color-terra-rosa-shade-100: #8B4125;
-  --color-terra-rosa-shade-200: #703822;
-  --color-terra-rosa-shade-300: #743A22;
-  --color-terra-rosa-shade-400: #693621;
-  --color-terra-rosa-shade-500: #5D3220;
-  --color-terra-rosa-shade-600: #512E1F;
-  --color-terra-rosa-shade-700: #462A1E;
-  --color-terra-rosa-shade-800: #4A2C1E;
-  --color-terra-rosa-shade-900: #2F231B;
-
-  /* Raw Sienna | tertiary | 75° | warm */
-  --color-raw-sienna-tint-100: #EDE8DB;
-  --color-raw-sienna-tint-200: #E6DAC8;
-  --color-raw-sienna-tint-300: #DECDB4;
-  --color-raw-sienna-tint-400: #D6C0A1;
-  --color-raw-sienna-tint-500: #CEB28D;
-  --color-raw-sienna-tint-600: #C7A579;
-  --color-raw-sienna-tint-700: #BF9866;
-  --color-raw-sienna-tint-800: #C29C6C;
-  --color-raw-sienna-tint-900: #B07D3F;
-  --color-raw-sienna-base: #A8702B;
-  --color-raw-sienna-shade-100: #9B6829;
-  --color-raw-sienna-shade-200: #7C5525;
-  --color-raw-sienna-shade-300: #805826;
-  --color-raw-sienna-shade-400: #735024;
-  --color-raw-sienna-shade-500: #664822;
-  --color-raw-sienna-shade-600: #583F21;
-  --color-raw-sienna-shade-700: #4B371F;
-  --color-raw-sienna-shade-800: #4F3A20;
-  --color-raw-sienna-shade-900: #30271C;
-
-  /* Aureolin | tertiary | 105° | warm */
-  --color-aureolin-tint-100: #F1EDE0;
-  --color-aureolin-tint-200: #EDE6D0;
-  --color-aureolin-tint-300: #E9DEC1;
-  --color-aureolin-tint-400: #E5D6B1;
-  --color-aureolin-tint-500: #E0CEA2;
-  --color-aureolin-tint-600: #DCC793;
-  --color-aureolin-tint-700: #D8BF83;
-  --color-aureolin-tint-800: #DAC288;
-  --color-aureolin-tint-900: #D0B064;
-  --color-aureolin-base: #CCA855;
-  --color-aureolin-shade-100: #BB9A4F;
-  --color-aureolin-shade-200: #947A41;
-  --color-aureolin-shade-300: #997F43;
-  --color-aureolin-shade-400: #88713D;
-  --color-aureolin-shade-500: #786438;
-  --color-aureolin-shade-600: #675632;
-  --color-aureolin-shade-700: #56482C;
-  --color-aureolin-shade-800: #5B4D2E;
-  --color-aureolin-shade-900: #342D20;
-
-  /* Olive Earth | tertiary | 135° | warm */
-  --color-olive-earth-tint-100: #EDEDE2;
-  --color-olive-earth-tint-200: #E5E4D4;
-  --color-olive-earth-tint-300: #DEDCC6;
-  --color-olive-earth-tint-400: #D6D4B9;
-  --color-olive-earth-tint-500: #CECCAC;
-  --color-olive-earth-tint-600: #C6C39E;
-  --color-olive-earth-tint-700: #BEBB90;
-  --color-olive-earth-tint-800: #C1BE95;
-  --color-olive-earth-tint-900: #AFAA76;
-  --color-olive-earth-base: #A7A268;
-  --color-olive-earth-shade-100: #9A9560;
-  --color-olive-earth-shade-200: #7B764E;
-  --color-olive-earth-shade-300: #7F7B51;
-  --color-olive-earth-shade-400: #726E49;
-  --color-olive-earth-shade-500: #656041;
-  --color-olive-earth-shade-600: #585339;
-  --color-olive-earth-shade-700: #4B4631;
-  --color-olive-earth-shade-800: #4F4B34;
-  --color-olive-earth-shade-900: #302C22;
-
-  /* Sage | tertiary | 165° | cool */
-  --color-sage-tint-100: #E6EAE1;
-  --color-sage-tint-200: #D8DED3;
-  --color-sage-tint-300: #CAD2C5;
-  --color-sage-tint-400: #BBC7B7;
-  --color-sage-tint-500: #ACBCAA;
-  --color-sage-tint-600: #9EB09C;
-  --color-sage-tint-700: #90A48E;
-  --color-sage-tint-800: #94A892;
-  --color-sage-tint-900: #728E72;
-  --color-sage-base: #648264;
-  --color-sage-shade-100: #5E785D;
-  --color-sage-shade-200: #4E614B;
-  --color-sage-shade-300: #50644E;
-  --color-sage-shade-400: #4A5A46;
-  --color-sage-shade-500: #44503F;
-  --color-sage-shade-600: #3D4738;
-  --color-sage-shade-700: #363D30;
-  --color-sage-shade-800: #394033;
-  --color-sage-shade-900: #2A2921;
-
-  /* Viridian | tertiary | 195° | cool */
-  --color-viridian-tint-100: #E4E8E3;
-  --color-viridian-tint-200: #D4DBD7;
-  --color-viridian-tint-300: #C3CECA;
-  --color-viridian-tint-400: #B2C1BE;
-  --color-viridian-tint-500: #A2B4B2;
-  --color-viridian-tint-600: #91A6A6;
-  --color-viridian-tint-700: #80999A;
-  --color-viridian-tint-800: #869E9E;
-  --color-viridian-tint-900: #5F7F81;
-  --color-viridian-base: #4E7275;
-  --color-viridian-shade-100: #4A6A6C;
-  --color-viridian-shade-200: #405657;
-  --color-viridian-shade-300: #41595A;
-  --color-viridian-shade-400: #3D5151;
-  --color-viridian-shade-500: #384848;
-  --color-viridian-shade-600: #34403E;
-  --color-viridian-shade-700: #303835;
-  --color-viridian-shade-800: #313B38;
-  --color-viridian-shade-900: #272723;
-
-  /* Slate | tertiary | 225° | cool */
-  --color-slate-tint-100: #E3E6E3;
-  --color-slate-tint-200: #D0D6D7;
-  --color-slate-tint-300: #BEC6CA;
-  --color-slate-tint-400: #ABB7BE;
-  --color-slate-tint-500: #99A8B2;
-  --color-slate-tint-600: #8798A6;
-  --color-slate-tint-700: #74889A;
-  --color-slate-tint-800: #7A8E9E;
-  --color-slate-tint-900: #4F6A81;
-  --color-slate-base: #3D5A75;
-  --color-slate-shade-100: #3A546C;
-  --color-slate-shade-200: #344657;
-  --color-slate-shade-300: #35485A;
-  --color-slate-shade-400: #334251;
-  --color-slate-shade-500: #303C48;
-  --color-slate-shade-600: #2D373E;
-  --color-slate-shade-700: #2B3135;
-  --color-slate-shade-800: #2C3338;
-  --color-slate-shade-900: #262523;
-
-  /* Indigo | tertiary | 255° | cool */
-  --color-indigo-tint-100: #E2E4E2;
-  --color-indigo-tint-200: #CED2D6;
-  --color-indigo-tint-300: #BBC1C9;
-  --color-indigo-tint-400: #A8B0BC;
-  --color-indigo-tint-500: #949EB0;
-  --color-indigo-tint-600: #818DA3;
-  --color-indigo-tint-700: #6E7C96;
-  --color-indigo-tint-800: #74829A;
-  --color-indigo-tint-900: #47597D;
-  --color-indigo-base: #344870;
-  --color-indigo-shade-100: #324467;
-  --color-indigo-shade-200: #2E3A53;
-  --color-indigo-shade-300: #2F3C56;
-  --color-indigo-shade-400: #2D384E;
-  --color-indigo-shade-500: #2C3445;
-  --color-indigo-shade-600: #2A2F3C;
-  --color-indigo-shade-700: #282B34;
-  --color-indigo-shade-800: #292D37;
-  --color-indigo-shade-900: #252323;
-
-  /* Dioxazine | tertiary | 285° | cool */
-  --color-dioxazine-tint-100: #E5E3E2;
-  --color-dioxazine-tint-200: #D5D1D4;
-  --color-dioxazine-tint-300: #C4BFC6;
-  --color-dioxazine-tint-400: #B4ADB9;
-  --color-dioxazine-tint-500: #A49CAC;
-  --color-dioxazine-tint-600: #948A9E;
-  --color-dioxazine-tint-700: #847890;
-  --color-dioxazine-tint-800: #897E95;
-  --color-dioxazine-tint-900: #635476;
-  --color-dioxazine-base: #534268;
-  --color-dioxazine-shade-100: #4E3E60;
-  --color-dioxazine-shade-200: #43364E;
-  --color-dioxazine-shade-300: #453851;
-  --color-dioxazine-shade-400: #403449;
-  --color-dioxazine-shade-500: #3B3041;
-  --color-dioxazine-shade-600: #362D39;
-  --color-dioxazine-shade-700: #312A31;
-  --color-dioxazine-shade-800: #332B34;
-  --color-dioxazine-shade-900: #282222;
-
-  /* Purple Madder | tertiary | 315° | cool */
-  --color-purple-madder-tint-100: #E9E2DF;
-  --color-purple-madder-tint-200: #DCD0CF;
-  --color-purple-madder-tint-300: #D0BEBE;
-  --color-purple-madder-tint-400: #C4ABAE;
-  --color-purple-madder-tint-500: #B8989E;
-  --color-purple-madder-tint-600: #AB868E;
-  --color-purple-madder-tint-700: #9F747E;
-  --color-purple-madder-tint-800: #A37A83;
-  --color-purple-madder-tint-900: #864E5D;
-  --color-purple-madder-base: #7A3C4D;
-  --color-purple-madder-shade-100: #713948;
-  --color-purple-madder-shade-200: #5D323C;
-  --color-purple-madder-shade-300: #60333E;
-  --color-purple-madder-shade-400: #573039;
-  --color-purple-madder-shade-500: #4E2E34;
-  --color-purple-madder-shade-600: #462B2E;
-  --color-purple-madder-shade-700: #3D2829;
-  --color-purple-madder-shade-800: #40292B;
-  --color-purple-madder-shade-900: #2C221F;
-
-  /* Alizarin | tertiary | 345° | warm */
-  --color-alizarin-tint-100: #EDE2DC;
-  --color-alizarin-tint-200: #E6D0CA;
-  --color-alizarin-tint-300: #DEBDB8;
-  --color-alizarin-tint-400: #D7AAA5;
-  --color-alizarin-tint-500: #CF9892;
-  --color-alizarin-tint-600: #C78580;
-  --color-alizarin-tint-700: #C0726E;
-  --color-alizarin-tint-800: #C27874;
-  --color-alizarin-tint-900: #B14D48;
-  --color-alizarin-base: #A93A36;
-  --color-alizarin-shade-100: #9C3733;
-  --color-alizarin-shade-200: #7C312D;
-  --color-alizarin-shade-300: #81322E;
-  --color-alizarin-shade-400: #732F2B;
-  --color-alizarin-shade-500: #662C28;
-  --color-alizarin-shade-600: #592A25;
-  --color-alizarin-shade-700: #4B2722;
-  --color-alizarin-shade-800: #502823;
-  --color-alizarin-shade-900: #30221D;
-
+/* ── Light theme override ─────────────────────────────────────── */
+.theme-light, [data-theme='light'] {
+  --theme-bg:          #F8F5F0;
+  --theme-bg-2:        #F0ECE6;
+  --theme-bg-3:        #E8E2DA;
+  --theme-bg-4:        #E0D8CE;
+  --theme-text:        #18161A;
+  --theme-text-2:      #48403A;
+  --theme-text-3:      #504840;
+  --theme-border:      rgba(24,22,26,.12);
+  --theme-border-2:    rgba(24,22,26,.22);
+  --theme-border-3:    rgba(24,22,26,.40);
+  --theme-accent:      #8A6010;
+  --theme-accent-sec:  #2A5A20;
+  --theme-accent-ter:  #3838A0;
 }

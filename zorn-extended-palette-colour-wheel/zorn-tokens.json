@@ -1,0 +1,2135 @@
+{
+  "$description": "Zorn Colour Harmony Studio \u2014 Design Tokens (DTCG 2025.10)",
+  "$extensions": {
+    "studio": "zorn-colour-harmony",
+    "generated": "2025-09",
+    "rings": "T100\u2013T900 (tints toward Titanium White #F5F5EF) \u00b7 Base \u00b7 S100\u2013S900 (shades toward Ivory Black #231F1A)"
+  },
+  "color": {
+    "$type": "color",
+    "$description": "24-pigment extended wheel, 19 tonal rings per colour",
+    "anchor": {
+      "$description": "Fixed anchor colours \u2014 mixing targets for tints and shades",
+      "titanium-white": {
+        "$value": "#F5F5EF",
+        "$description": "Warm off-white tint anchor (#F5F5EF)"
+      },
+      "ivory-black": {
+        "$value": "#231F1A",
+        "$description": "Deep warm black shade anchor (#231F1A)"
+      }
+    },
+    "cadmium-red": {
+      "$description": "Cadmium Red \u00b7 0\u00b0 \u00b7 primary \u00b7 warm",
+      "t100": {
+        "$value": "#F0E2DB",
+        "$description": "Cadmium Red T100"
+      },
+      "t200": {
+        "$value": "#ECCFC8",
+        "$description": "Cadmium Red T200"
+      },
+      "t300": {
+        "$value": "#E8BDB4",
+        "$description": "Cadmium Red T300"
+      },
+      "t400": {
+        "$value": "#E3AAA1",
+        "$description": "Cadmium Red T400"
+      },
+      "t500": {
+        "$value": "#DE978D",
+        "$description": "Cadmium Red T500"
+      },
+      "t600": {
+        "$value": "#DA8479",
+        "$description": "Cadmium Red T600"
+      },
+      "t700": {
+        "$value": "#D67166",
+        "$description": "Cadmium Red T700"
+      },
+      "t800": {
+        "$value": "#D7786C",
+        "$description": "Cadmium Red T800"
+      },
+      "t900": {
+        "$value": "#CC4C3F",
+        "$description": "Cadmium Red T900"
+      },
+      "base": {
+        "$value": "#C8392B",
+        "$description": "Cadmium Red Base"
+      },
+      "s100": {
+        "$value": "#B83629",
+        "$description": "Cadmium Red S100"
+      },
+      "s200": {
+        "$value": "#913025",
+        "$description": "Cadmium Red S200"
+      },
+      "s300": {
+        "$value": "#963126",
+        "$description": "Cadmium Red S300"
+      },
+      "s400": {
+        "$value": "#862F24",
+        "$description": "Cadmium Red S400"
+      },
+      "s500": {
+        "$value": "#762C22",
+        "$description": "Cadmium Red S500"
+      },
+      "s600": {
+        "$value": "#652921",
+        "$description": "Cadmium Red S600"
+      },
+      "s700": {
+        "$value": "#54271F",
+        "$description": "Cadmium Red S700"
+      },
+      "s800": {
+        "$value": "#5A2820",
+        "$description": "Cadmium Red S800"
+      },
+      "s900": {
+        "$value": "#34221C",
+        "$description": "Cadmium Red S900"
+      }
+    },
+    "vermilion": {
+      "$description": "Vermilion \u00b7 15\u00b0 \u00b7 tertiary \u00b7 warm",
+      "t100": {
+        "$value": "#EFE2DC",
+        "$description": "Vermilion T100"
+      },
+      "t200": {
+        "$value": "#E8D0C8",
+        "$description": "Vermilion T200"
+      },
+      "t300": {
+        "$value": "#E2BEB5",
+        "$description": "Vermilion T300"
+      },
+      "t400": {
+        "$value": "#DCABA2",
+        "$description": "Vermilion T400"
+      },
+      "t500": {
+        "$value": "#D6988E",
+        "$description": "Vermilion T500"
+      },
+      "t600": {
+        "$value": "#CF867B",
+        "$description": "Vermilion T600"
+      },
+      "t700": {
+        "$value": "#C97468",
+        "$description": "Vermilion T700"
+      },
+      "t800": {
+        "$value": "#CB7A6E",
+        "$description": "Vermilion T800"
+      },
+      "t900": {
+        "$value": "#BC4E41",
+        "$description": "Vermilion T900"
+      },
+      "base": {
+        "$value": "#B63C2E",
+        "$description": "Vermilion Base"
+      },
+      "s100": {
+        "$value": "#A7392C",
+        "$description": "Vermilion S100"
+      },
+      "s200": {
+        "$value": "#853227",
+        "$description": "Vermilion S200"
+      },
+      "s300": {
+        "$value": "#8A3328",
+        "$description": "Vermilion S300"
+      },
+      "s400": {
+        "$value": "#7B3026",
+        "$description": "Vermilion S400"
+      },
+      "s500": {
+        "$value": "#6C2E24",
+        "$description": "Vermilion S500"
+      },
+      "s600": {
+        "$value": "#5E2B22",
+        "$description": "Vermilion S600"
+      },
+      "s700": {
+        "$value": "#4F2820",
+        "$description": "Vermilion S700"
+      },
+      "s800": {
+        "$value": "#542921",
+        "$description": "Vermilion S800"
+      },
+      "s900": {
+        "$value": "#32221C",
+        "$description": "Vermilion S900"
+      }
+    },
+    "venetian-red": {
+      "$description": "Venetian Red \u00b7 30\u00b0 \u00b7 tertiary \u00b7 warm",
+      "t100": {
+        "$value": "#EDE3DC",
+        "$description": "Venetian Red T100"
+      },
+      "t200": {
+        "$value": "#E5D1C9",
+        "$description": "Venetian Red T200"
+      },
+      "t300": {
+        "$value": "#DCBFB6",
+        "$description": "Venetian Red T300"
+      },
+      "t400": {
+        "$value": "#D4ADA3",
+        "$description": "Venetian Red T400"
+      },
+      "t500": {
+        "$value": "#CC9A90",
+        "$description": "Venetian Red T500"
+      },
+      "t600": {
+        "$value": "#C4887C",
+        "$description": "Venetian Red T600"
+      },
+      "t700": {
+        "$value": "#BC7669",
+        "$description": "Venetian Red T700"
+      },
+      "t800": {
+        "$value": "#BE7C70",
+        "$description": "Venetian Red T800"
+      },
+      "t900": {
+        "$value": "#AB5243",
+        "$description": "Venetian Red T900"
+      },
+      "base": {
+        "$value": "#A34030",
+        "$description": "Venetian Red Base"
+      },
+      "s100": {
+        "$value": "#963D2E",
+        "$description": "Venetian Red S100"
+      },
+      "s200": {
+        "$value": "#783529",
+        "$description": "Venetian Red S200"
+      },
+      "s300": {
+        "$value": "#7D3629",
+        "$description": "Venetian Red S300"
+      },
+      "s400": {
+        "$value": "#703327",
+        "$description": "Venetian Red S400"
+      },
+      "s500": {
+        "$value": "#633025",
+        "$description": "Venetian Red S500"
+      },
+      "s600": {
+        "$value": "#562C23",
+        "$description": "Venetian Red S600"
+      },
+      "s700": {
+        "$value": "#492921",
+        "$description": "Venetian Red S700"
+      },
+      "s800": {
+        "$value": "#4E2A21",
+        "$description": "Venetian Red S800"
+      },
+      "s900": {
+        "$value": "#30221C",
+        "$description": "Venetian Red S900"
+      }
+    },
+    "terra-rosa": {
+      "$description": "Terra Rosa \u00b7 45\u00b0 \u00b7 tertiary \u00b7 warm",
+      "t100": {
+        "$value": "#ECE3DB",
+        "$description": "Terra Rosa T100"
+      },
+      "t200": {
+        "$value": "#E2D2C7",
+        "$description": "Terra Rosa T200"
+      },
+      "t300": {
+        "$value": "#D9C0B3",
+        "$description": "Terra Rosa T300"
+      },
+      "t400": {
+        "$value": "#CFAF9F",
+        "$description": "Terra Rosa T400"
+      },
+      "t500": {
+        "$value": "#C69D8A",
+        "$description": "Terra Rosa T500"
+      },
+      "t600": {
+        "$value": "#BD8B76",
+        "$description": "Terra Rosa T600"
+      },
+      "t700": {
+        "$value": "#B37A62",
+        "$description": "Terra Rosa T700"
+      },
+      "t800": {
+        "$value": "#B68069",
+        "$description": "Terra Rosa T800"
+      },
+      "t900": {
+        "$value": "#A0573A",
+        "$description": "Terra Rosa T900"
+      },
+      "base": {
+        "$value": "#974526",
+        "$description": "Terra Rosa Base"
+      },
+      "s100": {
+        "$value": "#8B4125",
+        "$description": "Terra Rosa S100"
+      },
+      "s200": {
+        "$value": "#703822",
+        "$description": "Terra Rosa S200"
+      },
+      "s300": {
+        "$value": "#743A22",
+        "$description": "Terra Rosa S300"
+      },
+      "s400": {
+        "$value": "#693621",
+        "$description": "Terra Rosa S400"
+      },
+      "s500": {
+        "$value": "#5D3220",
+        "$description": "Terra Rosa S500"
+      },
+      "s600": {
+        "$value": "#512E1F",
+        "$description": "Terra Rosa S600"
+      },
+      "s700": {
+        "$value": "#462A1E",
+        "$description": "Terra Rosa S700"
+      },
+      "s800": {
+        "$value": "#4A2C1E",
+        "$description": "Terra Rosa S800"
+      },
+      "s900": {
+        "$value": "#2F231B",
+        "$description": "Terra Rosa S900"
+      }
+    },
+    "burnt-sienna": {
+      "$description": "Burnt Sienna \u00b7 60\u00b0 \u00b7 secondary \u00b7 warm",
+      "t100": {
+        "$value": "#EAE4DA",
+        "$description": "Burnt Sienna T100"
+      },
+      "t200": {
+        "$value": "#E0D3C5",
+        "$description": "Burnt Sienna T200"
+      },
+      "t300": {
+        "$value": "#D5C2B0",
+        "$description": "Burnt Sienna T300"
+      },
+      "t400": {
+        "$value": "#CBB19B",
+        "$description": "Burnt Sienna T400"
+      },
+      "t500": {
+        "$value": "#C0A086",
+        "$description": "Burnt Sienna T500"
+      },
+      "t600": {
+        "$value": "#B58E70",
+        "$description": "Burnt Sienna T600"
+      },
+      "t700": {
+        "$value": "#AB7D5B",
+        "$description": "Burnt Sienna T700"
+      },
+      "t800": {
+        "$value": "#AE8362",
+        "$description": "Burnt Sienna T800"
+      },
+      "t900": {
+        "$value": "#965B31",
+        "$description": "Burnt Sienna T900"
+      },
+      "base": {
+        "$value": "#8B4A1C",
+        "$description": "Burnt Sienna Base"
+      },
+      "s100": {
+        "$value": "#81461C",
+        "$description": "Burnt Sienna S100"
+      },
+      "s200": {
+        "$value": "#683C1B",
+        "$description": "Burnt Sienna S200"
+      },
+      "s300": {
+        "$value": "#6C3D1B",
+        "$description": "Burnt Sienna S300"
+      },
+      "s400": {
+        "$value": "#61391B",
+        "$description": "Burnt Sienna S400"
+      },
+      "s500": {
+        "$value": "#57341B",
+        "$description": "Burnt Sienna S500"
+      },
+      "s600": {
+        "$value": "#4D301B",
+        "$description": "Burnt Sienna S600"
+      },
+      "s700": {
+        "$value": "#422C1B",
+        "$description": "Burnt Sienna S700"
+      },
+      "s800": {
+        "$value": "#462D1B",
+        "$description": "Burnt Sienna S800"
+      },
+      "s900": {
+        "$value": "#2D231A",
+        "$description": "Burnt Sienna S900"
+      }
+    },
+    "raw-sienna": {
+      "$description": "Raw Sienna \u00b7 75\u00b0 \u00b7 tertiary \u00b7 warm",
+      "t100": {
+        "$value": "#EDE8DB",
+        "$description": "Raw Sienna T100"
+      },
+      "t200": {
+        "$value": "#E6DAC8",
+        "$description": "Raw Sienna T200"
+      },
+      "t300": {
+        "$value": "#DECDB4",
+        "$description": "Raw Sienna T300"
+      },
+      "t400": {
+        "$value": "#D6C0A1",
+        "$description": "Raw Sienna T400"
+      },
+      "t500": {
+        "$value": "#CEB28D",
+        "$description": "Raw Sienna T500"
+      },
+      "t600": {
+        "$value": "#C7A579",
+        "$description": "Raw Sienna T600"
+      },
+      "t700": {
+        "$value": "#BF9866",
+        "$description": "Raw Sienna T700"
+      },
+      "t800": {
+        "$value": "#C29C6C",
+        "$description": "Raw Sienna T800"
+      },
+      "t900": {
+        "$value": "#B07D3F",
+        "$description": "Raw Sienna T900"
+      },
+      "base": {
+        "$value": "#A8702B",
+        "$description": "Raw Sienna Base"
+      },
+      "s100": {
+        "$value": "#9B6829",
+        "$description": "Raw Sienna S100"
+      },
+      "s200": {
+        "$value": "#7C5525",
+        "$description": "Raw Sienna S200"
+      },
+      "s300": {
+        "$value": "#805826",
+        "$description": "Raw Sienna S300"
+      },
+      "s400": {
+        "$value": "#735024",
+        "$description": "Raw Sienna S400"
+      },
+      "s500": {
+        "$value": "#664822",
+        "$description": "Raw Sienna S500"
+      },
+      "s600": {
+        "$value": "#583F21",
+        "$description": "Raw Sienna S600"
+      },
+      "s700": {
+        "$value": "#4B371F",
+        "$description": "Raw Sienna S700"
+      },
+      "s800": {
+        "$value": "#4F3A20",
+        "$description": "Raw Sienna S800"
+      },
+      "s900": {
+        "$value": "#30271C",
+        "$description": "Raw Sienna S900"
+      }
+    },
+    "yellow-ochre": {
+      "$description": "Yellow Ochre \u00b7 90\u00b0 \u00b7 tertiary \u00b7 warm",
+      "t100": {
+        "$value": "#F0ECDD",
+        "$description": "Yellow Ochre T100"
+      },
+      "t200": {
+        "$value": "#EBE2CB",
+        "$description": "Yellow Ochre T200"
+      },
+      "t300": {
+        "$value": "#E6D9B9",
+        "$description": "Yellow Ochre T300"
+      },
+      "t400": {
+        "$value": "#E1CFA7",
+        "$description": "Yellow Ochre T400"
+      },
+      "t500": {
+        "$value": "#DCC694",
+        "$description": "Yellow Ochre T500"
+      },
+      "t600": {
+        "$value": "#D8BD82",
+        "$description": "Yellow Ochre T600"
+      },
+      "t700": {
+        "$value": "#D3B370",
+        "$description": "Yellow Ochre T700"
+      },
+      "t800": {
+        "$value": "#D4B676",
+        "$description": "Yellow Ochre T800"
+      },
+      "t900": {
+        "$value": "#C9A04C",
+        "$description": "Yellow Ochre T900"
+      },
+      "base": {
+        "$value": "#C4973A",
+        "$description": "Yellow Ochre Base"
+      },
+      "s100": {
+        "$value": "#B48B37",
+        "$description": "Yellow Ochre S100"
+      },
+      "s200": {
+        "$value": "#8E6F2F",
+        "$description": "Yellow Ochre S200"
+      },
+      "s300": {
+        "$value": "#947330",
+        "$description": "Yellow Ochre S300"
+      },
+      "s400": {
+        "$value": "#84672D",
+        "$description": "Yellow Ochre S400"
+      },
+      "s500": {
+        "$value": "#745B2A",
+        "$description": "Yellow Ochre S500"
+      },
+      "s600": {
+        "$value": "#634F27",
+        "$description": "Yellow Ochre S600"
+      },
+      "s700": {
+        "$value": "#534324",
+        "$description": "Yellow Ochre S700"
+      },
+      "s800": {
+        "$value": "#594725",
+        "$description": "Yellow Ochre S800"
+      },
+      "s900": {
+        "$value": "#332B1D",
+        "$description": "Yellow Ochre S900"
+      }
+    },
+    "aureolin": {
+      "$description": "Aureolin \u00b7 105\u00b0 \u00b7 tertiary \u00b7 warm",
+      "t100": {
+        "$value": "#F1EDE0",
+        "$description": "Aureolin T100"
+      },
+      "t200": {
+        "$value": "#EDE6D0",
+        "$description": "Aureolin T200"
+      },
+      "t300": {
+        "$value": "#E9DEC1",
+        "$description": "Aureolin T300"
+      },
+      "t400": {
+        "$value": "#E5D6B1",
+        "$description": "Aureolin T400"
+      },
+      "t500": {
+        "$value": "#E0CEA2",
+        "$description": "Aureolin T500"
+      },
+      "t600": {
+        "$value": "#DCC793",
+        "$description": "Aureolin T600"
+      },
+      "t700": {
+        "$value": "#D8BF83",
+        "$description": "Aureolin T700"
+      },
+      "t800": {
+        "$value": "#DAC288",
+        "$description": "Aureolin T800"
+      },
+      "t900": {
+        "$value": "#D0B064",
+        "$description": "Aureolin T900"
+      },
+      "base": {
+        "$value": "#CCA855",
+        "$description": "Aureolin Base"
+      },
+      "s100": {
+        "$value": "#BB9A4F",
+        "$description": "Aureolin S100"
+      },
+      "s200": {
+        "$value": "#947A41",
+        "$description": "Aureolin S200"
+      },
+      "s300": {
+        "$value": "#997F43",
+        "$description": "Aureolin S300"
+      },
+      "s400": {
+        "$value": "#88713D",
+        "$description": "Aureolin S400"
+      },
+      "s500": {
+        "$value": "#786438",
+        "$description": "Aureolin S500"
+      },
+      "s600": {
+        "$value": "#675632",
+        "$description": "Aureolin S600"
+      },
+      "s700": {
+        "$value": "#56482C",
+        "$description": "Aureolin S700"
+      },
+      "s800": {
+        "$value": "#5B4D2E",
+        "$description": "Aureolin S800"
+      },
+      "s900": {
+        "$value": "#342D20",
+        "$description": "Aureolin S900"
+      }
+    },
+    "naples-yellow": {
+      "$description": "Naples Yellow \u00b7 120\u00b0 \u00b7 primary \u00b7 warm",
+      "t100": {
+        "$value": "#F2EFE2",
+        "$description": "Naples Yellow T100"
+      },
+      "t200": {
+        "$value": "#EEE9D6",
+        "$description": "Naples Yellow T200"
+      },
+      "t300": {
+        "$value": "#EBE3C9",
+        "$description": "Naples Yellow T300"
+      },
+      "t400": {
+        "$value": "#E8DDBC",
+        "$description": "Naples Yellow T400"
+      },
+      "t500": {
+        "$value": "#E4D6B0",
+        "$description": "Naples Yellow T500"
+      },
+      "t600": {
+        "$value": "#E1D0A3",
+        "$description": "Naples Yellow T600"
+      },
+      "t700": {
+        "$value": "#DECA96",
+        "$description": "Naples Yellow T700"
+      },
+      "t800": {
+        "$value": "#DFCC9A",
+        "$description": "Naples Yellow T800"
+      },
+      "t900": {
+        "$value": "#D7BE7D",
+        "$description": "Naples Yellow T900"
+      },
+      "base": {
+        "$value": "#D4B870",
+        "$description": "Naples Yellow Base"
+      },
+      "s100": {
+        "$value": "#C2A967",
+        "$description": "Naples Yellow S100"
+      },
+      "s200": {
+        "$value": "#998553",
+        "$description": "Naples Yellow S200"
+      },
+      "s300": {
+        "$value": "#9F8A56",
+        "$description": "Naples Yellow S300"
+      },
+      "s400": {
+        "$value": "#8D7B4E",
+        "$description": "Naples Yellow S400"
+      },
+      "s500": {
+        "$value": "#7C6C45",
+        "$description": "Naples Yellow S500"
+      },
+      "s600": {
+        "$value": "#6A5C3C",
+        "$description": "Naples Yellow S600"
+      },
+      "s700": {
+        "$value": "#584D34",
+        "$description": "Naples Yellow S700"
+      },
+      "s800": {
+        "$value": "#5E5237",
+        "$description": "Naples Yellow S800"
+      },
+      "s900": {
+        "$value": "#352E23",
+        "$description": "Naples Yellow S900"
+      }
+    },
+    "olive-earth": {
+      "$description": "Olive Earth \u00b7 135\u00b0 \u00b7 tertiary \u00b7 warm",
+      "t100": {
+        "$value": "#EDEDE2",
+        "$description": "Olive Earth T100"
+      },
+      "t200": {
+        "$value": "#E5E4D4",
+        "$description": "Olive Earth T200"
+      },
+      "t300": {
+        "$value": "#DEDCC6",
+        "$description": "Olive Earth T300"
+      },
+      "t400": {
+        "$value": "#D6D4B9",
+        "$description": "Olive Earth T400"
+      },
+      "t500": {
+        "$value": "#CECCAC",
+        "$description": "Olive Earth T500"
+      },
+      "t600": {
+        "$value": "#C6C39E",
+        "$description": "Olive Earth T600"
+      },
+      "t700": {
+        "$value": "#BEBB90",
+        "$description": "Olive Earth T700"
+      },
+      "t800": {
+        "$value": "#C1BE95",
+        "$description": "Olive Earth T800"
+      },
+      "t900": {
+        "$value": "#AFAA76",
+        "$description": "Olive Earth T900"
+      },
+      "base": {
+        "$value": "#A7A268",
+        "$description": "Olive Earth Base"
+      },
+      "s100": {
+        "$value": "#9A9560",
+        "$description": "Olive Earth S100"
+      },
+      "s200": {
+        "$value": "#7B764E",
+        "$description": "Olive Earth S200"
+      },
+      "s300": {
+        "$value": "#7F7B51",
+        "$description": "Olive Earth S300"
+      },
+      "s400": {
+        "$value": "#726E49",
+        "$description": "Olive Earth S400"
+      },
+      "s500": {
+        "$value": "#656041",
+        "$description": "Olive Earth S500"
+      },
+      "s600": {
+        "$value": "#585339",
+        "$description": "Olive Earth S600"
+      },
+      "s700": {
+        "$value": "#4B4631",
+        "$description": "Olive Earth S700"
+      },
+      "s800": {
+        "$value": "#4F4B34",
+        "$description": "Olive Earth S800"
+      },
+      "s900": {
+        "$value": "#302C22",
+        "$description": "Olive Earth S900"
+      }
+    },
+    "terre-verte": {
+      "$description": "Terre Verte \u00b7 150\u00b0 \u00b7 tertiary \u00b7 cool",
+      "t100": {
+        "$value": "#E9EAE1",
+        "$description": "Terre Verte T100"
+      },
+      "t200": {
+        "$value": "#DCE0D2",
+        "$description": "Terre Verte T200"
+      },
+      "t300": {
+        "$value": "#D0D5C4",
+        "$description": "Terre Verte T300"
+      },
+      "t400": {
+        "$value": "#C4CBB6",
+        "$description": "Terre Verte T400"
+      },
+      "t500": {
+        "$value": "#B8C0A8",
+        "$description": "Terre Verte T500"
+      },
+      "t600": {
+        "$value": "#ABB599",
+        "$description": "Terre Verte T600"
+      },
+      "t700": {
+        "$value": "#9FAB8B",
+        "$description": "Terre Verte T700"
+      },
+      "t800": {
+        "$value": "#A3AE90",
+        "$description": "Terre Verte T800"
+      },
+      "t900": {
+        "$value": "#86966E",
+        "$description": "Terre Verte T900"
+      },
+      "base": {
+        "$value": "#7A8B60",
+        "$description": "Terre Verte Base"
+      },
+      "s100": {
+        "$value": "#718059",
+        "$description": "Terre Verte S100"
+      },
+      "s200": {
+        "$value": "#5D6749",
+        "$description": "Terre Verte S200"
+      },
+      "s300": {
+        "$value": "#606B4B",
+        "$description": "Terre Verte S300"
+      },
+      "s400": {
+        "$value": "#576044",
+        "$description": "Terre Verte S400"
+      },
+      "s500": {
+        "$value": "#4E553D",
+        "$description": "Terre Verte S500"
+      },
+      "s600": {
+        "$value": "#464A36",
+        "$description": "Terre Verte S600"
+      },
+      "s700": {
+        "$value": "#3D3F2F",
+        "$description": "Terre Verte S700"
+      },
+      "s800": {
+        "$value": "#404331",
+        "$description": "Terre Verte S800"
+      },
+      "s900": {
+        "$value": "#2C2A21",
+        "$description": "Terre Verte S900"
+      }
+    },
+    "sage": {
+      "$description": "Sage \u00b7 165\u00b0 \u00b7 tertiary \u00b7 cool",
+      "t100": {
+        "$value": "#E6EAE1",
+        "$description": "Sage T100"
+      },
+      "t200": {
+        "$value": "#D8DED3",
+        "$description": "Sage T200"
+      },
+      "t300": {
+        "$value": "#CAD2C5",
+        "$description": "Sage T300"
+      },
+      "t400": {
+        "$value": "#BBC7B7",
+        "$description": "Sage T400"
+      },
+      "t500": {
+        "$value": "#ACBCAA",
+        "$description": "Sage T500"
+      },
+      "t600": {
+        "$value": "#9EB09C",
+        "$description": "Sage T600"
+      },
+      "t700": {
+        "$value": "#90A48E",
+        "$description": "Sage T700"
+      },
+      "t800": {
+        "$value": "#94A892",
+        "$description": "Sage T800"
+      },
+      "t900": {
+        "$value": "#728E72",
+        "$description": "Sage T900"
+      },
+      "base": {
+        "$value": "#648264",
+        "$description": "Sage Base"
+      },
+      "s100": {
+        "$value": "#5E785D",
+        "$description": "Sage S100"
+      },
+      "s200": {
+        "$value": "#4E614B",
+        "$description": "Sage S200"
+      },
+      "s300": {
+        "$value": "#50644E",
+        "$description": "Sage S300"
+      },
+      "s400": {
+        "$value": "#4A5A46",
+        "$description": "Sage S400"
+      },
+      "s500": {
+        "$value": "#44503F",
+        "$description": "Sage S500"
+      },
+      "s600": {
+        "$value": "#3D4738",
+        "$description": "Sage S600"
+      },
+      "s700": {
+        "$value": "#363D30",
+        "$description": "Sage S700"
+      },
+      "s800": {
+        "$value": "#394033",
+        "$description": "Sage S800"
+      },
+      "s900": {
+        "$value": "#2A2921",
+        "$description": "Sage S900"
+      }
+    },
+    "oxide-green": {
+      "$description": "Oxide Green \u00b7 180\u00b0 \u00b7 secondary \u00b7 cool",
+      "t100": {
+        "$value": "#E4E9E2",
+        "$description": "Oxide Green T100"
+      },
+      "t200": {
+        "$value": "#D4DCD4",
+        "$description": "Oxide Green T200"
+      },
+      "t300": {
+        "$value": "#C3D0C6",
+        "$description": "Oxide Green T300"
+      },
+      "t400": {
+        "$value": "#B2C4B9",
+        "$description": "Oxide Green T400"
+      },
+      "t500": {
+        "$value": "#A2B8AC",
+        "$description": "Oxide Green T500"
+      },
+      "t600": {
+        "$value": "#91AB9E",
+        "$description": "Oxide Green T600"
+      },
+      "t700": {
+        "$value": "#809F90",
+        "$description": "Oxide Green T700"
+      },
+      "t800": {
+        "$value": "#86A395",
+        "$description": "Oxide Green T800"
+      },
+      "t900": {
+        "$value": "#5F8676",
+        "$description": "Oxide Green T900"
+      },
+      "base": {
+        "$value": "#4E7A68",
+        "$description": "Oxide Green Base"
+      },
+      "s100": {
+        "$value": "#4A7160",
+        "$description": "Oxide Green S100"
+      },
+      "s200": {
+        "$value": "#405C4E",
+        "$description": "Oxide Green S200"
+      },
+      "s300": {
+        "$value": "#415F51",
+        "$description": "Oxide Green S300"
+      },
+      "s400": {
+        "$value": "#3D5649",
+        "$description": "Oxide Green S400"
+      },
+      "s500": {
+        "$value": "#384C41",
+        "$description": "Oxide Green S500"
+      },
+      "s600": {
+        "$value": "#344339",
+        "$description": "Oxide Green S600"
+      },
+      "s700": {
+        "$value": "#303A31",
+        "$description": "Oxide Green S700"
+      },
+      "s800": {
+        "$value": "#313D34",
+        "$description": "Oxide Green S800"
+      },
+      "s900": {
+        "$value": "#272822",
+        "$description": "Oxide Green S900"
+      }
+    },
+    "viridian": {
+      "$description": "Viridian \u00b7 195\u00b0 \u00b7 tertiary \u00b7 cool",
+      "t100": {
+        "$value": "#E4E8E3",
+        "$description": "Viridian T100"
+      },
+      "t200": {
+        "$value": "#D4DBD7",
+        "$description": "Viridian T200"
+      },
+      "t300": {
+        "$value": "#C3CECA",
+        "$description": "Viridian T300"
+      },
+      "t400": {
+        "$value": "#B2C1BE",
+        "$description": "Viridian T400"
+      },
+      "t500": {
+        "$value": "#A2B4B2",
+        "$description": "Viridian T500"
+      },
+      "t600": {
+        "$value": "#91A6A6",
+        "$description": "Viridian T600"
+      },
+      "t700": {
+        "$value": "#80999A",
+        "$description": "Viridian T700"
+      },
+      "t800": {
+        "$value": "#869E9E",
+        "$description": "Viridian T800"
+      },
+      "t900": {
+        "$value": "#5F7F81",
+        "$description": "Viridian T900"
+      },
+      "base": {
+        "$value": "#4E7275",
+        "$description": "Viridian Base"
+      },
+      "s100": {
+        "$value": "#4A6A6C",
+        "$description": "Viridian S100"
+      },
+      "s200": {
+        "$value": "#405657",
+        "$description": "Viridian S200"
+      },
+      "s300": {
+        "$value": "#41595A",
+        "$description": "Viridian S300"
+      },
+      "s400": {
+        "$value": "#3D5151",
+        "$description": "Viridian S400"
+      },
+      "s500": {
+        "$value": "#384848",
+        "$description": "Viridian S500"
+      },
+      "s600": {
+        "$value": "#34403E",
+        "$description": "Viridian S600"
+      },
+      "s700": {
+        "$value": "#303835",
+        "$description": "Viridian S700"
+      },
+      "s800": {
+        "$value": "#313B38",
+        "$description": "Viridian S800"
+      },
+      "s900": {
+        "$value": "#272723",
+        "$description": "Viridian S900"
+      }
+    },
+    "cerulean-grey": {
+      "$description": "Cerulean Grey \u00b7 210\u00b0 \u00b7 tertiary \u00b7 cool",
+      "t100": {
+        "$value": "#E4E7E4",
+        "$description": "Cerulean Grey T100"
+      },
+      "t200": {
+        "$value": "#D4D9D9",
+        "$description": "Cerulean Grey T200"
+      },
+      "t300": {
+        "$value": "#C3CCCE",
+        "$description": "Cerulean Grey T300"
+      },
+      "t400": {
+        "$value": "#B2BEC3",
+        "$description": "Cerulean Grey T400"
+      },
+      "t500": {
+        "$value": "#A2B0B8",
+        "$description": "Cerulean Grey T500"
+      },
+      "t600": {
+        "$value": "#91A2AE",
+        "$description": "Cerulean Grey T600"
+      },
+      "t700": {
+        "$value": "#8094A3",
+        "$description": "Cerulean Grey T700"
+      },
+      "t800": {
+        "$value": "#8699A6",
+        "$description": "Cerulean Grey T800"
+      },
+      "t900": {
+        "$value": "#5F798D",
+        "$description": "Cerulean Grey T900"
+      },
+      "base": {
+        "$value": "#4E6B82",
+        "$description": "Cerulean Grey Base"
+      },
+      "s100": {
+        "$value": "#4A6378",
+        "$description": "Cerulean Grey S100"
+      },
+      "s200": {
+        "$value": "#40525F",
+        "$description": "Cerulean Grey S200"
+      },
+      "s300": {
+        "$value": "#415463",
+        "$description": "Cerulean Grey S300"
+      },
+      "s400": {
+        "$value": "#3D4D58",
+        "$description": "Cerulean Grey S400"
+      },
+      "s500": {
+        "$value": "#38454E",
+        "$description": "Cerulean Grey S500"
+      },
+      "s600": {
+        "$value": "#343D44",
+        "$description": "Cerulean Grey S600"
+      },
+      "s700": {
+        "$value": "#303639",
+        "$description": "Cerulean Grey S700"
+      },
+      "s800": {
+        "$value": "#31383D",
+        "$description": "Cerulean Grey S800"
+      },
+      "s900": {
+        "$value": "#272724",
+        "$description": "Cerulean Grey S900"
+      }
+    },
+    "slate": {
+      "$description": "Slate \u00b7 225\u00b0 \u00b7 tertiary \u00b7 cool",
+      "t100": {
+        "$value": "#E3E6E3",
+        "$description": "Slate T100"
+      },
+      "t200": {
+        "$value": "#D0D6D7",
+        "$description": "Slate T200"
+      },
+      "t300": {
+        "$value": "#BEC6CA",
+        "$description": "Slate T300"
+      },
+      "t400": {
+        "$value": "#ABB7BE",
+        "$description": "Slate T400"
+      },
+      "t500": {
+        "$value": "#99A8B2",
+        "$description": "Slate T500"
+      },
+      "t600": {
+        "$value": "#8798A6",
+        "$description": "Slate T600"
+      },
+      "t700": {
+        "$value": "#74889A",
+        "$description": "Slate T700"
+      },
+      "t800": {
+        "$value": "#7A8E9E",
+        "$description": "Slate T800"
+      },
+      "t900": {
+        "$value": "#4F6A81",
+        "$description": "Slate T900"
+      },
+      "base": {
+        "$value": "#3D5A75",
+        "$description": "Slate Base"
+      },
+      "s100": {
+        "$value": "#3A546C",
+        "$description": "Slate S100"
+      },
+      "s200": {
+        "$value": "#344657",
+        "$description": "Slate S200"
+      },
+      "s300": {
+        "$value": "#35485A",
+        "$description": "Slate S300"
+      },
+      "s400": {
+        "$value": "#334251",
+        "$description": "Slate S400"
+      },
+      "s500": {
+        "$value": "#303C48",
+        "$description": "Slate S500"
+      },
+      "s600": {
+        "$value": "#2D373E",
+        "$description": "Slate S600"
+      },
+      "s700": {
+        "$value": "#2B3135",
+        "$description": "Slate S700"
+      },
+      "s800": {
+        "$value": "#2C3338",
+        "$description": "Slate S800"
+      },
+      "s900": {
+        "$value": "#262523",
+        "$description": "Slate S900"
+      }
+    },
+    "prussian-blue": {
+      "$description": "Prussian Blue \u00b7 240\u00b0 \u00b7 primary \u00b7 cool",
+      "t100": {
+        "$value": "#E1E4E2",
+        "$description": "Prussian Blue T100"
+      },
+      "t200": {
+        "$value": "#CDD2D4",
+        "$description": "Prussian Blue T200"
+      },
+      "t300": {
+        "$value": "#B9C1C6",
+        "$description": "Prussian Blue T300"
+      },
+      "t400": {
+        "$value": "#A5B0B9",
+        "$description": "Prussian Blue T400"
+      },
+      "t500": {
+        "$value": "#909EAC",
+        "$description": "Prussian Blue T500"
+      },
+      "t600": {
+        "$value": "#7C8D9E",
+        "$description": "Prussian Blue T600"
+      },
+      "t700": {
+        "$value": "#687C90",
+        "$description": "Prussian Blue T700"
+      },
+      "t800": {
+        "$value": "#6F8295",
+        "$description": "Prussian Blue T800"
+      },
+      "t900": {
+        "$value": "#405976",
+        "$description": "Prussian Blue T900"
+      },
+      "base": {
+        "$value": "#2C4868",
+        "$description": "Prussian Blue Base"
+      },
+      "s100": {
+        "$value": "#2B4460",
+        "$description": "Prussian Blue S100"
+      },
+      "s200": {
+        "$value": "#293A4E",
+        "$description": "Prussian Blue S200"
+      },
+      "s300": {
+        "$value": "#293C51",
+        "$description": "Prussian Blue S300"
+      },
+      "s400": {
+        "$value": "#283849",
+        "$description": "Prussian Blue S400"
+      },
+      "s500": {
+        "$value": "#283441",
+        "$description": "Prussian Blue S500"
+      },
+      "s600": {
+        "$value": "#272F39",
+        "$description": "Prussian Blue S600"
+      },
+      "s700": {
+        "$value": "#262B31",
+        "$description": "Prussian Blue S700"
+      },
+      "s800": {
+        "$value": "#262D34",
+        "$description": "Prussian Blue S800"
+      },
+      "s900": {
+        "$value": "#242322",
+        "$description": "Prussian Blue S900"
+      }
+    },
+    "indigo": {
+      "$description": "Indigo \u00b7 255\u00b0 \u00b7 tertiary \u00b7 cool",
+      "t100": {
+        "$value": "#E2E4E2",
+        "$description": "Indigo T100"
+      },
+      "t200": {
+        "$value": "#CED2D6",
+        "$description": "Indigo T200"
+      },
+      "t300": {
+        "$value": "#BBC1C9",
+        "$description": "Indigo T300"
+      },
+      "t400": {
+        "$value": "#A8B0BC",
+        "$description": "Indigo T400"
+      },
+      "t500": {
+        "$value": "#949EB0",
+        "$description": "Indigo T500"
+      },
+      "t600": {
+        "$value": "#818DA3",
+        "$description": "Indigo T600"
+      },
+      "t700": {
+        "$value": "#6E7C96",
+        "$description": "Indigo T700"
+      },
+      "t800": {
+        "$value": "#74829A",
+        "$description": "Indigo T800"
+      },
+      "t900": {
+        "$value": "#47597D",
+        "$description": "Indigo T900"
+      },
+      "base": {
+        "$value": "#344870",
+        "$description": "Indigo Base"
+      },
+      "s100": {
+        "$value": "#324467",
+        "$description": "Indigo S100"
+      },
+      "s200": {
+        "$value": "#2E3A53",
+        "$description": "Indigo S200"
+      },
+      "s300": {
+        "$value": "#2F3C56",
+        "$description": "Indigo S300"
+      },
+      "s400": {
+        "$value": "#2D384E",
+        "$description": "Indigo S400"
+      },
+      "s500": {
+        "$value": "#2C3445",
+        "$description": "Indigo S500"
+      },
+      "s600": {
+        "$value": "#2A2F3C",
+        "$description": "Indigo S600"
+      },
+      "s700": {
+        "$value": "#282B34",
+        "$description": "Indigo S700"
+      },
+      "s800": {
+        "$value": "#292D37",
+        "$description": "Indigo S800"
+      },
+      "s900": {
+        "$value": "#252323",
+        "$description": "Indigo S900"
+      }
+    },
+    "ultramarine": {
+      "$description": "Ultramarine \u00b7 270\u00b0 \u00b7 tertiary \u00b7 cool",
+      "t100": {
+        "$value": "#E2E4E3",
+        "$description": "Ultramarine T100"
+      },
+      "t200": {
+        "$value": "#D0D2D7",
+        "$description": "Ultramarine T200"
+      },
+      "t300": {
+        "$value": "#BEC1CB",
+        "$description": "Ultramarine T300"
+      },
+      "t400": {
+        "$value": "#ABB0BF",
+        "$description": "Ultramarine T400"
+      },
+      "t500": {
+        "$value": "#989EB4",
+        "$description": "Ultramarine T500"
+      },
+      "t600": {
+        "$value": "#868DA8",
+        "$description": "Ultramarine T600"
+      },
+      "t700": {
+        "$value": "#747C9C",
+        "$description": "Ultramarine T700"
+      },
+      "t800": {
+        "$value": "#7A82A0",
+        "$description": "Ultramarine T800"
+      },
+      "t900": {
+        "$value": "#4E5984",
+        "$description": "Ultramarine T900"
+      },
+      "base": {
+        "$value": "#3C4878",
+        "$description": "Ultramarine Base"
+      },
+      "s100": {
+        "$value": "#3A446F",
+        "$description": "Ultramarine S100"
+      },
+      "s200": {
+        "$value": "#343A59",
+        "$description": "Ultramarine S200"
+      },
+      "s300": {
+        "$value": "#343C5C",
+        "$description": "Ultramarine S300"
+      },
+      "s400": {
+        "$value": "#323852",
+        "$description": "Ultramarine S400"
+      },
+      "s500": {
+        "$value": "#303449",
+        "$description": "Ultramarine S500"
+      },
+      "s600": {
+        "$value": "#2D2F40",
+        "$description": "Ultramarine S600"
+      },
+      "s700": {
+        "$value": "#2A2B36",
+        "$description": "Ultramarine S700"
+      },
+      "s800": {
+        "$value": "#2B2D39",
+        "$description": "Ultramarine S800"
+      },
+      "s900": {
+        "$value": "#262323",
+        "$description": "Ultramarine S900"
+      }
+    },
+    "dioxazine": {
+      "$description": "Dioxazine \u00b7 285\u00b0 \u00b7 tertiary \u00b7 cool",
+      "t100": {
+        "$value": "#E5E3E2",
+        "$description": "Dioxazine T100"
+      },
+      "t200": {
+        "$value": "#D5D1D4",
+        "$description": "Dioxazine T200"
+      },
+      "t300": {
+        "$value": "#C4BFC6",
+        "$description": "Dioxazine T300"
+      },
+      "t400": {
+        "$value": "#B4ADB9",
+        "$description": "Dioxazine T400"
+      },
+      "t500": {
+        "$value": "#A49CAC",
+        "$description": "Dioxazine T500"
+      },
+      "t600": {
+        "$value": "#948A9E",
+        "$description": "Dioxazine T600"
+      },
+      "t700": {
+        "$value": "#847890",
+        "$description": "Dioxazine T700"
+      },
+      "t800": {
+        "$value": "#897E95",
+        "$description": "Dioxazine T800"
+      },
+      "t900": {
+        "$value": "#635476",
+        "$description": "Dioxazine T900"
+      },
+      "base": {
+        "$value": "#534268",
+        "$description": "Dioxazine Base"
+      },
+      "s100": {
+        "$value": "#4E3E60",
+        "$description": "Dioxazine S100"
+      },
+      "s200": {
+        "$value": "#43364E",
+        "$description": "Dioxazine S200"
+      },
+      "s300": {
+        "$value": "#453851",
+        "$description": "Dioxazine S300"
+      },
+      "s400": {
+        "$value": "#403449",
+        "$description": "Dioxazine S400"
+      },
+      "s500": {
+        "$value": "#3B3041",
+        "$description": "Dioxazine S500"
+      },
+      "s600": {
+        "$value": "#362D39",
+        "$description": "Dioxazine S600"
+      },
+      "s700": {
+        "$value": "#312A31",
+        "$description": "Dioxazine S700"
+      },
+      "s800": {
+        "$value": "#332B34",
+        "$description": "Dioxazine S800"
+      },
+      "s900": {
+        "$value": "#282222",
+        "$description": "Dioxazine S900"
+      }
+    },
+    "mars-violet": {
+      "$description": "Mars Violet \u00b7 300\u00b0 \u00b7 secondary \u00b7 cool",
+      "t100": {
+        "$value": "#E7E3E0",
+        "$description": "Mars Violet T100"
+      },
+      "t200": {
+        "$value": "#D9D0D1",
+        "$description": "Mars Violet T200"
+      },
+      "t300": {
+        "$value": "#CBBEC2",
+        "$description": "Mars Violet T300"
+      },
+      "t400": {
+        "$value": "#BDABB3",
+        "$description": "Mars Violet T400"
+      },
+      "t500": {
+        "$value": "#B099A4",
+        "$description": "Mars Violet T500"
+      },
+      "t600": {
+        "$value": "#A28794",
+        "$description": "Mars Violet T600"
+      },
+      "t700": {
+        "$value": "#947485",
+        "$description": "Mars Violet T700"
+      },
+      "t800": {
+        "$value": "#987A8A",
+        "$description": "Mars Violet T800"
+      },
+      "t900": {
+        "$value": "#784F67",
+        "$description": "Mars Violet T900"
+      },
+      "base": {
+        "$value": "#6A3D58",
+        "$description": "Mars Violet Base"
+      },
+      "s100": {
+        "$value": "#633A52",
+        "$description": "Mars Violet S100"
+      },
+      "s200": {
+        "$value": "#523343",
+        "$description": "Mars Violet S200"
+      },
+      "s300": {
+        "$value": "#553445",
+        "$description": "Mars Violet S300"
+      },
+      "s400": {
+        "$value": "#4E313F",
+        "$description": "Mars Violet S400"
+      },
+      "s500": {
+        "$value": "#462E39",
+        "$description": "Mars Violet S500"
+      },
+      "s600": {
+        "$value": "#3F2B33",
+        "$description": "Mars Violet S600"
+      },
+      "s700": {
+        "$value": "#38282D",
+        "$description": "Mars Violet S700"
+      },
+      "s800": {
+        "$value": "#3B292F",
+        "$description": "Mars Violet S800"
+      },
+      "s900": {
+        "$value": "#2A2220",
+        "$description": "Mars Violet S900"
+      }
+    },
+    "purple-madder": {
+      "$description": "Purple Madder \u00b7 315\u00b0 \u00b7 tertiary \u00b7 cool",
+      "t100": {
+        "$value": "#E9E2DF",
+        "$description": "Purple Madder T100"
+      },
+      "t200": {
+        "$value": "#DCD0CF",
+        "$description": "Purple Madder T200"
+      },
+      "t300": {
+        "$value": "#D0BEBE",
+        "$description": "Purple Madder T300"
+      },
+      "t400": {
+        "$value": "#C4ABAE",
+        "$description": "Purple Madder T400"
+      },
+      "t500": {
+        "$value": "#B8989E",
+        "$description": "Purple Madder T500"
+      },
+      "t600": {
+        "$value": "#AB868E",
+        "$description": "Purple Madder T600"
+      },
+      "t700": {
+        "$value": "#9F747E",
+        "$description": "Purple Madder T700"
+      },
+      "t800": {
+        "$value": "#A37A83",
+        "$description": "Purple Madder T800"
+      },
+      "t900": {
+        "$value": "#864E5D",
+        "$description": "Purple Madder T900"
+      },
+      "base": {
+        "$value": "#7A3C4D",
+        "$description": "Purple Madder Base"
+      },
+      "s100": {
+        "$value": "#713948",
+        "$description": "Purple Madder S100"
+      },
+      "s200": {
+        "$value": "#5D323C",
+        "$description": "Purple Madder S200"
+      },
+      "s300": {
+        "$value": "#60333E",
+        "$description": "Purple Madder S300"
+      },
+      "s400": {
+        "$value": "#573039",
+        "$description": "Purple Madder S400"
+      },
+      "s500": {
+        "$value": "#4E2E34",
+        "$description": "Purple Madder S500"
+      },
+      "s600": {
+        "$value": "#462B2E",
+        "$description": "Purple Madder S600"
+      },
+      "s700": {
+        "$value": "#3D2829",
+        "$description": "Purple Madder S700"
+      },
+      "s800": {
+        "$value": "#40292B",
+        "$description": "Purple Madder S800"
+      },
+      "s900": {
+        "$value": "#2C221F",
+        "$description": "Purple Madder S900"
+      }
+    },
+    "caput-mortuum": {
+      "$description": "Caput Mortuum \u00b7 330\u00b0 \u00b7 tertiary \u00b7 warm",
+      "t100": {
+        "$value": "#EAE2DE",
+        "$description": "Caput Mortuum T100"
+      },
+      "t200": {
+        "$value": "#E0D0CC",
+        "$description": "Caput Mortuum T200"
+      },
+      "t300": {
+        "$value": "#D5BDBB",
+        "$description": "Caput Mortuum T300"
+      },
+      "t400": {
+        "$value": "#CAAAAA",
+        "$description": "Caput Mortuum T400"
+      },
+      "t500": {
+        "$value": "#C09898",
+        "$description": "Caput Mortuum T500"
+      },
+      "t600": {
+        "$value": "#B58587",
+        "$description": "Caput Mortuum T600"
+      },
+      "t700": {
+        "$value": "#AA7276",
+        "$description": "Caput Mortuum T700"
+      },
+      "t800": {
+        "$value": "#AE787C",
+        "$description": "Caput Mortuum T800"
+      },
+      "t900": {
+        "$value": "#954D53",
+        "$description": "Caput Mortuum T900"
+      },
+      "base": {
+        "$value": "#8A3A42",
+        "$description": "Caput Mortuum Base"
+      },
+      "s100": {
+        "$value": "#80373E",
+        "$description": "Caput Mortuum S100"
+      },
+      "s200": {
+        "$value": "#683135",
+        "$description": "Caput Mortuum S200"
+      },
+      "s300": {
+        "$value": "#6B3236",
+        "$description": "Caput Mortuum S300"
+      },
+      "s400": {
+        "$value": "#612F32",
+        "$description": "Caput Mortuum S400"
+      },
+      "s500": {
+        "$value": "#562C2E",
+        "$description": "Caput Mortuum S500"
+      },
+      "s600": {
+        "$value": "#4C2A2A",
+        "$description": "Caput Mortuum S600"
+      },
+      "s700": {
+        "$value": "#422726",
+        "$description": "Caput Mortuum S700"
+      },
+      "s800": {
+        "$value": "#452827",
+        "$description": "Caput Mortuum S800"
+      },
+      "s900": {
+        "$value": "#2D221E",
+        "$description": "Caput Mortuum S900"
+      }
+    },
+    "alizarin": {
+      "$description": "Alizarin \u00b7 345\u00b0 \u00b7 tertiary \u00b7 warm",
+      "t100": {
+        "$value": "#EDE2DC",
+        "$description": "Alizarin T100"
+      },
+      "t200": {
+        "$value": "#E6D0CA",
+        "$description": "Alizarin T200"
+      },
+      "t300": {
+        "$value": "#DEBDB8",
+        "$description": "Alizarin T300"
+      },
+      "t400": {
+        "$value": "#D7AAA5",
+        "$description": "Alizarin T400"
+      },
+      "t500": {
+        "$value": "#CF9892",
+        "$description": "Alizarin T500"
+      },
+      "t600": {
+        "$value": "#C78580",
+        "$description": "Alizarin T600"
+      },
+      "t700": {
+        "$value": "#C0726E",
+        "$description": "Alizarin T700"
+      },
+      "t800": {
+        "$value": "#C27874",
+        "$description": "Alizarin T800"
+      },
+      "t900": {
+        "$value": "#B14D48",
+        "$description": "Alizarin T900"
+      },
+      "base": {
+        "$value": "#A93A36",
+        "$description": "Alizarin Base"
+      },
+      "s100": {
+        "$value": "#9C3733",
+        "$description": "Alizarin S100"
+      },
+      "s200": {
+        "$value": "#7C312D",
+        "$description": "Alizarin S200"
+      },
+      "s300": {
+        "$value": "#81322E",
+        "$description": "Alizarin S300"
+      },
+      "s400": {
+        "$value": "#732F2B",
+        "$description": "Alizarin S400"
+      },
+      "s500": {
+        "$value": "#662C28",
+        "$description": "Alizarin S500"
+      },
+      "s600": {
+        "$value": "#592A25",
+        "$description": "Alizarin S600"
+      },
+      "s700": {
+        "$value": "#4B2722",
+        "$description": "Alizarin S700"
+      },
+      "s800": {
+        "$value": "#502823",
+        "$description": "Alizarin S800"
+      },
+      "s900": {
+        "$value": "#30221D",
+        "$description": "Alizarin S900"
+      }
+    }
+  },
+  "zorn": {
+    "$description": "Semantic palette aliases for traditional and theoretical Zorn palettes",
+    "warm": {
+      "$type": "color",
+      "$description": "Traditional Zorn warm palette \u2014 achievable mix arc of Vermilion + Yellow Ochre + Titanium White + Ivory Black (0\u00b0\u2013120\u00b0)",
+      "titanium-white": {
+        "$value": "{color.anchor.titanium-white}",
+        "$description": "White mixing anchor"
+      },
+      "ivory-black": {
+        "$value": "{color.anchor.ivory-black}",
+        "$description": "Black mixing anchor"
+      },
+      "cadmium-red": {
+        "$value": "{color.cadmium-red.base}",
+        "$description": "Zorn warm \u2014 Cadmium Red at 0\u00b0"
+      },
+      "vermilion": {
+        "$value": "{color.vermilion.base}",
+        "$description": "Zorn warm \u2014 Vermilion at 15\u00b0"
+      },
+      "venetian-red": {
+        "$value": "{color.venetian-red.base}",
+        "$description": "Zorn warm \u2014 Venetian Red at 30\u00b0"
+      },
+      "terra-rosa": {
+        "$value": "{color.terra-rosa.base}",
+        "$description": "Zorn warm \u2014 Terra Rosa at 45\u00b0"
+      },
+      "burnt-sienna": {
+        "$value": "{color.burnt-sienna.base}",
+        "$description": "Zorn warm \u2014 Burnt Sienna at 60\u00b0"
+      },
+      "raw-sienna": {
+        "$value": "{color.raw-sienna.base}",
+        "$description": "Zorn warm \u2014 Raw Sienna at 75\u00b0"
+      },
+      "yellow-ochre": {
+        "$value": "{color.yellow-ochre.base}",
+        "$description": "Zorn warm \u2014 Yellow Ochre at 90\u00b0"
+      },
+      "aureolin": {
+        "$value": "{color.aureolin.base}",
+        "$description": "Zorn warm \u2014 Aureolin at 105\u00b0"
+      },
+      "naples-yellow": {
+        "$value": "{color.naples-yellow.base}",
+        "$description": "Zorn warm \u2014 Naples Yellow at 120\u00b0"
+      }
+    },
+    "cool": {
+      "$type": "color",
+      "$description": "Theoretical Zorn cool palette \u2014 achievable mix arc of Prussian Blue + Alizarin + Indigo + Titanium White + Ivory Black (210\u00b0\u2013345\u00b0). Anchored on #2D5FA0 \u2192 Slate, #9B1A30 \u2192 Alizarin, #3E5360 \u2192 Indigo.",
+      "titanium-white": {
+        "$value": "{color.anchor.titanium-white}",
+        "$description": "White mixing anchor"
+      },
+      "ivory-black": {
+        "$value": "{color.anchor.ivory-black}",
+        "$description": "Black mixing anchor"
+      },
+      "cerulean-grey": {
+        "$value": "{color.cerulean-grey.base}",
+        "$description": "Zorn cool \u2014 Cerulean Grey at 210\u00b0"
+      },
+      "slate": {
+        "$value": "{color.slate.base}",
+        "$description": "Zorn cool \u2014 Slate at 225\u00b0"
+      },
+      "prussian-blue": {
+        "$value": "{color.prussian-blue.base}",
+        "$description": "Zorn cool \u2014 Prussian Blue at 240\u00b0"
+      },
+      "indigo": {
+        "$value": "{color.indigo.base}",
+        "$description": "Zorn cool \u2014 Indigo at 255\u00b0"
+      },
+      "ultramarine": {
+        "$value": "{color.ultramarine.base}",
+        "$description": "Zorn cool \u2014 Ultramarine at 270\u00b0"
+      },
+      "dioxazine": {
+        "$value": "{color.dioxazine.base}",
+        "$description": "Zorn cool \u2014 Dioxazine at 285\u00b0"
+      },
+      "mars-violet": {
+        "$value": "{color.mars-violet.base}",
+        "$description": "Zorn cool \u2014 Mars Violet at 300\u00b0"
+      },
+      "purple-madder": {
+        "$value": "{color.purple-madder.base}",
+        "$description": "Zorn cool \u2014 Purple Madder at 315\u00b0"
+      },
+      "caput-mortuum": {
+        "$value": "{color.caput-mortuum.base}",
+        "$description": "Zorn cool \u2014 Caput Mortuum at 330\u00b0"
+      },
+      "alizarin": {
+        "$value": "{color.alizarin.base}",
+        "$description": "Zorn cool \u2014 Alizarin at 345\u00b0"
+      }
+    }
+  },
+  "theme": {
+    "$description": "UI semantic tokens. Use these in component design. Two sets: dark (default) and light.",
+    "dark": {
+      "$type": "color",
+      "background": {
+        "$value": "#18161A",
+        "$description": "Page background"
+      },
+      "surface-1": {
+        "$value": "#1E1C20",
+        "$description": "Card / panel surface"
+      },
+      "surface-2": {
+        "$value": "#252228",
+        "$description": "Inset surface"
+      },
+      "surface-3": {
+        "$value": "#2C2830",
+        "$description": "Highlight / hover surface"
+      },
+      "text-primary": {
+        "$value": "#F2EDE8",
+        "$description": "Primary text \u2014 15.5:1 on background"
+      },
+      "text-2": {
+        "$value": "#B8B0A8",
+        "$description": "Secondary text \u2014 8.4:1 on background"
+      },
+      "text-3": {
+        "$value": "#ACA296",
+        "$description": "Tertiary / label text"
+      },
+      "border": {
+        "$value": "rgba(176, 168, 158, 0.13)",
+        "$description": "Subtle border"
+      },
+      "border-2": {
+        "$value": "rgba(176, 168, 158, 0.24)",
+        "$description": "Standard border"
+      },
+      "border-3": {
+        "$value": "rgba(176, 168, 158, 0.42)",
+        "$description": "Emphasis border"
+      },
+      "accent": {
+        "$value": "#C4A870",
+        "$description": "Primary accent \u2014 warm gold"
+      },
+      "accent-sec": {
+        "$value": "#7A9A70",
+        "$description": "Secondary accent \u2014 muted green"
+      },
+      "accent-ter": {
+        "$value": "#9090C8",
+        "$description": "Tertiary accent \u2014 soft indigo"
+      }
+    },
+    "light": {
+      "$type": "color",
+      "background": {
+        "$value": "#F8F5F0",
+        "$description": "Page background"
+      },
+      "surface-1": {
+        "$value": "#F0ECE6",
+        "$description": "Card / panel surface"
+      },
+      "surface-2": {
+        "$value": "#E8E2DA",
+        "$description": "Inset surface"
+      },
+      "surface-3": {
+        "$value": "#E0D8CE",
+        "$description": "Highlight / hover surface"
+      },
+      "text-primary": {
+        "$value": "#18161A",
+        "$description": "Primary text \u2014 16.5:1 on background"
+      },
+      "text-2": {
+        "$value": "#48403A",
+        "$description": "Secondary text \u2014 9.3:1 on background"
+      },
+      "text-3": {
+        "$value": "#504840",
+        "$description": "Tertiary / label text"
+      },
+      "border": {
+        "$value": "rgba(24, 22, 26, 0.12)",
+        "$description": "Subtle border"
+      },
+      "border-2": {
+        "$value": "rgba(24, 22, 26, 0.22)",
+        "$description": "Standard border"
+      },
+      "border-3": {
+        "$value": "rgba(24, 22, 26, 0.40)",
+        "$description": "Emphasis border"
+      },
+      "accent": {
+        "$value": "#8A6010",
+        "$description": "Primary accent \u2014 warm dark gold"
+      },
+      "accent-sec": {
+        "$value": "#2A5A20",
+        "$description": "Secondary accent \u2014 forest green"
+      },
+      "accent-ter": {
+        "$value": "#3838A0",
+        "$description": "Tertiary accent \u2014 deep indigo"
+      }
+    }
+  }
+}

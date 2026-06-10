@@ -1,111 +1,195 @@
-# Zorn Extended Colour Wheel — Prompt & Base Colour Selections
+# Zorn Palette — System Reference & AI Prompt Guide
 
-## Prompt
+## What is the Zorn Palette?
 
-You are a traditional artist and art historian. You are tasked with creating a 12 base colour colour wheel that is based on the Zorn colour palette. It should contain both a warm and cool curated selection of colours that would feel appropriate with the Zorn palette methodology and extend to the mood and tone of the original Zorn palette.
+The **Zorn palette** is a four-pigment oil painting system attributed to Swedish realist **Anders Zorn (1860–1920)**. By restricting himself to four pigments, Zorn achieved tonally unified paintings with exceptional skin-tone range.
 
-The wheel should be made of rings with 12 sections in each ring. `baseColors` should mix with `ivory black` to the outside and `titanium white` to the inside.
+### Traditional Warm Zorn Palette
 
-Ring should have 12 sections. Rings sections from the wheel centre stepping outwards are to be `titanium white`:`{baseColour}`:`ivory black`:
+| Pigment | Role | Closest wheel colour | Hex |
+|---|---|---|---|
+| Titanium White | Tint anchor | `anchor / titanium-white` | `#F5F5EF` |
+| Ivory Black | Shade anchor + low-chroma cool | `anchor / ivory-black` | `#231F1A` |
+| Vermilion | Warm red | `vermilion` (index 1, 15°) | `#B63C2E` |
+| Yellow Ochre | Warm yellow-brown | `yellow-ochre` (index 6, 90°) | `#C4973A` |
 
-`{baseColor}` + `tint`
-
-| Step | Ratio (W:B:K) |
-|------|--------------|
-| 100  | 9:1:0        |
-| 200  | 4:1:0        |
-| 300  | 7:3:0        |
-| 400  | 3:2:0        |
-| 500  | 1:1:0        |
-| 600  | 2:3:0        |
-| 700  | 3:7:0        |
-| 800  | 2:4:0        |
-| 900  | 1:9:0        |
-
-`{baseColor}` — pure — `0:1:0`
-
-`{baseColor}` + `shade`
-
-| Step | Ratio (W:B:K) |
-|------|--------------|
-| 100  | 0:9:1        |
-| 200  | 0:4:2        |
-| 300  | 0:7:3        |
-| 400  | 0:3:2        |
-| 500  | 0:1:1        |
-| 600  | 0:2:3        |
-| 700  | 0:3:7        |
-| 800  | 0:2:4        |
-| 900  | 0:1:9        |
+The palette produces skin tones, ochres, siennas, and all warm tonal greys by mixing these four pigments. It cannot produce true blues, greens, or purple-reds — the absence is part of its signature warmth.
 
 ---
 
-## Anchor Colours
+## Extended Wheel Mapping
 
-| Name | Hex | Role |
-|---|---|---|
-| Titanium White | `#F5F5EF` | Inner anchor — inner rings blend toward this |
-| Ivory Black | `#231F1A` | Outer anchor — outer rings blend toward this |
+### Warm Zorn Achievable Range — `ZW`
 
----
+Indices `[0, 1, 2, 3, 4, 5, 6, 7, 8]` — the arc from **Cadmium Red (0°)** to **Naples Yellow (120°)**. Every colour in this arc can be approximated by mixing Vermilion and Yellow Ochre in varying proportions with TW and IB.
 
-## Base Colour Selections
-
-Twelve colours curated to honour the Zorn palette's earthy, luminous temperament — six warm pigments drawn directly from the old-master tradition, six cool counterparts that could have sat alongside Zorn's cadmium red and yellow ochre without disrupting the harmony.
-
-| # | Name | Hex | Temperature | Wheel Position | Pigment Lineage |
-|---|---|---|---|---|---|
-| 1 | Cadmium Red | `#C8392B` | 🟠 Warm | 0° | Direct Zorn primary — a saturated, slightly orange-leaning red |
-| 2 | Venetian Red | `#A34030` | 🟠 Warm | 30° | Iron oxide earth — the red-orange bridge to the sienna family |
-| 3 | Burnt Sienna | `#8B4A1C` | 🟠 Warm | 60° | Calcined raw sienna — orange-brown, translucent in oil |
-| 4 | Yellow Ochre | `#C4973A` | 🟠 Warm | 90° | Direct Zorn primary — the golden earth yellow he relied upon |
-| 5 | Naples Yellow | `#D4B870` | 🟠 Warm | 120° | Lead antimonate — creamy, flesh-adjacent, historic lead yellow |
-| 6 | Terre Verte | `#7A8B60` | 🔵 Cool | 150° | Celadonite earth green — the grey-green used since antiquity |
-| 7 | Oxide Green | `#4E7A68` | 🔵 Cool | 180° | Chromium oxide / viridian variant — muted, painterly green |
-| 8 | Cerulean Grey | `#4E6B82` | 🔵 Cool | 210° | Cobalt stannate — sky blue desaturated to Zorn's tonal range |
-| 9 | Prussian Blue | `#2C4868` | 🔵 Cool | 240° | Iron blue — deep, cool, controllable; near-black when shaded |
-| 10 | Ultramarine | `#3C4878` | 🔵 Cool | 270° | Synthetic ultramarine — blue-violet, granulating in character |
-| 11 | Mars Violet | `#6A3D58` | 🔵 Cool | 300° | Synthetic iron oxide violet — earthy, opaque purple-brown |
-| 12 | Caput Mortuum | `#8A3A42` | 🟠 Warm | 330° | "Dead head" iron oxide — deep red-violet, pigment of ruin |
+| Index | Name | Angle | Achieved by |
+|---|---|---|---|
+| 0 | Cadmium Red | 0° | Vermilion heavy |
+| 1 | Vermilion | 15° | **Primary pigment** |
+| 2 | Venetian Red | 30° | Vermilion + trace Yellow Ochre |
+| 3 | Terra Rosa | 45° | Vermilion + Yellow Ochre (3:1) |
+| 4 | Burnt Sienna | 60° | Vermilion + Yellow Ochre (1:1) + IB |
+| 5 | Raw Sienna | 75° | Yellow Ochre + trace Vermilion |
+| 6 | Yellow Ochre | 90° | **Primary pigment** |
+| 7 | Aureolin | 105° | Yellow Ochre light |
+| 8 | Naples Yellow | 120° | Yellow Ochre + TW heavy |
 
 ---
 
-## Colour Philosophy
+### Theoretical Cool Zorn Palette
 
-Anders Zorn's four-colour palette — **Ivory Black, Titanium White, Yellow Ochre, Cadmium Red** — achieved luminosity not through spectral completeness but through controlled temperature relationships. Every colour in this extended wheel is chosen to be plausible within that logic:
+A hypothetical cool-temperature analog replacing Vermilion with a deep blue and Yellow Ochre with a blue-teal, producing the arc from **Cerulean Grey (210°)** through blue-purple to **Alizarin (345°)**.
 
-- **Warm colours (0°–120°, 330°)** extend the red–yellow axis Zorn worked with, adding depth in the orange and ochre registers.
-- **Cool colours (150°–300°)** supply the chromatic opposites that Zorn often implied through the temperature contrast of black and white, made explicit here as earthy muted pigments that never stray toward synthetic brightness.
-- Each base colour is a *recognised historical pigment name*, grounding the palette in the material world of oil paint.
+**Reference hex anchors used for this system:**
 
+| Reference Hex | Closest Wheel Colour | Index | Angle | Role |
+|---|---|---|---|---|
+| `#2D5FA0` | Slate | 15 | 225° | Cool mid-blue (Prussian Blue analog) |
+| `#9B1A30` | Alizarin | 23 | 345° | Dark crimson (Vermilion analog — cool & dark) |
+| `#3E5360` | Indigo | 17 | 255° | Dark teal-blue (neutral shadow) |
+
+**Cool Zorn Achievable Range — `ZC`**
+
+Indices `[14, 15, 16, 17, 18, 19, 20, 21, 22, 23]` — **Cerulean Grey (210°)** through **Prussian Blue (240°)**, **Indigo (255°)**, **Ultramarine (270°)**, **Dioxazine (285°)**, **Mars Violet (300°)**, **Purple Madder (315°)**, **Caput Mortuum (330°)**, to **Alizarin (345°)**.
+
+| Index | Name | Angle | Achieved by |
+|---|---|---|---|
+| 14 | Cerulean Grey | 210° | Prussian Blue + TW heavy |
+| 15 | Slate | 225° | Prussian Blue + Indigo + TW |
+| 16 | Prussian Blue | 240° | **Primary pigment** |
+| 17 | Indigo | 255° | Prussian Blue + dark Alizarin |
+| 18 | Ultramarine | 270° | Prussian Blue + trace Alizarin |
+| 19 | Dioxazine | 285° | Prussian Blue + Alizarin (1:2) |
+| 20 | Mars Violet | 300° | Alizarin + Prussian Blue (2:1) |
+| 21 | Purple Madder | 315° | Alizarin + trace Prussian Blue |
+| 22 | Caput Mortuum | 330° | Alizarin + IB heavy |
+| 23 | Alizarin | 345° | **Primary pigment** |
 
 ---
 
-## Expansion: Tertiary Colour Ring (v2)
+## Design Token Paths
 
-The wheel was expanded from 12 to 24 segments by interpolating each adjacent base-colour pair at a 1:1 ratio, producing 12 new **tertiary** pigment colours. All 24 now share the same 19-ring tint–shade system (9 tints toward Titanium White, base, 9 shades toward Ivory Black).
+```
+// Warm Zorn semantic aliases (DTCG path syntax)
+{zorn.warm.titanium-white}   →  #F5F5EF
+{zorn.warm.ivory-black}      →  #231F1A
+{zorn.warm.cadmium-red}      →  {color.cadmium-red.base}
+{zorn.warm.vermilion}        →  {color.vermilion.base}
+{zorn.warm.venetian-red}     →  {color.venetian-red.base}
+{zorn.warm.terra-rosa}       →  {color.terra-rosa.base}
+{zorn.warm.burnt-sienna}     →  {color.burnt-sienna.base}
+{zorn.warm.raw-sienna}       →  {color.raw-sienna.base}
+{zorn.warm.yellow-ochre}     →  {color.yellow-ochre.base}
+{zorn.warm.aureolin}         →  {color.aureolin.base}
+{zorn.warm.naples-yellow}    →  {color.naples-yellow.base}
 
-### Tier Classification (RYB Colour Theory)
+// Cool Zorn semantic aliases
+{zorn.cool.titanium-white}   →  #F5F5EF
+{zorn.cool.ivory-black}      →  #231F1A
+{zorn.cool.cerulean-grey}    →  {color.cerulean-grey.base}
+{zorn.cool.slate}            →  {color.slate.base}
+{zorn.cool.prussian-blue}    →  {color.prussian-blue.base}
+{zorn.cool.indigo}           →  {color.indigo.base}
+{zorn.cool.ultramarine}      →  {color.ultramarine.base}
+{zorn.cool.dioxazine}        →  {color.dioxazine.base}
+{zorn.cool.mars-violet}      →  {color.mars-violet.base}
+{zorn.cool.purple-madder}    →  {color.purple-madder.base}
+{zorn.cool.caput-mortuum}    →  {color.caput-mortuum.base}
+{zorn.cool.alizarin}         →  {color.alizarin.base}
+```
 
-| Tier | Positions | Colours |
-|------|-----------|---------|
-| **Primary** | 0°, 120°, 240° | Cadmium Red, Naples Yellow, Prussian Blue |
-| **Secondary** | 60°, 180°, 300° | Burnt Sienna *(orange)*, Oxide Green *(green)*, Mars Violet *(violet)* |
-| **Tertiary** | All remaining 18 | 6 original + 12 new 1:1 mixes |
+---
 
-### New Tertiary Colours (1:1 adjacent mixes)
+## AI Prompt Templates
 
-| Name | Angle | Hex | Mixed From |
-|------|-------|-----|-----------|
-| Vermilion | 15° | #B63C2E | Cadmium Red + Venetian Red |
-| Terra Rosa | 45° | #974526 | Venetian Red + Burnt Sienna |
-| Raw Sienna | 75° | #A8702B | Burnt Sienna + Yellow Ochre |
-| Aureolin | 105° | #CCA855 | Yellow Ochre + Naples Yellow |
-| Olive Earth | 135° | #A7A268 | Naples Yellow + Terre Verte *(warm/cool border)* |
-| Sage | 165° | #648264 | Terre Verte + Oxide Green |
-| Viridian | 195° | #4E7275 | Oxide Green + Cerulean Grey |
-| Slate | 225° | #3D5A75 | Cerulean Grey + Prussian Blue |
-| Indigo | 255° | #344870 | Prussian Blue + Ultramarine |
-| Dioxazine | 285° | #534268 | Ultramarine + Mars Violet |
-| Purple Madder | 315° | #7A3C4D | Mars Violet + Caput Mortuum |
-| Alizarin | 345° | #A93A36 | Caput Mortuum + Cadmium Red |
+### Generate a Zorn warm UI palette
+
+```
+Using the Zorn warm palette (Vermilion + Yellow Ochre + Titanium White + Ivory Black),
+generate a 5-colour UI palette following the [HARMONY] harmony rule at spread [S].
+Primary colour: [COLOUR NAME] at ring [RING].
+
+Palette tokens: {zorn.warm.*} — see colour-wheel-palette.md for full ring values.
+Output as: DTCG tokens JSON with $type: color, using the {color.<slug>.<ring>} reference syntax.
+```
+
+### Generate a Zorn cool UI palette
+
+```
+Using the theoretical Zorn cool palette anchored on:
+  - #2D5FA0 (Slate, 225°) as cool primary blue
+  - #9B1A30 (Alizarin, 345°) as deep warm-red shadow
+  - #3E5360 (Indigo, 255°) as neutral dark
+
+Generate a 5-colour [HARMONY] palette at spread [S] with primary colour [COLOUR].
+Tokens: {zorn.cool.*} — see colour-wheel-palette.md.
+```
+
+### Map brand hex to nearest Zorn wheel colour
+
+```
+Given brand colour [HEX]:
+1. Identify the nearest of the 24 wheel colours by RGB Euclidean distance.
+2. Report: closest colour name, slug, angle, tier, warm/cool classification.
+3. List the 3 nearest ring values with their hex and ring label.
+4. Suggest the most harmonious Zorn palette subset (warm or cool) that includes it.
+```
+
+### WCAG contrast role assignment
+
+```
+For a Zorn [warm|cool] palette with primary [COLOUR]:
+Assign three roles following 60-30-10:
+  - Dominant (60%): lightest usable surface — target ≥ 4.5:1 body text contrast
+  - Secondary (30%): mid-weight surface
+  - Accent (10%): highest-saturation point — use the base ring
+
+Output: three {color.<slug>.<ring>} token references with contrast ratios vs
+Titanium White (#F5F5EF) and Ivory Black (#231F1A).
+```
+
+---
+
+## Studio Interaction Notes
+
+### Wheel click behaviour
+- Click any **individual ring** (not just the segment) to set that specific tint/shade as the focused colour.
+- All 5 harmony palette cards update to the same tonal depth immediately.
+- A ring-outline indicator on the wheel shows the selected ring.
+
+### Palette slot ring override
+- Click any ring cell **within a palette card** to pin that slot to a specific depth.
+- The card shows a ✎ badge and the overriding ring glows amber.
+- Click the same ring again to release the pin and revert to the focused-ring default.
+- Resets when a new harmony or primary colour is selected.
+
+### WCAG foreground ring selection
+- Click a palette colour as foreground in the WCAG panel → a ring strip appears below.
+- Click any ring in the strip to test that shade as foreground text.
+- Contrast ratio and AA/AAA badges update live.
+
+### Spread slider
+- Active only when a harmony (not All or Custom) is selected.
+- Range: 1× (15° between each harmony node) to 4× (60°).
+- For Monochromatic, spread controls the tonal breadth of the 5-ring selection.
+
+### Temperature filters
+- **Zorn Only + Warm**: shows ZW = indices [0–8], the warm mix arc.
+- **Zorn Only + Cool**: shows ZC = indices [14–23], the cool mix arc.
+- **Zorn Only + All**: shows ZW ∪ ZC.
+- **Extended** shows all 24 colours regardless of temperature filter.
+
+---
+
+## Export Format
+
+Both JSON and CSV exports include:
+- Focused colour (with selected ring)
+- All 5 palette slots (with their individual ring overrides)
+- 60–30–10 role assignments (dominant, secondary, accent + vibrance-boosted accent)
+- TW and IB anchors
+- All unique hex values de-duplicated
+- Pairwise contrast matrix across palette slots
+
+JSON structure follows the same token-path conventions as `zorn-tokens.json`.
