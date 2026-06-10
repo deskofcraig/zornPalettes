@@ -77,3 +77,35 @@ Anders Zorn's four-colour palette — **Ivory Black, Titanium White, Yellow Ochr
 - **Warm colours (0°–120°, 330°)** extend the red–yellow axis Zorn worked with, adding depth in the orange and ochre registers.
 - **Cool colours (150°–300°)** supply the chromatic opposites that Zorn often implied through the temperature contrast of black and white, made explicit here as earthy muted pigments that never stray toward synthetic brightness.
 - Each base colour is a *recognised historical pigment name*, grounding the palette in the material world of oil paint.
+
+
+---
+
+## Expansion: Tertiary Colour Ring (v2)
+
+The wheel was expanded from 12 to 24 segments by interpolating each adjacent base-colour pair at a 1:1 ratio, producing 12 new **tertiary** pigment colours. All 24 now share the same 19-ring tint–shade system (9 tints toward Titanium White, base, 9 shades toward Ivory Black).
+
+### Tier Classification (RYB Colour Theory)
+
+| Tier | Positions | Colours |
+|------|-----------|---------|
+| **Primary** | 0°, 120°, 240° | Cadmium Red, Naples Yellow, Prussian Blue |
+| **Secondary** | 60°, 180°, 300° | Burnt Sienna *(orange)*, Oxide Green *(green)*, Mars Violet *(violet)* |
+| **Tertiary** | All remaining 18 | 6 original + 12 new 1:1 mixes |
+
+### New Tertiary Colours (1:1 adjacent mixes)
+
+| Name | Angle | Hex | Mixed From |
+|------|-------|-----|-----------|
+| Vermilion | 15° | #B63C2E | Cadmium Red + Venetian Red |
+| Terra Rosa | 45° | #974526 | Venetian Red + Burnt Sienna |
+| Raw Sienna | 75° | #A8702B | Burnt Sienna + Yellow Ochre |
+| Aureolin | 105° | #CCA855 | Yellow Ochre + Naples Yellow |
+| Olive Earth | 135° | #A7A268 | Naples Yellow + Terre Verte *(warm/cool border)* |
+| Sage | 165° | #648264 | Terre Verte + Oxide Green |
+| Viridian | 195° | #4E7275 | Oxide Green + Cerulean Grey |
+| Slate | 225° | #3D5A75 | Cerulean Grey + Prussian Blue |
+| Indigo | 255° | #344870 | Prussian Blue + Ultramarine |
+| Dioxazine | 285° | #534268 | Ultramarine + Mars Violet |
+| Purple Madder | 315° | #7A3C4D | Mars Violet + Caput Mortuum |
+| Alizarin | 345° | #A93A36 | Caput Mortuum + Cadmium Red |

@@ -266,3 +266,266 @@
   --color-caput-mortuum-shade-900: #2D221E;
 
 }
+
+
+/* ================================================================
+   TERTIARY COLOURS — 1:1 mix of adjacent base pairs
+   New additions: Vermilion, Terra Rosa, Raw Sienna, Aureolin,
+   Olive Earth, Sage, Viridian, Slate, Indigo, Dioxazine,
+   Purple Madder, Alizarin
+   ================================================================ */
+
+:root {
+  /* Vermilion | tertiary | 15° | warm */
+  --color-vermilion-tint-100: #EFE2DC;
+  --color-vermilion-tint-200: #E8D0C8;
+  --color-vermilion-tint-300: #E2BEB5;
+  --color-vermilion-tint-400: #DCABA2;
+  --color-vermilion-tint-500: #D6988E;
+  --color-vermilion-tint-600: #CF867B;
+  --color-vermilion-tint-700: #C97468;
+  --color-vermilion-tint-800: #CB7A6E;
+  --color-vermilion-tint-900: #BC4E41;
+  --color-vermilion-base: #B63C2E;
+  --color-vermilion-shade-100: #A7392C;
+  --color-vermilion-shade-200: #853227;
+  --color-vermilion-shade-300: #8A3328;
+  --color-vermilion-shade-400: #7B3026;
+  --color-vermilion-shade-500: #6C2E24;
+  --color-vermilion-shade-600: #5E2B22;
+  --color-vermilion-shade-700: #4F2820;
+  --color-vermilion-shade-800: #542921;
+  --color-vermilion-shade-900: #32221C;
+
+  /* Terra Rosa | tertiary | 45° | warm */
+  --color-terra-rosa-tint-100: #ECE3DB;
+  --color-terra-rosa-tint-200: #E2D2C7;
+  --color-terra-rosa-tint-300: #D9C0B3;
+  --color-terra-rosa-tint-400: #CFAF9F;
+  --color-terra-rosa-tint-500: #C69D8A;
+  --color-terra-rosa-tint-600: #BD8B76;
+  --color-terra-rosa-tint-700: #B37A62;
+  --color-terra-rosa-tint-800: #B68069;
+  --color-terra-rosa-tint-900: #A0573A;
+  --color-terra-rosa-base: #974526;
+  --color-terra-rosa-shade-100: #8B4125;
+  --color-terra-rosa-shade-200: #703822;
+  --color-terra-rosa-shade-300: #743A22;
+  --color-terra-rosa-shade-400: #693621;
+  --color-terra-rosa-shade-500: #5D3220;
+  --color-terra-rosa-shade-600: #512E1F;
+  --color-terra-rosa-shade-700: #462A1E;
+  --color-terra-rosa-shade-800: #4A2C1E;
+  --color-terra-rosa-shade-900: #2F231B;
+
+  /* Raw Sienna | tertiary | 75° | warm */
+  --color-raw-sienna-tint-100: #EDE8DB;
+  --color-raw-sienna-tint-200: #E6DAC8;
+  --color-raw-sienna-tint-300: #DECDB4;
+  --color-raw-sienna-tint-400: #D6C0A1;
+  --color-raw-sienna-tint-500: #CEB28D;
+  --color-raw-sienna-tint-600: #C7A579;
+  --color-raw-sienna-tint-700: #BF9866;
+  --color-raw-sienna-tint-800: #C29C6C;
+  --color-raw-sienna-tint-900: #B07D3F;
+  --color-raw-sienna-base: #A8702B;
+  --color-raw-sienna-shade-100: #9B6829;
+  --color-raw-sienna-shade-200: #7C5525;
+  --color-raw-sienna-shade-300: #805826;
+  --color-raw-sienna-shade-400: #735024;
+  --color-raw-sienna-shade-500: #664822;
+  --color-raw-sienna-shade-600: #583F21;
+  --color-raw-sienna-shade-700: #4B371F;
+  --color-raw-sienna-shade-800: #4F3A20;
+  --color-raw-sienna-shade-900: #30271C;
+
+  /* Aureolin | tertiary | 105° | warm */
+  --color-aureolin-tint-100: #F1EDE0;
+  --color-aureolin-tint-200: #EDE6D0;
+  --color-aureolin-tint-300: #E9DEC1;
+  --color-aureolin-tint-400: #E5D6B1;
+  --color-aureolin-tint-500: #E0CEA2;
+  --color-aureolin-tint-600: #DCC793;
+  --color-aureolin-tint-700: #D8BF83;
+  --color-aureolin-tint-800: #DAC288;
+  --color-aureolin-tint-900: #D0B064;
+  --color-aureolin-base: #CCA855;
+  --color-aureolin-shade-100: #BB9A4F;
+  --color-aureolin-shade-200: #947A41;
+  --color-aureolin-shade-300: #997F43;
+  --color-aureolin-shade-400: #88713D;
+  --color-aureolin-shade-500: #786438;
+  --color-aureolin-shade-600: #675632;
+  --color-aureolin-shade-700: #56482C;
+  --color-aureolin-shade-800: #5B4D2E;
+  --color-aureolin-shade-900: #342D20;
+
+  /* Olive Earth | tertiary | 135° | warm */
+  --color-olive-earth-tint-100: #EDEDE2;
+  --color-olive-earth-tint-200: #E5E4D4;
+  --color-olive-earth-tint-300: #DEDCC6;
+  --color-olive-earth-tint-400: #D6D4B9;
+  --color-olive-earth-tint-500: #CECCAC;
+  --color-olive-earth-tint-600: #C6C39E;
+  --color-olive-earth-tint-700: #BEBB90;
+  --color-olive-earth-tint-800: #C1BE95;
+  --color-olive-earth-tint-900: #AFAA76;
+  --color-olive-earth-base: #A7A268;
+  --color-olive-earth-shade-100: #9A9560;
+  --color-olive-earth-shade-200: #7B764E;
+  --color-olive-earth-shade-300: #7F7B51;
+  --color-olive-earth-shade-400: #726E49;
+  --color-olive-earth-shade-500: #656041;
+  --color-olive-earth-shade-600: #585339;
+  --color-olive-earth-shade-700: #4B4631;
+  --color-olive-earth-shade-800: #4F4B34;
+  --color-olive-earth-shade-900: #302C22;
+
+  /* Sage | tertiary | 165° | cool */
+  --color-sage-tint-100: #E6EAE1;
+  --color-sage-tint-200: #D8DED3;
+  --color-sage-tint-300: #CAD2C5;
+  --color-sage-tint-400: #BBC7B7;
+  --color-sage-tint-500: #ACBCAA;
+  --color-sage-tint-600: #9EB09C;
+  --color-sage-tint-700: #90A48E;
+  --color-sage-tint-800: #94A892;
+  --color-sage-tint-900: #728E72;
+  --color-sage-base: #648264;
+  --color-sage-shade-100: #5E785D;
+  --color-sage-shade-200: #4E614B;
+  --color-sage-shade-300: #50644E;
+  --color-sage-shade-400: #4A5A46;
+  --color-sage-shade-500: #44503F;
+  --color-sage-shade-600: #3D4738;
+  --color-sage-shade-700: #363D30;
+  --color-sage-shade-800: #394033;
+  --color-sage-shade-900: #2A2921;
+
+  /* Viridian | tertiary | 195° | cool */
+  --color-viridian-tint-100: #E4E8E3;
+  --color-viridian-tint-200: #D4DBD7;
+  --color-viridian-tint-300: #C3CECA;
+  --color-viridian-tint-400: #B2C1BE;
+  --color-viridian-tint-500: #A2B4B2;
+  --color-viridian-tint-600: #91A6A6;
+  --color-viridian-tint-700: #80999A;
+  --color-viridian-tint-800: #869E9E;
+  --color-viridian-tint-900: #5F7F81;
+  --color-viridian-base: #4E7275;
+  --color-viridian-shade-100: #4A6A6C;
+  --color-viridian-shade-200: #405657;
+  --color-viridian-shade-300: #41595A;
+  --color-viridian-shade-400: #3D5151;
+  --color-viridian-shade-500: #384848;
+  --color-viridian-shade-600: #34403E;
+  --color-viridian-shade-700: #303835;
+  --color-viridian-shade-800: #313B38;
+  --color-viridian-shade-900: #272723;
+
+  /* Slate | tertiary | 225° | cool */
+  --color-slate-tint-100: #E3E6E3;
+  --color-slate-tint-200: #D0D6D7;
+  --color-slate-tint-300: #BEC6CA;
+  --color-slate-tint-400: #ABB7BE;
+  --color-slate-tint-500: #99A8B2;
+  --color-slate-tint-600: #8798A6;
+  --color-slate-tint-700: #74889A;
+  --color-slate-tint-800: #7A8E9E;
+  --color-slate-tint-900: #4F6A81;
+  --color-slate-base: #3D5A75;
+  --color-slate-shade-100: #3A546C;
+  --color-slate-shade-200: #344657;
+  --color-slate-shade-300: #35485A;
+  --color-slate-shade-400: #334251;
+  --color-slate-shade-500: #303C48;
+  --color-slate-shade-600: #2D373E;
+  --color-slate-shade-700: #2B3135;
+  --color-slate-shade-800: #2C3338;
+  --color-slate-shade-900: #262523;
+
+  /* Indigo | tertiary | 255° | cool */
+  --color-indigo-tint-100: #E2E4E2;
+  --color-indigo-tint-200: #CED2D6;
+  --color-indigo-tint-300: #BBC1C9;
+  --color-indigo-tint-400: #A8B0BC;
+  --color-indigo-tint-500: #949EB0;
+  --color-indigo-tint-600: #818DA3;
+  --color-indigo-tint-700: #6E7C96;
+  --color-indigo-tint-800: #74829A;
+  --color-indigo-tint-900: #47597D;
+  --color-indigo-base: #344870;
+  --color-indigo-shade-100: #324467;
+  --color-indigo-shade-200: #2E3A53;
+  --color-indigo-shade-300: #2F3C56;
+  --color-indigo-shade-400: #2D384E;
+  --color-indigo-shade-500: #2C3445;
+  --color-indigo-shade-600: #2A2F3C;
+  --color-indigo-shade-700: #282B34;
+  --color-indigo-shade-800: #292D37;
+  --color-indigo-shade-900: #252323;
+
+  /* Dioxazine | tertiary | 285° | cool */
+  --color-dioxazine-tint-100: #E5E3E2;
+  --color-dioxazine-tint-200: #D5D1D4;
+  --color-dioxazine-tint-300: #C4BFC6;
+  --color-dioxazine-tint-400: #B4ADB9;
+  --color-dioxazine-tint-500: #A49CAC;
+  --color-dioxazine-tint-600: #948A9E;
+  --color-dioxazine-tint-700: #847890;
+  --color-dioxazine-tint-800: #897E95;
+  --color-dioxazine-tint-900: #635476;
+  --color-dioxazine-base: #534268;
+  --color-dioxazine-shade-100: #4E3E60;
+  --color-dioxazine-shade-200: #43364E;
+  --color-dioxazine-shade-300: #453851;
+  --color-dioxazine-shade-400: #403449;
+  --color-dioxazine-shade-500: #3B3041;
+  --color-dioxazine-shade-600: #362D39;
+  --color-dioxazine-shade-700: #312A31;
+  --color-dioxazine-shade-800: #332B34;
+  --color-dioxazine-shade-900: #282222;
+
+  /* Purple Madder | tertiary | 315° | cool */
+  --color-purple-madder-tint-100: #E9E2DF;
+  --color-purple-madder-tint-200: #DCD0CF;
+  --color-purple-madder-tint-300: #D0BEBE;
+  --color-purple-madder-tint-400: #C4ABAE;
+  --color-purple-madder-tint-500: #B8989E;
+  --color-purple-madder-tint-600: #AB868E;
+  --color-purple-madder-tint-700: #9F747E;
+  --color-purple-madder-tint-800: #A37A83;
+  --color-purple-madder-tint-900: #864E5D;
+  --color-purple-madder-base: #7A3C4D;
+  --color-purple-madder-shade-100: #713948;
+  --color-purple-madder-shade-200: #5D323C;
+  --color-purple-madder-shade-300: #60333E;
+  --color-purple-madder-shade-400: #573039;
+  --color-purple-madder-shade-500: #4E2E34;
+  --color-purple-madder-shade-600: #462B2E;
+  --color-purple-madder-shade-700: #3D2829;
+  --color-purple-madder-shade-800: #40292B;
+  --color-purple-madder-shade-900: #2C221F;
+
+  /* Alizarin | tertiary | 345° | warm */
+  --color-alizarin-tint-100: #EDE2DC;
+  --color-alizarin-tint-200: #E6D0CA;
+  --color-alizarin-tint-300: #DEBDB8;
+  --color-alizarin-tint-400: #D7AAA5;
+  --color-alizarin-tint-500: #CF9892;
+  --color-alizarin-tint-600: #C78580;
+  --color-alizarin-tint-700: #C0726E;
+  --color-alizarin-tint-800: #C27874;
+  --color-alizarin-tint-900: #B14D48;
+  --color-alizarin-base: #A93A36;
+  --color-alizarin-shade-100: #9C3733;
+  --color-alizarin-shade-200: #7C312D;
+  --color-alizarin-shade-300: #81322E;
+  --color-alizarin-shade-400: #732F2B;
+  --color-alizarin-shade-500: #662C28;
+  --color-alizarin-shade-600: #592A25;
+  --color-alizarin-shade-700: #4B2722;
+  --color-alizarin-shade-800: #502823;
+  --color-alizarin-shade-900: #30221D;
+
+}

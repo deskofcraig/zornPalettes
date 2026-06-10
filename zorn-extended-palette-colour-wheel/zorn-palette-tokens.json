@@ -118,7 +118,8 @@
           "$type": "color",
           "$description": "Cadmium Red Shade 900 \u2014 ratio W:B:K = 0:1:9"
         }
-      }
+      },
+      "$tier": "primary"
     },
     "venetian-red": {
       "$description": "Venetian Red \u2014 Warm, 30\u00b0",
@@ -220,7 +221,8 @@
           "$type": "color",
           "$description": "Venetian Red Shade 900 \u2014 ratio W:B:K = 0:1:9"
         }
-      }
+      },
+      "$tier": "tertiary"
     },
     "burnt-sienna": {
       "$description": "Burnt Sienna \u2014 Warm, 60\u00b0",
@@ -322,7 +324,8 @@
           "$type": "color",
           "$description": "Burnt Sienna Shade 900 \u2014 ratio W:B:K = 0:1:9"
         }
-      }
+      },
+      "$tier": "secondary"
     },
     "yellow-ochre": {
       "$description": "Yellow Ochre \u2014 Warm, 90\u00b0",
@@ -424,7 +427,8 @@
           "$type": "color",
           "$description": "Yellow Ochre Shade 900 \u2014 ratio W:B:K = 0:1:9"
         }
-      }
+      },
+      "$tier": "tertiary"
     },
     "naples-yellow": {
       "$description": "Naples Yellow \u2014 Warm, 120\u00b0",
@@ -526,7 +530,8 @@
           "$type": "color",
           "$description": "Naples Yellow Shade 900 \u2014 ratio W:B:K = 0:1:9"
         }
-      }
+      },
+      "$tier": "primary"
     },
     "terre-verte": {
       "$description": "Terre Verte \u2014 Cool, 150\u00b0",
@@ -628,7 +633,8 @@
           "$type": "color",
           "$description": "Terre Verte Shade 900 \u2014 ratio W:B:K = 0:1:9"
         }
-      }
+      },
+      "$tier": "tertiary"
     },
     "oxide-green": {
       "$description": "Oxide Green \u2014 Cool, 180\u00b0",
@@ -730,7 +736,8 @@
           "$type": "color",
           "$description": "Oxide Green Shade 900 \u2014 ratio W:B:K = 0:1:9"
         }
-      }
+      },
+      "$tier": "secondary"
     },
     "cerulean-grey": {
       "$description": "Cerulean Grey \u2014 Cool, 210\u00b0",
@@ -832,7 +839,8 @@
           "$type": "color",
           "$description": "Cerulean Grey Shade 900 \u2014 ratio W:B:K = 0:1:9"
         }
-      }
+      },
+      "$tier": "tertiary"
     },
     "prussian-blue": {
       "$description": "Prussian Blue \u2014 Cool, 240\u00b0",
@@ -934,7 +942,8 @@
           "$type": "color",
           "$description": "Prussian Blue Shade 900 \u2014 ratio W:B:K = 0:1:9"
         }
-      }
+      },
+      "$tier": "primary"
     },
     "ultramarine": {
       "$description": "Ultramarine \u2014 Cool, 270\u00b0",
@@ -1036,7 +1045,8 @@
           "$type": "color",
           "$description": "Ultramarine Shade 900 \u2014 ratio W:B:K = 0:1:9"
         }
-      }
+      },
+      "$tier": "tertiary"
     },
     "mars-violet": {
       "$description": "Mars Violet \u2014 Cool, 300\u00b0",
@@ -1138,7 +1148,8 @@
           "$type": "color",
           "$description": "Mars Violet Shade 900 \u2014 ratio W:B:K = 0:1:9"
         }
-      }
+      },
+      "$tier": "secondary"
     },
     "caput-mortuum": {
       "$description": "Caput Mortuum \u2014 Warm, 330\u00b0",
@@ -1239,6 +1250,1243 @@
           "$value": "#2D221E",
           "$type": "color",
           "$description": "Caput Mortuum Shade 900 \u2014 ratio W:B:K = 0:1:9"
+        }
+      },
+      "$tier": "tertiary"
+    },
+    "vermilion": {
+      "$tier": "tertiary",
+      "$description": "Vermilion \u2014 tertiary, 15\u00b0, warm \u2014 1:1 mix of Cadmium Red + Venetian Red",
+      "tint": {
+        "100": {
+          "$value": "#EFE2DC",
+          "$type": "color",
+          "$description": "Vermilion tint 100 \u2014 White:Base 9:1"
+        },
+        "200": {
+          "$value": "#E8D0C8",
+          "$type": "color",
+          "$description": "Vermilion tint 200 \u2014 White:Base 4:1"
+        },
+        "300": {
+          "$value": "#E2BEB5",
+          "$type": "color",
+          "$description": "Vermilion tint 300 \u2014 White:Base 7:3"
+        },
+        "400": {
+          "$value": "#DCABA2",
+          "$type": "color",
+          "$description": "Vermilion tint 400 \u2014 White:Base 3:2"
+        },
+        "500": {
+          "$value": "#D6988E",
+          "$type": "color",
+          "$description": "Vermilion tint 500 \u2014 White:Base 1:1"
+        },
+        "600": {
+          "$value": "#CF867B",
+          "$type": "color",
+          "$description": "Vermilion tint 600 \u2014 White:Base 2:3"
+        },
+        "700": {
+          "$value": "#C97468",
+          "$type": "color",
+          "$description": "Vermilion tint 700 \u2014 White:Base 3:7"
+        },
+        "800": {
+          "$value": "#CB7A6E",
+          "$type": "color",
+          "$description": "Vermilion tint 800 \u2014 White:Base 2:4"
+        },
+        "900": {
+          "$value": "#BC4E41",
+          "$type": "color",
+          "$description": "Vermilion tint 900 \u2014 White:Base 1:9"
+        }
+      },
+      "base": {
+        "$value": "#B63C2E",
+        "$type": "color",
+        "$description": "Vermilion base \u2014 rgb(182, 60, 46)"
+      },
+      "shade": {
+        "100": {
+          "$value": "#A7392C",
+          "$type": "color",
+          "$description": "Vermilion shade 100 \u2014 Base:Black 9:1"
+        },
+        "200": {
+          "$value": "#853227",
+          "$type": "color",
+          "$description": "Vermilion shade 200 \u2014 Base:Black 4:2"
+        },
+        "300": {
+          "$value": "#8A3328",
+          "$type": "color",
+          "$description": "Vermilion shade 300 \u2014 Base:Black 7:3"
+        },
+        "400": {
+          "$value": "#7B3026",
+          "$type": "color",
+          "$description": "Vermilion shade 400 \u2014 Base:Black 3:2"
+        },
+        "500": {
+          "$value": "#6C2E24",
+          "$type": "color",
+          "$description": "Vermilion shade 500 \u2014 Base:Black 1:1"
+        },
+        "600": {
+          "$value": "#5E2B22",
+          "$type": "color",
+          "$description": "Vermilion shade 600 \u2014 Base:Black 2:3"
+        },
+        "700": {
+          "$value": "#4F2820",
+          "$type": "color",
+          "$description": "Vermilion shade 700 \u2014 Base:Black 3:7"
+        },
+        "800": {
+          "$value": "#542921",
+          "$type": "color",
+          "$description": "Vermilion shade 800 \u2014 Base:Black 2:4"
+        },
+        "900": {
+          "$value": "#32221C",
+          "$type": "color",
+          "$description": "Vermilion shade 900 \u2014 Base:Black 1:9"
+        }
+      }
+    },
+    "terra-rosa": {
+      "$tier": "tertiary",
+      "$description": "Terra Rosa \u2014 tertiary, 45\u00b0, warm \u2014 1:1 mix of Venetian Red + Burnt Sienna",
+      "tint": {
+        "100": {
+          "$value": "#ECE3DB",
+          "$type": "color",
+          "$description": "Terra Rosa tint 100 \u2014 White:Base 9:1"
+        },
+        "200": {
+          "$value": "#E2D2C7",
+          "$type": "color",
+          "$description": "Terra Rosa tint 200 \u2014 White:Base 4:1"
+        },
+        "300": {
+          "$value": "#D9C0B3",
+          "$type": "color",
+          "$description": "Terra Rosa tint 300 \u2014 White:Base 7:3"
+        },
+        "400": {
+          "$value": "#CFAF9F",
+          "$type": "color",
+          "$description": "Terra Rosa tint 400 \u2014 White:Base 3:2"
+        },
+        "500": {
+          "$value": "#C69D8A",
+          "$type": "color",
+          "$description": "Terra Rosa tint 500 \u2014 White:Base 1:1"
+        },
+        "600": {
+          "$value": "#BD8B76",
+          "$type": "color",
+          "$description": "Terra Rosa tint 600 \u2014 White:Base 2:3"
+        },
+        "700": {
+          "$value": "#B37A62",
+          "$type": "color",
+          "$description": "Terra Rosa tint 700 \u2014 White:Base 3:7"
+        },
+        "800": {
+          "$value": "#B68069",
+          "$type": "color",
+          "$description": "Terra Rosa tint 800 \u2014 White:Base 2:4"
+        },
+        "900": {
+          "$value": "#A0573A",
+          "$type": "color",
+          "$description": "Terra Rosa tint 900 \u2014 White:Base 1:9"
+        }
+      },
+      "base": {
+        "$value": "#974526",
+        "$type": "color",
+        "$description": "Terra Rosa base \u2014 rgb(151, 69, 38)"
+      },
+      "shade": {
+        "100": {
+          "$value": "#8B4125",
+          "$type": "color",
+          "$description": "Terra Rosa shade 100 \u2014 Base:Black 9:1"
+        },
+        "200": {
+          "$value": "#703822",
+          "$type": "color",
+          "$description": "Terra Rosa shade 200 \u2014 Base:Black 4:2"
+        },
+        "300": {
+          "$value": "#743A22",
+          "$type": "color",
+          "$description": "Terra Rosa shade 300 \u2014 Base:Black 7:3"
+        },
+        "400": {
+          "$value": "#693621",
+          "$type": "color",
+          "$description": "Terra Rosa shade 400 \u2014 Base:Black 3:2"
+        },
+        "500": {
+          "$value": "#5D3220",
+          "$type": "color",
+          "$description": "Terra Rosa shade 500 \u2014 Base:Black 1:1"
+        },
+        "600": {
+          "$value": "#512E1F",
+          "$type": "color",
+          "$description": "Terra Rosa shade 600 \u2014 Base:Black 2:3"
+        },
+        "700": {
+          "$value": "#462A1E",
+          "$type": "color",
+          "$description": "Terra Rosa shade 700 \u2014 Base:Black 3:7"
+        },
+        "800": {
+          "$value": "#4A2C1E",
+          "$type": "color",
+          "$description": "Terra Rosa shade 800 \u2014 Base:Black 2:4"
+        },
+        "900": {
+          "$value": "#2F231B",
+          "$type": "color",
+          "$description": "Terra Rosa shade 900 \u2014 Base:Black 1:9"
+        }
+      }
+    },
+    "raw-sienna": {
+      "$tier": "tertiary",
+      "$description": "Raw Sienna \u2014 tertiary, 75\u00b0, warm \u2014 1:1 mix of Burnt Sienna + Yellow Ochre",
+      "tint": {
+        "100": {
+          "$value": "#EDE8DB",
+          "$type": "color",
+          "$description": "Raw Sienna tint 100 \u2014 White:Base 9:1"
+        },
+        "200": {
+          "$value": "#E6DAC8",
+          "$type": "color",
+          "$description": "Raw Sienna tint 200 \u2014 White:Base 4:1"
+        },
+        "300": {
+          "$value": "#DECDB4",
+          "$type": "color",
+          "$description": "Raw Sienna tint 300 \u2014 White:Base 7:3"
+        },
+        "400": {
+          "$value": "#D6C0A1",
+          "$type": "color",
+          "$description": "Raw Sienna tint 400 \u2014 White:Base 3:2"
+        },
+        "500": {
+          "$value": "#CEB28D",
+          "$type": "color",
+          "$description": "Raw Sienna tint 500 \u2014 White:Base 1:1"
+        },
+        "600": {
+          "$value": "#C7A579",
+          "$type": "color",
+          "$description": "Raw Sienna tint 600 \u2014 White:Base 2:3"
+        },
+        "700": {
+          "$value": "#BF9866",
+          "$type": "color",
+          "$description": "Raw Sienna tint 700 \u2014 White:Base 3:7"
+        },
+        "800": {
+          "$value": "#C29C6C",
+          "$type": "color",
+          "$description": "Raw Sienna tint 800 \u2014 White:Base 2:4"
+        },
+        "900": {
+          "$value": "#B07D3F",
+          "$type": "color",
+          "$description": "Raw Sienna tint 900 \u2014 White:Base 1:9"
+        }
+      },
+      "base": {
+        "$value": "#A8702B",
+        "$type": "color",
+        "$description": "Raw Sienna base \u2014 rgb(168, 112, 43)"
+      },
+      "shade": {
+        "100": {
+          "$value": "#9B6829",
+          "$type": "color",
+          "$description": "Raw Sienna shade 100 \u2014 Base:Black 9:1"
+        },
+        "200": {
+          "$value": "#7C5525",
+          "$type": "color",
+          "$description": "Raw Sienna shade 200 \u2014 Base:Black 4:2"
+        },
+        "300": {
+          "$value": "#805826",
+          "$type": "color",
+          "$description": "Raw Sienna shade 300 \u2014 Base:Black 7:3"
+        },
+        "400": {
+          "$value": "#735024",
+          "$type": "color",
+          "$description": "Raw Sienna shade 400 \u2014 Base:Black 3:2"
+        },
+        "500": {
+          "$value": "#664822",
+          "$type": "color",
+          "$description": "Raw Sienna shade 500 \u2014 Base:Black 1:1"
+        },
+        "600": {
+          "$value": "#583F21",
+          "$type": "color",
+          "$description": "Raw Sienna shade 600 \u2014 Base:Black 2:3"
+        },
+        "700": {
+          "$value": "#4B371F",
+          "$type": "color",
+          "$description": "Raw Sienna shade 700 \u2014 Base:Black 3:7"
+        },
+        "800": {
+          "$value": "#4F3A20",
+          "$type": "color",
+          "$description": "Raw Sienna shade 800 \u2014 Base:Black 2:4"
+        },
+        "900": {
+          "$value": "#30271C",
+          "$type": "color",
+          "$description": "Raw Sienna shade 900 \u2014 Base:Black 1:9"
+        }
+      }
+    },
+    "aureolin": {
+      "$tier": "tertiary",
+      "$description": "Aureolin \u2014 tertiary, 105\u00b0, warm \u2014 1:1 mix of Yellow Ochre + Naples Yellow",
+      "tint": {
+        "100": {
+          "$value": "#F1EDE0",
+          "$type": "color",
+          "$description": "Aureolin tint 100 \u2014 White:Base 9:1"
+        },
+        "200": {
+          "$value": "#EDE6D0",
+          "$type": "color",
+          "$description": "Aureolin tint 200 \u2014 White:Base 4:1"
+        },
+        "300": {
+          "$value": "#E9DEC1",
+          "$type": "color",
+          "$description": "Aureolin tint 300 \u2014 White:Base 7:3"
+        },
+        "400": {
+          "$value": "#E5D6B1",
+          "$type": "color",
+          "$description": "Aureolin tint 400 \u2014 White:Base 3:2"
+        },
+        "500": {
+          "$value": "#E0CEA2",
+          "$type": "color",
+          "$description": "Aureolin tint 500 \u2014 White:Base 1:1"
+        },
+        "600": {
+          "$value": "#DCC793",
+          "$type": "color",
+          "$description": "Aureolin tint 600 \u2014 White:Base 2:3"
+        },
+        "700": {
+          "$value": "#D8BF83",
+          "$type": "color",
+          "$description": "Aureolin tint 700 \u2014 White:Base 3:7"
+        },
+        "800": {
+          "$value": "#DAC288",
+          "$type": "color",
+          "$description": "Aureolin tint 800 \u2014 White:Base 2:4"
+        },
+        "900": {
+          "$value": "#D0B064",
+          "$type": "color",
+          "$description": "Aureolin tint 900 \u2014 White:Base 1:9"
+        }
+      },
+      "base": {
+        "$value": "#CCA855",
+        "$type": "color",
+        "$description": "Aureolin base \u2014 rgb(204, 168, 85)"
+      },
+      "shade": {
+        "100": {
+          "$value": "#BB9A4F",
+          "$type": "color",
+          "$description": "Aureolin shade 100 \u2014 Base:Black 9:1"
+        },
+        "200": {
+          "$value": "#947A41",
+          "$type": "color",
+          "$description": "Aureolin shade 200 \u2014 Base:Black 4:2"
+        },
+        "300": {
+          "$value": "#997F43",
+          "$type": "color",
+          "$description": "Aureolin shade 300 \u2014 Base:Black 7:3"
+        },
+        "400": {
+          "$value": "#88713D",
+          "$type": "color",
+          "$description": "Aureolin shade 400 \u2014 Base:Black 3:2"
+        },
+        "500": {
+          "$value": "#786438",
+          "$type": "color",
+          "$description": "Aureolin shade 500 \u2014 Base:Black 1:1"
+        },
+        "600": {
+          "$value": "#675632",
+          "$type": "color",
+          "$description": "Aureolin shade 600 \u2014 Base:Black 2:3"
+        },
+        "700": {
+          "$value": "#56482C",
+          "$type": "color",
+          "$description": "Aureolin shade 700 \u2014 Base:Black 3:7"
+        },
+        "800": {
+          "$value": "#5B4D2E",
+          "$type": "color",
+          "$description": "Aureolin shade 800 \u2014 Base:Black 2:4"
+        },
+        "900": {
+          "$value": "#342D20",
+          "$type": "color",
+          "$description": "Aureolin shade 900 \u2014 Base:Black 1:9"
+        }
+      }
+    },
+    "olive-earth": {
+      "$tier": "tertiary",
+      "$description": "Olive Earth \u2014 tertiary, 135\u00b0, warm \u2014 1:1 mix of Naples Yellow + Terre Verte",
+      "tint": {
+        "100": {
+          "$value": "#EDEDE2",
+          "$type": "color",
+          "$description": "Olive Earth tint 100 \u2014 White:Base 9:1"
+        },
+        "200": {
+          "$value": "#E5E4D4",
+          "$type": "color",
+          "$description": "Olive Earth tint 200 \u2014 White:Base 4:1"
+        },
+        "300": {
+          "$value": "#DEDCC6",
+          "$type": "color",
+          "$description": "Olive Earth tint 300 \u2014 White:Base 7:3"
+        },
+        "400": {
+          "$value": "#D6D4B9",
+          "$type": "color",
+          "$description": "Olive Earth tint 400 \u2014 White:Base 3:2"
+        },
+        "500": {
+          "$value": "#CECCAC",
+          "$type": "color",
+          "$description": "Olive Earth tint 500 \u2014 White:Base 1:1"
+        },
+        "600": {
+          "$value": "#C6C39E",
+          "$type": "color",
+          "$description": "Olive Earth tint 600 \u2014 White:Base 2:3"
+        },
+        "700": {
+          "$value": "#BEBB90",
+          "$type": "color",
+          "$description": "Olive Earth tint 700 \u2014 White:Base 3:7"
+        },
+        "800": {
+          "$value": "#C1BE95",
+          "$type": "color",
+          "$description": "Olive Earth tint 800 \u2014 White:Base 2:4"
+        },
+        "900": {
+          "$value": "#AFAA76",
+          "$type": "color",
+          "$description": "Olive Earth tint 900 \u2014 White:Base 1:9"
+        }
+      },
+      "base": {
+        "$value": "#A7A268",
+        "$type": "color",
+        "$description": "Olive Earth base \u2014 rgb(167, 162, 104)"
+      },
+      "shade": {
+        "100": {
+          "$value": "#9A9560",
+          "$type": "color",
+          "$description": "Olive Earth shade 100 \u2014 Base:Black 9:1"
+        },
+        "200": {
+          "$value": "#7B764E",
+          "$type": "color",
+          "$description": "Olive Earth shade 200 \u2014 Base:Black 4:2"
+        },
+        "300": {
+          "$value": "#7F7B51",
+          "$type": "color",
+          "$description": "Olive Earth shade 300 \u2014 Base:Black 7:3"
+        },
+        "400": {
+          "$value": "#726E49",
+          "$type": "color",
+          "$description": "Olive Earth shade 400 \u2014 Base:Black 3:2"
+        },
+        "500": {
+          "$value": "#656041",
+          "$type": "color",
+          "$description": "Olive Earth shade 500 \u2014 Base:Black 1:1"
+        },
+        "600": {
+          "$value": "#585339",
+          "$type": "color",
+          "$description": "Olive Earth shade 600 \u2014 Base:Black 2:3"
+        },
+        "700": {
+          "$value": "#4B4631",
+          "$type": "color",
+          "$description": "Olive Earth shade 700 \u2014 Base:Black 3:7"
+        },
+        "800": {
+          "$value": "#4F4B34",
+          "$type": "color",
+          "$description": "Olive Earth shade 800 \u2014 Base:Black 2:4"
+        },
+        "900": {
+          "$value": "#302C22",
+          "$type": "color",
+          "$description": "Olive Earth shade 900 \u2014 Base:Black 1:9"
+        }
+      }
+    },
+    "sage": {
+      "$tier": "tertiary",
+      "$description": "Sage \u2014 tertiary, 165\u00b0, cool \u2014 1:1 mix of Terre Verte + Oxide Green",
+      "tint": {
+        "100": {
+          "$value": "#E6EAE1",
+          "$type": "color",
+          "$description": "Sage tint 100 \u2014 White:Base 9:1"
+        },
+        "200": {
+          "$value": "#D8DED3",
+          "$type": "color",
+          "$description": "Sage tint 200 \u2014 White:Base 4:1"
+        },
+        "300": {
+          "$value": "#CAD2C5",
+          "$type": "color",
+          "$description": "Sage tint 300 \u2014 White:Base 7:3"
+        },
+        "400": {
+          "$value": "#BBC7B7",
+          "$type": "color",
+          "$description": "Sage tint 400 \u2014 White:Base 3:2"
+        },
+        "500": {
+          "$value": "#ACBCAA",
+          "$type": "color",
+          "$description": "Sage tint 500 \u2014 White:Base 1:1"
+        },
+        "600": {
+          "$value": "#9EB09C",
+          "$type": "color",
+          "$description": "Sage tint 600 \u2014 White:Base 2:3"
+        },
+        "700": {
+          "$value": "#90A48E",
+          "$type": "color",
+          "$description": "Sage tint 700 \u2014 White:Base 3:7"
+        },
+        "800": {
+          "$value": "#94A892",
+          "$type": "color",
+          "$description": "Sage tint 800 \u2014 White:Base 2:4"
+        },
+        "900": {
+          "$value": "#728E72",
+          "$type": "color",
+          "$description": "Sage tint 900 \u2014 White:Base 1:9"
+        }
+      },
+      "base": {
+        "$value": "#648264",
+        "$type": "color",
+        "$description": "Sage base \u2014 rgb(100, 130, 100)"
+      },
+      "shade": {
+        "100": {
+          "$value": "#5E785D",
+          "$type": "color",
+          "$description": "Sage shade 100 \u2014 Base:Black 9:1"
+        },
+        "200": {
+          "$value": "#4E614B",
+          "$type": "color",
+          "$description": "Sage shade 200 \u2014 Base:Black 4:2"
+        },
+        "300": {
+          "$value": "#50644E",
+          "$type": "color",
+          "$description": "Sage shade 300 \u2014 Base:Black 7:3"
+        },
+        "400": {
+          "$value": "#4A5A46",
+          "$type": "color",
+          "$description": "Sage shade 400 \u2014 Base:Black 3:2"
+        },
+        "500": {
+          "$value": "#44503F",
+          "$type": "color",
+          "$description": "Sage shade 500 \u2014 Base:Black 1:1"
+        },
+        "600": {
+          "$value": "#3D4738",
+          "$type": "color",
+          "$description": "Sage shade 600 \u2014 Base:Black 2:3"
+        },
+        "700": {
+          "$value": "#363D30",
+          "$type": "color",
+          "$description": "Sage shade 700 \u2014 Base:Black 3:7"
+        },
+        "800": {
+          "$value": "#394033",
+          "$type": "color",
+          "$description": "Sage shade 800 \u2014 Base:Black 2:4"
+        },
+        "900": {
+          "$value": "#2A2921",
+          "$type": "color",
+          "$description": "Sage shade 900 \u2014 Base:Black 1:9"
+        }
+      }
+    },
+    "viridian": {
+      "$tier": "tertiary",
+      "$description": "Viridian \u2014 tertiary, 195\u00b0, cool \u2014 1:1 mix of Oxide Green + Cerulean Grey",
+      "tint": {
+        "100": {
+          "$value": "#E4E8E3",
+          "$type": "color",
+          "$description": "Viridian tint 100 \u2014 White:Base 9:1"
+        },
+        "200": {
+          "$value": "#D4DBD7",
+          "$type": "color",
+          "$description": "Viridian tint 200 \u2014 White:Base 4:1"
+        },
+        "300": {
+          "$value": "#C3CECA",
+          "$type": "color",
+          "$description": "Viridian tint 300 \u2014 White:Base 7:3"
+        },
+        "400": {
+          "$value": "#B2C1BE",
+          "$type": "color",
+          "$description": "Viridian tint 400 \u2014 White:Base 3:2"
+        },
+        "500": {
+          "$value": "#A2B4B2",
+          "$type": "color",
+          "$description": "Viridian tint 500 \u2014 White:Base 1:1"
+        },
+        "600": {
+          "$value": "#91A6A6",
+          "$type": "color",
+          "$description": "Viridian tint 600 \u2014 White:Base 2:3"
+        },
+        "700": {
+          "$value": "#80999A",
+          "$type": "color",
+          "$description": "Viridian tint 700 \u2014 White:Base 3:7"
+        },
+        "800": {
+          "$value": "#869E9E",
+          "$type": "color",
+          "$description": "Viridian tint 800 \u2014 White:Base 2:4"
+        },
+        "900": {
+          "$value": "#5F7F81",
+          "$type": "color",
+          "$description": "Viridian tint 900 \u2014 White:Base 1:9"
+        }
+      },
+      "base": {
+        "$value": "#4E7275",
+        "$type": "color",
+        "$description": "Viridian base \u2014 rgb(78, 114, 117)"
+      },
+      "shade": {
+        "100": {
+          "$value": "#4A6A6C",
+          "$type": "color",
+          "$description": "Viridian shade 100 \u2014 Base:Black 9:1"
+        },
+        "200": {
+          "$value": "#405657",
+          "$type": "color",
+          "$description": "Viridian shade 200 \u2014 Base:Black 4:2"
+        },
+        "300": {
+          "$value": "#41595A",
+          "$type": "color",
+          "$description": "Viridian shade 300 \u2014 Base:Black 7:3"
+        },
+        "400": {
+          "$value": "#3D5151",
+          "$type": "color",
+          "$description": "Viridian shade 400 \u2014 Base:Black 3:2"
+        },
+        "500": {
+          "$value": "#384848",
+          "$type": "color",
+          "$description": "Viridian shade 500 \u2014 Base:Black 1:1"
+        },
+        "600": {
+          "$value": "#34403E",
+          "$type": "color",
+          "$description": "Viridian shade 600 \u2014 Base:Black 2:3"
+        },
+        "700": {
+          "$value": "#303835",
+          "$type": "color",
+          "$description": "Viridian shade 700 \u2014 Base:Black 3:7"
+        },
+        "800": {
+          "$value": "#313B38",
+          "$type": "color",
+          "$description": "Viridian shade 800 \u2014 Base:Black 2:4"
+        },
+        "900": {
+          "$value": "#272723",
+          "$type": "color",
+          "$description": "Viridian shade 900 \u2014 Base:Black 1:9"
+        }
+      }
+    },
+    "slate": {
+      "$tier": "tertiary",
+      "$description": "Slate \u2014 tertiary, 225\u00b0, cool \u2014 1:1 mix of Cerulean Grey + Prussian Blue",
+      "tint": {
+        "100": {
+          "$value": "#E3E6E3",
+          "$type": "color",
+          "$description": "Slate tint 100 \u2014 White:Base 9:1"
+        },
+        "200": {
+          "$value": "#D0D6D7",
+          "$type": "color",
+          "$description": "Slate tint 200 \u2014 White:Base 4:1"
+        },
+        "300": {
+          "$value": "#BEC6CA",
+          "$type": "color",
+          "$description": "Slate tint 300 \u2014 White:Base 7:3"
+        },
+        "400": {
+          "$value": "#ABB7BE",
+          "$type": "color",
+          "$description": "Slate tint 400 \u2014 White:Base 3:2"
+        },
+        "500": {
+          "$value": "#99A8B2",
+          "$type": "color",
+          "$description": "Slate tint 500 \u2014 White:Base 1:1"
+        },
+        "600": {
+          "$value": "#8798A6",
+          "$type": "color",
+          "$description": "Slate tint 600 \u2014 White:Base 2:3"
+        },
+        "700": {
+          "$value": "#74889A",
+          "$type": "color",
+          "$description": "Slate tint 700 \u2014 White:Base 3:7"
+        },
+        "800": {
+          "$value": "#7A8E9E",
+          "$type": "color",
+          "$description": "Slate tint 800 \u2014 White:Base 2:4"
+        },
+        "900": {
+          "$value": "#4F6A81",
+          "$type": "color",
+          "$description": "Slate tint 900 \u2014 White:Base 1:9"
+        }
+      },
+      "base": {
+        "$value": "#3D5A75",
+        "$type": "color",
+        "$description": "Slate base \u2014 rgb(61, 90, 117)"
+      },
+      "shade": {
+        "100": {
+          "$value": "#3A546C",
+          "$type": "color",
+          "$description": "Slate shade 100 \u2014 Base:Black 9:1"
+        },
+        "200": {
+          "$value": "#344657",
+          "$type": "color",
+          "$description": "Slate shade 200 \u2014 Base:Black 4:2"
+        },
+        "300": {
+          "$value": "#35485A",
+          "$type": "color",
+          "$description": "Slate shade 300 \u2014 Base:Black 7:3"
+        },
+        "400": {
+          "$value": "#334251",
+          "$type": "color",
+          "$description": "Slate shade 400 \u2014 Base:Black 3:2"
+        },
+        "500": {
+          "$value": "#303C48",
+          "$type": "color",
+          "$description": "Slate shade 500 \u2014 Base:Black 1:1"
+        },
+        "600": {
+          "$value": "#2D373E",
+          "$type": "color",
+          "$description": "Slate shade 600 \u2014 Base:Black 2:3"
+        },
+        "700": {
+          "$value": "#2B3135",
+          "$type": "color",
+          "$description": "Slate shade 700 \u2014 Base:Black 3:7"
+        },
+        "800": {
+          "$value": "#2C3338",
+          "$type": "color",
+          "$description": "Slate shade 800 \u2014 Base:Black 2:4"
+        },
+        "900": {
+          "$value": "#262523",
+          "$type": "color",
+          "$description": "Slate shade 900 \u2014 Base:Black 1:9"
+        }
+      }
+    },
+    "indigo": {
+      "$tier": "tertiary",
+      "$description": "Indigo \u2014 tertiary, 255\u00b0, cool \u2014 1:1 mix of Prussian Blue + Ultramarine",
+      "tint": {
+        "100": {
+          "$value": "#E2E4E2",
+          "$type": "color",
+          "$description": "Indigo tint 100 \u2014 White:Base 9:1"
+        },
+        "200": {
+          "$value": "#CED2D6",
+          "$type": "color",
+          "$description": "Indigo tint 200 \u2014 White:Base 4:1"
+        },
+        "300": {
+          "$value": "#BBC1C9",
+          "$type": "color",
+          "$description": "Indigo tint 300 \u2014 White:Base 7:3"
+        },
+        "400": {
+          "$value": "#A8B0BC",
+          "$type": "color",
+          "$description": "Indigo tint 400 \u2014 White:Base 3:2"
+        },
+        "500": {
+          "$value": "#949EB0",
+          "$type": "color",
+          "$description": "Indigo tint 500 \u2014 White:Base 1:1"
+        },
+        "600": {
+          "$value": "#818DA3",
+          "$type": "color",
+          "$description": "Indigo tint 600 \u2014 White:Base 2:3"
+        },
+        "700": {
+          "$value": "#6E7C96",
+          "$type": "color",
+          "$description": "Indigo tint 700 \u2014 White:Base 3:7"
+        },
+        "800": {
+          "$value": "#74829A",
+          "$type": "color",
+          "$description": "Indigo tint 800 \u2014 White:Base 2:4"
+        },
+        "900": {
+          "$value": "#47597D",
+          "$type": "color",
+          "$description": "Indigo tint 900 \u2014 White:Base 1:9"
+        }
+      },
+      "base": {
+        "$value": "#344870",
+        "$type": "color",
+        "$description": "Indigo base \u2014 rgb(52, 72, 112)"
+      },
+      "shade": {
+        "100": {
+          "$value": "#324467",
+          "$type": "color",
+          "$description": "Indigo shade 100 \u2014 Base:Black 9:1"
+        },
+        "200": {
+          "$value": "#2E3A53",
+          "$type": "color",
+          "$description": "Indigo shade 200 \u2014 Base:Black 4:2"
+        },
+        "300": {
+          "$value": "#2F3C56",
+          "$type": "color",
+          "$description": "Indigo shade 300 \u2014 Base:Black 7:3"
+        },
+        "400": {
+          "$value": "#2D384E",
+          "$type": "color",
+          "$description": "Indigo shade 400 \u2014 Base:Black 3:2"
+        },
+        "500": {
+          "$value": "#2C3445",
+          "$type": "color",
+          "$description": "Indigo shade 500 \u2014 Base:Black 1:1"
+        },
+        "600": {
+          "$value": "#2A2F3C",
+          "$type": "color",
+          "$description": "Indigo shade 600 \u2014 Base:Black 2:3"
+        },
+        "700": {
+          "$value": "#282B34",
+          "$type": "color",
+          "$description": "Indigo shade 700 \u2014 Base:Black 3:7"
+        },
+        "800": {
+          "$value": "#292D37",
+          "$type": "color",
+          "$description": "Indigo shade 800 \u2014 Base:Black 2:4"
+        },
+        "900": {
+          "$value": "#252323",
+          "$type": "color",
+          "$description": "Indigo shade 900 \u2014 Base:Black 1:9"
+        }
+      }
+    },
+    "dioxazine": {
+      "$tier": "tertiary",
+      "$description": "Dioxazine \u2014 tertiary, 285\u00b0, cool \u2014 1:1 mix of Ultramarine + Mars Violet",
+      "tint": {
+        "100": {
+          "$value": "#E5E3E2",
+          "$type": "color",
+          "$description": "Dioxazine tint 100 \u2014 White:Base 9:1"
+        },
+        "200": {
+          "$value": "#D5D1D4",
+          "$type": "color",
+          "$description": "Dioxazine tint 200 \u2014 White:Base 4:1"
+        },
+        "300": {
+          "$value": "#C4BFC6",
+          "$type": "color",
+          "$description": "Dioxazine tint 300 \u2014 White:Base 7:3"
+        },
+        "400": {
+          "$value": "#B4ADB9",
+          "$type": "color",
+          "$description": "Dioxazine tint 400 \u2014 White:Base 3:2"
+        },
+        "500": {
+          "$value": "#A49CAC",
+          "$type": "color",
+          "$description": "Dioxazine tint 500 \u2014 White:Base 1:1"
+        },
+        "600": {
+          "$value": "#948A9E",
+          "$type": "color",
+          "$description": "Dioxazine tint 600 \u2014 White:Base 2:3"
+        },
+        "700": {
+          "$value": "#847890",
+          "$type": "color",
+          "$description": "Dioxazine tint 700 \u2014 White:Base 3:7"
+        },
+        "800": {
+          "$value": "#897E95",
+          "$type": "color",
+          "$description": "Dioxazine tint 800 \u2014 White:Base 2:4"
+        },
+        "900": {
+          "$value": "#635476",
+          "$type": "color",
+          "$description": "Dioxazine tint 900 \u2014 White:Base 1:9"
+        }
+      },
+      "base": {
+        "$value": "#534268",
+        "$type": "color",
+        "$description": "Dioxazine base \u2014 rgb(83, 66, 104)"
+      },
+      "shade": {
+        "100": {
+          "$value": "#4E3E60",
+          "$type": "color",
+          "$description": "Dioxazine shade 100 \u2014 Base:Black 9:1"
+        },
+        "200": {
+          "$value": "#43364E",
+          "$type": "color",
+          "$description": "Dioxazine shade 200 \u2014 Base:Black 4:2"
+        },
+        "300": {
+          "$value": "#453851",
+          "$type": "color",
+          "$description": "Dioxazine shade 300 \u2014 Base:Black 7:3"
+        },
+        "400": {
+          "$value": "#403449",
+          "$type": "color",
+          "$description": "Dioxazine shade 400 \u2014 Base:Black 3:2"
+        },
+        "500": {
+          "$value": "#3B3041",
+          "$type": "color",
+          "$description": "Dioxazine shade 500 \u2014 Base:Black 1:1"
+        },
+        "600": {
+          "$value": "#362D39",
+          "$type": "color",
+          "$description": "Dioxazine shade 600 \u2014 Base:Black 2:3"
+        },
+        "700": {
+          "$value": "#312A31",
+          "$type": "color",
+          "$description": "Dioxazine shade 700 \u2014 Base:Black 3:7"
+        },
+        "800": {
+          "$value": "#332B34",
+          "$type": "color",
+          "$description": "Dioxazine shade 800 \u2014 Base:Black 2:4"
+        },
+        "900": {
+          "$value": "#282222",
+          "$type": "color",
+          "$description": "Dioxazine shade 900 \u2014 Base:Black 1:9"
+        }
+      }
+    },
+    "purple-madder": {
+      "$tier": "tertiary",
+      "$description": "Purple Madder \u2014 tertiary, 315\u00b0, cool \u2014 1:1 mix of Mars Violet + Caput Mortuum",
+      "tint": {
+        "100": {
+          "$value": "#E9E2DF",
+          "$type": "color",
+          "$description": "Purple Madder tint 100 \u2014 White:Base 9:1"
+        },
+        "200": {
+          "$value": "#DCD0CF",
+          "$type": "color",
+          "$description": "Purple Madder tint 200 \u2014 White:Base 4:1"
+        },
+        "300": {
+          "$value": "#D0BEBE",
+          "$type": "color",
+          "$description": "Purple Madder tint 300 \u2014 White:Base 7:3"
+        },
+        "400": {
+          "$value": "#C4ABAE",
+          "$type": "color",
+          "$description": "Purple Madder tint 400 \u2014 White:Base 3:2"
+        },
+        "500": {
+          "$value": "#B8989E",
+          "$type": "color",
+          "$description": "Purple Madder tint 500 \u2014 White:Base 1:1"
+        },
+        "600": {
+          "$value": "#AB868E",
+          "$type": "color",
+          "$description": "Purple Madder tint 600 \u2014 White:Base 2:3"
+        },
+        "700": {
+          "$value": "#9F747E",
+          "$type": "color",
+          "$description": "Purple Madder tint 700 \u2014 White:Base 3:7"
+        },
+        "800": {
+          "$value": "#A37A83",
+          "$type": "color",
+          "$description": "Purple Madder tint 800 \u2014 White:Base 2:4"
+        },
+        "900": {
+          "$value": "#864E5D",
+          "$type": "color",
+          "$description": "Purple Madder tint 900 \u2014 White:Base 1:9"
+        }
+      },
+      "base": {
+        "$value": "#7A3C4D",
+        "$type": "color",
+        "$description": "Purple Madder base \u2014 rgb(122, 60, 77)"
+      },
+      "shade": {
+        "100": {
+          "$value": "#713948",
+          "$type": "color",
+          "$description": "Purple Madder shade 100 \u2014 Base:Black 9:1"
+        },
+        "200": {
+          "$value": "#5D323C",
+          "$type": "color",
+          "$description": "Purple Madder shade 200 \u2014 Base:Black 4:2"
+        },
+        "300": {
+          "$value": "#60333E",
+          "$type": "color",
+          "$description": "Purple Madder shade 300 \u2014 Base:Black 7:3"
+        },
+        "400": {
+          "$value": "#573039",
+          "$type": "color",
+          "$description": "Purple Madder shade 400 \u2014 Base:Black 3:2"
+        },
+        "500": {
+          "$value": "#4E2E34",
+          "$type": "color",
+          "$description": "Purple Madder shade 500 \u2014 Base:Black 1:1"
+        },
+        "600": {
+          "$value": "#462B2E",
+          "$type": "color",
+          "$description": "Purple Madder shade 600 \u2014 Base:Black 2:3"
+        },
+        "700": {
+          "$value": "#3D2829",
+          "$type": "color",
+          "$description": "Purple Madder shade 700 \u2014 Base:Black 3:7"
+        },
+        "800": {
+          "$value": "#40292B",
+          "$type": "color",
+          "$description": "Purple Madder shade 800 \u2014 Base:Black 2:4"
+        },
+        "900": {
+          "$value": "#2C221F",
+          "$type": "color",
+          "$description": "Purple Madder shade 900 \u2014 Base:Black 1:9"
+        }
+      }
+    },
+    "alizarin": {
+      "$tier": "tertiary",
+      "$description": "Alizarin \u2014 tertiary, 345\u00b0, warm \u2014 1:1 mix of Caput Mortuum + Cadmium Red",
+      "tint": {
+        "100": {
+          "$value": "#EDE2DC",
+          "$type": "color",
+          "$description": "Alizarin tint 100 \u2014 White:Base 9:1"
+        },
+        "200": {
+          "$value": "#E6D0CA",
+          "$type": "color",
+          "$description": "Alizarin tint 200 \u2014 White:Base 4:1"
+        },
+        "300": {
+          "$value": "#DEBDB8",
+          "$type": "color",
+          "$description": "Alizarin tint 300 \u2014 White:Base 7:3"
+        },
+        "400": {
+          "$value": "#D7AAA5",
+          "$type": "color",
+          "$description": "Alizarin tint 400 \u2014 White:Base 3:2"
+        },
+        "500": {
+          "$value": "#CF9892",
+          "$type": "color",
+          "$description": "Alizarin tint 500 \u2014 White:Base 1:1"
+        },
+        "600": {
+          "$value": "#C78580",
+          "$type": "color",
+          "$description": "Alizarin tint 600 \u2014 White:Base 2:3"
+        },
+        "700": {
+          "$value": "#C0726E",
+          "$type": "color",
+          "$description": "Alizarin tint 700 \u2014 White:Base 3:7"
+        },
+        "800": {
+          "$value": "#C27874",
+          "$type": "color",
+          "$description": "Alizarin tint 800 \u2014 White:Base 2:4"
+        },
+        "900": {
+          "$value": "#B14D48",
+          "$type": "color",
+          "$description": "Alizarin tint 900 \u2014 White:Base 1:9"
+        }
+      },
+      "base": {
+        "$value": "#A93A36",
+        "$type": "color",
+        "$description": "Alizarin base \u2014 rgb(169, 58, 54)"
+      },
+      "shade": {
+        "100": {
+          "$value": "#9C3733",
+          "$type": "color",
+          "$description": "Alizarin shade 100 \u2014 Base:Black 9:1"
+        },
+        "200": {
+          "$value": "#7C312D",
+          "$type": "color",
+          "$description": "Alizarin shade 200 \u2014 Base:Black 4:2"
+        },
+        "300": {
+          "$value": "#81322E",
+          "$type": "color",
+          "$description": "Alizarin shade 300 \u2014 Base:Black 7:3"
+        },
+        "400": {
+          "$value": "#732F2B",
+          "$type": "color",
+          "$description": "Alizarin shade 400 \u2014 Base:Black 3:2"
+        },
+        "500": {
+          "$value": "#662C28",
+          "$type": "color",
+          "$description": "Alizarin shade 500 \u2014 Base:Black 1:1"
+        },
+        "600": {
+          "$value": "#592A25",
+          "$type": "color",
+          "$description": "Alizarin shade 600 \u2014 Base:Black 2:3"
+        },
+        "700": {
+          "$value": "#4B2722",
+          "$type": "color",
+          "$description": "Alizarin shade 700 \u2014 Base:Black 3:7"
+        },
+        "800": {
+          "$value": "#502823",
+          "$type": "color",
+          "$description": "Alizarin shade 800 \u2014 Base:Black 2:4"
+        },
+        "900": {
+          "$value": "#30221D",
+          "$type": "color",
+          "$description": "Alizarin shade 900 \u2014 Base:Black 1:9"
         }
       }
     }

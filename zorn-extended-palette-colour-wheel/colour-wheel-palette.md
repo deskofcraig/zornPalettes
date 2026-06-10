@@ -293,3 +293,333 @@
 | `caput-mortuum-shade-800` | `#452827` | rgb(69, 40, 39) | 0:2:4 |
 | `caput-mortuum-shade-900` | `#2D221E` | rgb(45, 34, 30) | 0:1:9 |
 
+
+
+---
+
+## Tier Classification
+
+The 24-colour wheel follows RYB colour theory nomenclature:
+
+| Tier | Count | Colours |
+|------|-------|--------|
+| **Primary** | 3 | Cadmium Red, Naples Yellow, Prussian Blue |
+| **Secondary** | 3 | Burnt Sienna, Oxide Green, Mars Violet |
+| **Tertiary** | 18 | All remaining (6 original + 12 new 1:1 mixes) |
+
+---
+
+## Tertiary Colours (New — 1:1 Adjacent Mixes)
+
+### Vermilion — `#B63C2E` — 15° — Warm
+
+*Mixed from Cadmium Red + Venetian Red at 1:1 ratio*
+
+| Token | Hex | RGB | Ratio |
+|-------|-----|-----|-------|
+| `--color-vermilion-tint-100` | `#EFE2DC` | (239, 226, 220) | White 9 : Base 1 |
+| `--color-vermilion-tint-200` | `#E8D0C8` | (232, 208, 200) | White 4 : Base 1 |
+| `--color-vermilion-tint-300` | `#E2BEB5` | (226, 190, 181) | White 7 : Base 3 |
+| `--color-vermilion-tint-400` | `#DCABA2` | (220, 171, 162) | White 3 : Base 2 |
+| `--color-vermilion-tint-500` | `#D6988E` | (214, 152, 142) | White 1 : Base 1 |
+| `--color-vermilion-tint-600` | `#CF867B` | (207, 134, 123) | White 2 : Base 3 |
+| `--color-vermilion-tint-700` | `#C97468` | (201, 116, 104) | White 3 : Base 7 |
+| `--color-vermilion-tint-800` | `#CB7A6E` | (203, 122, 110) | White 2 : Base 4 |
+| `--color-vermilion-tint-900` | `#BC4E41` | (188, 78, 65) | White 1 : Base 9 |
+| `--color-vermilion-base` | `#B63C2E` | (182, 60, 46) | — |
+| `--color-vermilion-shade-100` | `#A7392C` | (167, 57, 44) | Base 9 : Black 1 |
+| `--color-vermilion-shade-200` | `#853227` | (133, 50, 39) | Base 4 : Black 2 |
+| `--color-vermilion-shade-300` | `#8A3328` | (138, 51, 40) | Base 7 : Black 3 |
+| `--color-vermilion-shade-400` | `#7B3026` | (123, 48, 38) | Base 3 : Black 2 |
+| `--color-vermilion-shade-500` | `#6C2E24` | (108, 46, 36) | Base 1 : Black 1 |
+| `--color-vermilion-shade-600` | `#5E2B22` | (94, 43, 34) | Base 2 : Black 3 |
+| `--color-vermilion-shade-700` | `#4F2820` | (79, 40, 32) | Base 3 : Black 7 |
+| `--color-vermilion-shade-800` | `#542921` | (84, 41, 33) | Base 2 : Black 4 |
+| `--color-vermilion-shade-900` | `#32221C` | (50, 34, 28) | Base 1 : Black 9 |
+
+### Terra Rosa — `#974526` — 45° — Warm
+
+*Mixed from Venetian Red + Burnt Sienna at 1:1 ratio*
+
+| Token | Hex | RGB | Ratio |
+|-------|-----|-----|-------|
+| `--color-terra-rosa-tint-100` | `#ECE3DB` | (236, 227, 219) | White 9 : Base 1 |
+| `--color-terra-rosa-tint-200` | `#E2D2C7` | (226, 210, 199) | White 4 : Base 1 |
+| `--color-terra-rosa-tint-300` | `#D9C0B3` | (217, 192, 179) | White 7 : Base 3 |
+| `--color-terra-rosa-tint-400` | `#CFAF9F` | (207, 175, 159) | White 3 : Base 2 |
+| `--color-terra-rosa-tint-500` | `#C69D8A` | (198, 157, 138) | White 1 : Base 1 |
+| `--color-terra-rosa-tint-600` | `#BD8B76` | (189, 139, 118) | White 2 : Base 3 |
+| `--color-terra-rosa-tint-700` | `#B37A62` | (179, 122, 98) | White 3 : Base 7 |
+| `--color-terra-rosa-tint-800` | `#B68069` | (182, 128, 105) | White 2 : Base 4 |
+| `--color-terra-rosa-tint-900` | `#A0573A` | (160, 87, 58) | White 1 : Base 9 |
+| `--color-terra-rosa-base` | `#974526` | (151, 69, 38) | — |
+| `--color-terra-rosa-shade-100` | `#8B4125` | (139, 65, 37) | Base 9 : Black 1 |
+| `--color-terra-rosa-shade-200` | `#703822` | (112, 56, 34) | Base 4 : Black 2 |
+| `--color-terra-rosa-shade-300` | `#743A22` | (116, 58, 34) | Base 7 : Black 3 |
+| `--color-terra-rosa-shade-400` | `#693621` | (105, 54, 33) | Base 3 : Black 2 |
+| `--color-terra-rosa-shade-500` | `#5D3220` | (93, 50, 32) | Base 1 : Black 1 |
+| `--color-terra-rosa-shade-600` | `#512E1F` | (81, 46, 31) | Base 2 : Black 3 |
+| `--color-terra-rosa-shade-700` | `#462A1E` | (70, 42, 30) | Base 3 : Black 7 |
+| `--color-terra-rosa-shade-800` | `#4A2C1E` | (74, 44, 30) | Base 2 : Black 4 |
+| `--color-terra-rosa-shade-900` | `#2F231B` | (47, 35, 27) | Base 1 : Black 9 |
+
+### Raw Sienna — `#A8702B` — 75° — Warm
+
+*Mixed from Burnt Sienna + Yellow Ochre at 1:1 ratio*
+
+| Token | Hex | RGB | Ratio |
+|-------|-----|-----|-------|
+| `--color-raw-sienna-tint-100` | `#EDE8DB` | (237, 232, 219) | White 9 : Base 1 |
+| `--color-raw-sienna-tint-200` | `#E6DAC8` | (230, 218, 200) | White 4 : Base 1 |
+| `--color-raw-sienna-tint-300` | `#DECDB4` | (222, 205, 180) | White 7 : Base 3 |
+| `--color-raw-sienna-tint-400` | `#D6C0A1` | (214, 192, 161) | White 3 : Base 2 |
+| `--color-raw-sienna-tint-500` | `#CEB28D` | (206, 178, 141) | White 1 : Base 1 |
+| `--color-raw-sienna-tint-600` | `#C7A579` | (199, 165, 121) | White 2 : Base 3 |
+| `--color-raw-sienna-tint-700` | `#BF9866` | (191, 152, 102) | White 3 : Base 7 |
+| `--color-raw-sienna-tint-800` | `#C29C6C` | (194, 156, 108) | White 2 : Base 4 |
+| `--color-raw-sienna-tint-900` | `#B07D3F` | (176, 125, 63) | White 1 : Base 9 |
+| `--color-raw-sienna-base` | `#A8702B` | (168, 112, 43) | — |
+| `--color-raw-sienna-shade-100` | `#9B6829` | (155, 104, 41) | Base 9 : Black 1 |
+| `--color-raw-sienna-shade-200` | `#7C5525` | (124, 85, 37) | Base 4 : Black 2 |
+| `--color-raw-sienna-shade-300` | `#805826` | (128, 88, 38) | Base 7 : Black 3 |
+| `--color-raw-sienna-shade-400` | `#735024` | (115, 80, 36) | Base 3 : Black 2 |
+| `--color-raw-sienna-shade-500` | `#664822` | (102, 72, 34) | Base 1 : Black 1 |
+| `--color-raw-sienna-shade-600` | `#583F21` | (88, 63, 33) | Base 2 : Black 3 |
+| `--color-raw-sienna-shade-700` | `#4B371F` | (75, 55, 31) | Base 3 : Black 7 |
+| `--color-raw-sienna-shade-800` | `#4F3A20` | (79, 58, 32) | Base 2 : Black 4 |
+| `--color-raw-sienna-shade-900` | `#30271C` | (48, 39, 28) | Base 1 : Black 9 |
+
+### Aureolin — `#CCA855` — 105° — Warm
+
+*Mixed from Yellow Ochre + Naples Yellow at 1:1 ratio*
+
+| Token | Hex | RGB | Ratio |
+|-------|-----|-----|-------|
+| `--color-aureolin-tint-100` | `#F1EDE0` | (241, 237, 224) | White 9 : Base 1 |
+| `--color-aureolin-tint-200` | `#EDE6D0` | (237, 230, 208) | White 4 : Base 1 |
+| `--color-aureolin-tint-300` | `#E9DEC1` | (233, 222, 193) | White 7 : Base 3 |
+| `--color-aureolin-tint-400` | `#E5D6B1` | (229, 214, 177) | White 3 : Base 2 |
+| `--color-aureolin-tint-500` | `#E0CEA2` | (224, 206, 162) | White 1 : Base 1 |
+| `--color-aureolin-tint-600` | `#DCC793` | (220, 199, 147) | White 2 : Base 3 |
+| `--color-aureolin-tint-700` | `#D8BF83` | (216, 191, 131) | White 3 : Base 7 |
+| `--color-aureolin-tint-800` | `#DAC288` | (218, 194, 136) | White 2 : Base 4 |
+| `--color-aureolin-tint-900` | `#D0B064` | (208, 176, 100) | White 1 : Base 9 |
+| `--color-aureolin-base` | `#CCA855` | (204, 168, 85) | — |
+| `--color-aureolin-shade-100` | `#BB9A4F` | (187, 154, 79) | Base 9 : Black 1 |
+| `--color-aureolin-shade-200` | `#947A41` | (148, 122, 65) | Base 4 : Black 2 |
+| `--color-aureolin-shade-300` | `#997F43` | (153, 127, 67) | Base 7 : Black 3 |
+| `--color-aureolin-shade-400` | `#88713D` | (136, 113, 61) | Base 3 : Black 2 |
+| `--color-aureolin-shade-500` | `#786438` | (120, 100, 56) | Base 1 : Black 1 |
+| `--color-aureolin-shade-600` | `#675632` | (103, 86, 50) | Base 2 : Black 3 |
+| `--color-aureolin-shade-700` | `#56482C` | (86, 72, 44) | Base 3 : Black 7 |
+| `--color-aureolin-shade-800` | `#5B4D2E` | (91, 77, 46) | Base 2 : Black 4 |
+| `--color-aureolin-shade-900` | `#342D20` | (52, 45, 32) | Base 1 : Black 9 |
+
+### Olive Earth — `#A7A268` — 135° — Warm
+
+*Mixed from Naples Yellow + Terre Verte at 1:1 ratio*
+
+| Token | Hex | RGB | Ratio |
+|-------|-----|-----|-------|
+| `--color-olive-earth-tint-100` | `#EDEDE2` | (237, 237, 226) | White 9 : Base 1 |
+| `--color-olive-earth-tint-200` | `#E5E4D4` | (229, 228, 212) | White 4 : Base 1 |
+| `--color-olive-earth-tint-300` | `#DEDCC6` | (222, 220, 198) | White 7 : Base 3 |
+| `--color-olive-earth-tint-400` | `#D6D4B9` | (214, 212, 185) | White 3 : Base 2 |
+| `--color-olive-earth-tint-500` | `#CECCAC` | (206, 204, 172) | White 1 : Base 1 |
+| `--color-olive-earth-tint-600` | `#C6C39E` | (198, 195, 158) | White 2 : Base 3 |
+| `--color-olive-earth-tint-700` | `#BEBB90` | (190, 187, 144) | White 3 : Base 7 |
+| `--color-olive-earth-tint-800` | `#C1BE95` | (193, 190, 149) | White 2 : Base 4 |
+| `--color-olive-earth-tint-900` | `#AFAA76` | (175, 170, 118) | White 1 : Base 9 |
+| `--color-olive-earth-base` | `#A7A268` | (167, 162, 104) | — |
+| `--color-olive-earth-shade-100` | `#9A9560` | (154, 149, 96) | Base 9 : Black 1 |
+| `--color-olive-earth-shade-200` | `#7B764E` | (123, 118, 78) | Base 4 : Black 2 |
+| `--color-olive-earth-shade-300` | `#7F7B51` | (127, 123, 81) | Base 7 : Black 3 |
+| `--color-olive-earth-shade-400` | `#726E49` | (114, 110, 73) | Base 3 : Black 2 |
+| `--color-olive-earth-shade-500` | `#656041` | (101, 96, 65) | Base 1 : Black 1 |
+| `--color-olive-earth-shade-600` | `#585339` | (88, 83, 57) | Base 2 : Black 3 |
+| `--color-olive-earth-shade-700` | `#4B4631` | (75, 70, 49) | Base 3 : Black 7 |
+| `--color-olive-earth-shade-800` | `#4F4B34` | (79, 75, 52) | Base 2 : Black 4 |
+| `--color-olive-earth-shade-900` | `#302C22` | (48, 44, 34) | Base 1 : Black 9 |
+
+### Sage — `#648264` — 165° — Cool
+
+*Mixed from Terre Verte + Oxide Green at 1:1 ratio*
+
+| Token | Hex | RGB | Ratio |
+|-------|-----|-----|-------|
+| `--color-sage-tint-100` | `#E6EAE1` | (230, 234, 225) | White 9 : Base 1 |
+| `--color-sage-tint-200` | `#D8DED3` | (216, 222, 211) | White 4 : Base 1 |
+| `--color-sage-tint-300` | `#CAD2C5` | (202, 210, 197) | White 7 : Base 3 |
+| `--color-sage-tint-400` | `#BBC7B7` | (187, 199, 183) | White 3 : Base 2 |
+| `--color-sage-tint-500` | `#ACBCAA` | (172, 188, 170) | White 1 : Base 1 |
+| `--color-sage-tint-600` | `#9EB09C` | (158, 176, 156) | White 2 : Base 3 |
+| `--color-sage-tint-700` | `#90A48E` | (144, 164, 142) | White 3 : Base 7 |
+| `--color-sage-tint-800` | `#94A892` | (148, 168, 146) | White 2 : Base 4 |
+| `--color-sage-tint-900` | `#728E72` | (114, 142, 114) | White 1 : Base 9 |
+| `--color-sage-base` | `#648264` | (100, 130, 100) | — |
+| `--color-sage-shade-100` | `#5E785D` | (94, 120, 93) | Base 9 : Black 1 |
+| `--color-sage-shade-200` | `#4E614B` | (78, 97, 75) | Base 4 : Black 2 |
+| `--color-sage-shade-300` | `#50644E` | (80, 100, 78) | Base 7 : Black 3 |
+| `--color-sage-shade-400` | `#4A5A46` | (74, 90, 70) | Base 3 : Black 2 |
+| `--color-sage-shade-500` | `#44503F` | (68, 80, 63) | Base 1 : Black 1 |
+| `--color-sage-shade-600` | `#3D4738` | (61, 71, 56) | Base 2 : Black 3 |
+| `--color-sage-shade-700` | `#363D30` | (54, 61, 48) | Base 3 : Black 7 |
+| `--color-sage-shade-800` | `#394033` | (57, 64, 51) | Base 2 : Black 4 |
+| `--color-sage-shade-900` | `#2A2921` | (42, 41, 33) | Base 1 : Black 9 |
+
+### Viridian — `#4E7275` — 195° — Cool
+
+*Mixed from Oxide Green + Cerulean Grey at 1:1 ratio*
+
+| Token | Hex | RGB | Ratio |
+|-------|-----|-----|-------|
+| `--color-viridian-tint-100` | `#E4E8E3` | (228, 232, 227) | White 9 : Base 1 |
+| `--color-viridian-tint-200` | `#D4DBD7` | (212, 219, 215) | White 4 : Base 1 |
+| `--color-viridian-tint-300` | `#C3CECA` | (195, 206, 202) | White 7 : Base 3 |
+| `--color-viridian-tint-400` | `#B2C1BE` | (178, 193, 190) | White 3 : Base 2 |
+| `--color-viridian-tint-500` | `#A2B4B2` | (162, 180, 178) | White 1 : Base 1 |
+| `--color-viridian-tint-600` | `#91A6A6` | (145, 166, 166) | White 2 : Base 3 |
+| `--color-viridian-tint-700` | `#80999A` | (128, 153, 154) | White 3 : Base 7 |
+| `--color-viridian-tint-800` | `#869E9E` | (134, 158, 158) | White 2 : Base 4 |
+| `--color-viridian-tint-900` | `#5F7F81` | (95, 127, 129) | White 1 : Base 9 |
+| `--color-viridian-base` | `#4E7275` | (78, 114, 117) | — |
+| `--color-viridian-shade-100` | `#4A6A6C` | (74, 106, 108) | Base 9 : Black 1 |
+| `--color-viridian-shade-200` | `#405657` | (64, 86, 87) | Base 4 : Black 2 |
+| `--color-viridian-shade-300` | `#41595A` | (65, 89, 90) | Base 7 : Black 3 |
+| `--color-viridian-shade-400` | `#3D5151` | (61, 81, 81) | Base 3 : Black 2 |
+| `--color-viridian-shade-500` | `#384848` | (56, 72, 72) | Base 1 : Black 1 |
+| `--color-viridian-shade-600` | `#34403E` | (52, 64, 62) | Base 2 : Black 3 |
+| `--color-viridian-shade-700` | `#303835` | (48, 56, 53) | Base 3 : Black 7 |
+| `--color-viridian-shade-800` | `#313B38` | (49, 59, 56) | Base 2 : Black 4 |
+| `--color-viridian-shade-900` | `#272723` | (39, 39, 35) | Base 1 : Black 9 |
+
+### Slate — `#3D5A75` — 225° — Cool
+
+*Mixed from Cerulean Grey + Prussian Blue at 1:1 ratio*
+
+| Token | Hex | RGB | Ratio |
+|-------|-----|-----|-------|
+| `--color-slate-tint-100` | `#E3E6E3` | (227, 230, 227) | White 9 : Base 1 |
+| `--color-slate-tint-200` | `#D0D6D7` | (208, 214, 215) | White 4 : Base 1 |
+| `--color-slate-tint-300` | `#BEC6CA` | (190, 198, 202) | White 7 : Base 3 |
+| `--color-slate-tint-400` | `#ABB7BE` | (171, 183, 190) | White 3 : Base 2 |
+| `--color-slate-tint-500` | `#99A8B2` | (153, 168, 178) | White 1 : Base 1 |
+| `--color-slate-tint-600` | `#8798A6` | (135, 152, 166) | White 2 : Base 3 |
+| `--color-slate-tint-700` | `#74889A` | (116, 136, 154) | White 3 : Base 7 |
+| `--color-slate-tint-800` | `#7A8E9E` | (122, 142, 158) | White 2 : Base 4 |
+| `--color-slate-tint-900` | `#4F6A81` | (79, 106, 129) | White 1 : Base 9 |
+| `--color-slate-base` | `#3D5A75` | (61, 90, 117) | — |
+| `--color-slate-shade-100` | `#3A546C` | (58, 84, 108) | Base 9 : Black 1 |
+| `--color-slate-shade-200` | `#344657` | (52, 70, 87) | Base 4 : Black 2 |
+| `--color-slate-shade-300` | `#35485A` | (53, 72, 90) | Base 7 : Black 3 |
+| `--color-slate-shade-400` | `#334251` | (51, 66, 81) | Base 3 : Black 2 |
+| `--color-slate-shade-500` | `#303C48` | (48, 60, 72) | Base 1 : Black 1 |
+| `--color-slate-shade-600` | `#2D373E` | (45, 55, 62) | Base 2 : Black 3 |
+| `--color-slate-shade-700` | `#2B3135` | (43, 49, 53) | Base 3 : Black 7 |
+| `--color-slate-shade-800` | `#2C3338` | (44, 51, 56) | Base 2 : Black 4 |
+| `--color-slate-shade-900` | `#262523` | (38, 37, 35) | Base 1 : Black 9 |
+
+### Indigo — `#344870` — 255° — Cool
+
+*Mixed from Prussian Blue + Ultramarine at 1:1 ratio*
+
+| Token | Hex | RGB | Ratio |
+|-------|-----|-----|-------|
+| `--color-indigo-tint-100` | `#E2E4E2` | (226, 228, 226) | White 9 : Base 1 |
+| `--color-indigo-tint-200` | `#CED2D6` | (206, 210, 214) | White 4 : Base 1 |
+| `--color-indigo-tint-300` | `#BBC1C9` | (187, 193, 201) | White 7 : Base 3 |
+| `--color-indigo-tint-400` | `#A8B0BC` | (168, 176, 188) | White 3 : Base 2 |
+| `--color-indigo-tint-500` | `#949EB0` | (148, 158, 176) | White 1 : Base 1 |
+| `--color-indigo-tint-600` | `#818DA3` | (129, 141, 163) | White 2 : Base 3 |
+| `--color-indigo-tint-700` | `#6E7C96` | (110, 124, 150) | White 3 : Base 7 |
+| `--color-indigo-tint-800` | `#74829A` | (116, 130, 154) | White 2 : Base 4 |
+| `--color-indigo-tint-900` | `#47597D` | (71, 89, 125) | White 1 : Base 9 |
+| `--color-indigo-base` | `#344870` | (52, 72, 112) | — |
+| `--color-indigo-shade-100` | `#324467` | (50, 68, 103) | Base 9 : Black 1 |
+| `--color-indigo-shade-200` | `#2E3A53` | (46, 58, 83) | Base 4 : Black 2 |
+| `--color-indigo-shade-300` | `#2F3C56` | (47, 60, 86) | Base 7 : Black 3 |
+| `--color-indigo-shade-400` | `#2D384E` | (45, 56, 78) | Base 3 : Black 2 |
+| `--color-indigo-shade-500` | `#2C3445` | (44, 52, 69) | Base 1 : Black 1 |
+| `--color-indigo-shade-600` | `#2A2F3C` | (42, 47, 60) | Base 2 : Black 3 |
+| `--color-indigo-shade-700` | `#282B34` | (40, 43, 52) | Base 3 : Black 7 |
+| `--color-indigo-shade-800` | `#292D37` | (41, 45, 55) | Base 2 : Black 4 |
+| `--color-indigo-shade-900` | `#252323` | (37, 35, 35) | Base 1 : Black 9 |
+
+### Dioxazine — `#534268` — 285° — Cool
+
+*Mixed from Ultramarine + Mars Violet at 1:1 ratio*
+
+| Token | Hex | RGB | Ratio |
+|-------|-----|-----|-------|
+| `--color-dioxazine-tint-100` | `#E5E3E2` | (229, 227, 226) | White 9 : Base 1 |
+| `--color-dioxazine-tint-200` | `#D5D1D4` | (213, 209, 212) | White 4 : Base 1 |
+| `--color-dioxazine-tint-300` | `#C4BFC6` | (196, 191, 198) | White 7 : Base 3 |
+| `--color-dioxazine-tint-400` | `#B4ADB9` | (180, 173, 185) | White 3 : Base 2 |
+| `--color-dioxazine-tint-500` | `#A49CAC` | (164, 156, 172) | White 1 : Base 1 |
+| `--color-dioxazine-tint-600` | `#948A9E` | (148, 138, 158) | White 2 : Base 3 |
+| `--color-dioxazine-tint-700` | `#847890` | (132, 120, 144) | White 3 : Base 7 |
+| `--color-dioxazine-tint-800` | `#897E95` | (137, 126, 149) | White 2 : Base 4 |
+| `--color-dioxazine-tint-900` | `#635476` | (99, 84, 118) | White 1 : Base 9 |
+| `--color-dioxazine-base` | `#534268` | (83, 66, 104) | — |
+| `--color-dioxazine-shade-100` | `#4E3E60` | (78, 62, 96) | Base 9 : Black 1 |
+| `--color-dioxazine-shade-200` | `#43364E` | (67, 54, 78) | Base 4 : Black 2 |
+| `--color-dioxazine-shade-300` | `#453851` | (69, 56, 81) | Base 7 : Black 3 |
+| `--color-dioxazine-shade-400` | `#403449` | (64, 52, 73) | Base 3 : Black 2 |
+| `--color-dioxazine-shade-500` | `#3B3041` | (59, 48, 65) | Base 1 : Black 1 |
+| `--color-dioxazine-shade-600` | `#362D39` | (54, 45, 57) | Base 2 : Black 3 |
+| `--color-dioxazine-shade-700` | `#312A31` | (49, 42, 49) | Base 3 : Black 7 |
+| `--color-dioxazine-shade-800` | `#332B34` | (51, 43, 52) | Base 2 : Black 4 |
+| `--color-dioxazine-shade-900` | `#282222` | (40, 34, 34) | Base 1 : Black 9 |
+
+### Purple Madder — `#7A3C4D` — 315° — Cool
+
+*Mixed from Mars Violet + Caput Mortuum at 1:1 ratio*
+
+| Token | Hex | RGB | Ratio |
+|-------|-----|-----|-------|
+| `--color-purple-madder-tint-100` | `#E9E2DF` | (233, 226, 223) | White 9 : Base 1 |
+| `--color-purple-madder-tint-200` | `#DCD0CF` | (220, 208, 207) | White 4 : Base 1 |
+| `--color-purple-madder-tint-300` | `#D0BEBE` | (208, 190, 190) | White 7 : Base 3 |
+| `--color-purple-madder-tint-400` | `#C4ABAE` | (196, 171, 174) | White 3 : Base 2 |
+| `--color-purple-madder-tint-500` | `#B8989E` | (184, 152, 158) | White 1 : Base 1 |
+| `--color-purple-madder-tint-600` | `#AB868E` | (171, 134, 142) | White 2 : Base 3 |
+| `--color-purple-madder-tint-700` | `#9F747E` | (159, 116, 126) | White 3 : Base 7 |
+| `--color-purple-madder-tint-800` | `#A37A83` | (163, 122, 131) | White 2 : Base 4 |
+| `--color-purple-madder-tint-900` | `#864E5D` | (134, 78, 93) | White 1 : Base 9 |
+| `--color-purple-madder-base` | `#7A3C4D` | (122, 60, 77) | — |
+| `--color-purple-madder-shade-100` | `#713948` | (113, 57, 72) | Base 9 : Black 1 |
+| `--color-purple-madder-shade-200` | `#5D323C` | (93, 50, 60) | Base 4 : Black 2 |
+| `--color-purple-madder-shade-300` | `#60333E` | (96, 51, 62) | Base 7 : Black 3 |
+| `--color-purple-madder-shade-400` | `#573039` | (87, 48, 57) | Base 3 : Black 2 |
+| `--color-purple-madder-shade-500` | `#4E2E34` | (78, 46, 52) | Base 1 : Black 1 |
+| `--color-purple-madder-shade-600` | `#462B2E` | (70, 43, 46) | Base 2 : Black 3 |
+| `--color-purple-madder-shade-700` | `#3D2829` | (61, 40, 41) | Base 3 : Black 7 |
+| `--color-purple-madder-shade-800` | `#40292B` | (64, 41, 43) | Base 2 : Black 4 |
+| `--color-purple-madder-shade-900` | `#2C221F` | (44, 34, 31) | Base 1 : Black 9 |
+
+### Alizarin — `#A93A36` — 345° — Warm
+
+*Mixed from Caput Mortuum + Cadmium Red at 1:1 ratio*
+
+| Token | Hex | RGB | Ratio |
+|-------|-----|-----|-------|
+| `--color-alizarin-tint-100` | `#EDE2DC` | (237, 226, 220) | White 9 : Base 1 |
+| `--color-alizarin-tint-200` | `#E6D0CA` | (230, 208, 202) | White 4 : Base 1 |
+| `--color-alizarin-tint-300` | `#DEBDB8` | (222, 189, 184) | White 7 : Base 3 |
+| `--color-alizarin-tint-400` | `#D7AAA5` | (215, 170, 165) | White 3 : Base 2 |
+| `--color-alizarin-tint-500` | `#CF9892` | (207, 152, 146) | White 1 : Base 1 |
+| `--color-alizarin-tint-600` | `#C78580` | (199, 133, 128) | White 2 : Base 3 |
+| `--color-alizarin-tint-700` | `#C0726E` | (192, 114, 110) | White 3 : Base 7 |
+| `--color-alizarin-tint-800` | `#C27874` | (194, 120, 116) | White 2 : Base 4 |
+| `--color-alizarin-tint-900` | `#B14D48` | (177, 77, 72) | White 1 : Base 9 |
+| `--color-alizarin-base` | `#A93A36` | (169, 58, 54) | — |
+| `--color-alizarin-shade-100` | `#9C3733` | (156, 55, 51) | Base 9 : Black 1 |
+| `--color-alizarin-shade-200` | `#7C312D` | (124, 49, 45) | Base 4 : Black 2 |
+| `--color-alizarin-shade-300` | `#81322E` | (129, 50, 46) | Base 7 : Black 3 |
+| `--color-alizarin-shade-400` | `#732F2B` | (115, 47, 43) | Base 3 : Black 2 |
+| `--color-alizarin-shade-500` | `#662C28` | (102, 44, 40) | Base 1 : Black 1 |
+| `--color-alizarin-shade-600` | `#592A25` | (89, 42, 37) | Base 2 : Black 3 |
+| `--color-alizarin-shade-700` | `#4B2722` | (75, 39, 34) | Base 3 : Black 7 |
+| `--color-alizarin-shade-800` | `#502823` | (80, 40, 35) | Base 2 : Black 4 |
+| `--color-alizarin-shade-900` | `#30221D` | (48, 34, 29) | Base 1 : Black 9 |
+
